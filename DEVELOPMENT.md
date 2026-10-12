@@ -5,7 +5,7 @@
 - React + TypeScript + Tailwind CSS + Vite纯前端应用，Hash路由和静态托管。
 - 移动端五入口、桌面侧栏；浅色/深色/跟随系统。
 - 194场官方活动：131场现场演出、29场Afterparty演出、22场讲座/演示、6场DIY、5场大师课、1场纪录片首映。
-- 日程列表、九区域的单日全景、手机同时可见的五天展期总览、紧凑视图、活动预览浮层、筛选和我的安排。
+- 日程列表、九区域的单日全景、手机同时可见的五天展期总览、紧凑视图、统一详情面板、筛选和我的安排。
 - 69个展商名称：一层43个、二层26个；共用展位、未知位置和开发者名称定位。
 - 原始地图与交互展位图，展商→地图→活动关联；文字定位替代。
 - 收藏、已逛、确定时段冲突、JSON备份合并、ICS导出。
@@ -45,13 +45,13 @@
 
 ### 全景交互优化
 - 单日与整个展期统一采用紧凑样式，不再提供密度切换；旧链接的密度参数不影响显示。
-- 点击日程列表项或全景日程块打开活动预览：手机底部浮层，平板及桌面居中弹窗；支持收藏和详情入口。
+- 点击日程列表项或全景日程块打开活动预览：手机／平板大模态浮层，PC并排面板；直接显示完整内容与收藏操作。
 - 支持 Escape、关闭按钮、背景点击，关闭后恢复触发按钮焦点，不改变时间轴滚动位置。
 - 列表、预览与详情仅显示实际公布的时间，不展示缺失结束时间的占位提示。
 - 已在390、768、1440px验证两种全景：无页面横向溢出，浮层尺寸、焦点恢复、收藏及详情跳转正常。
 
 ### 日程面板与窗口全屏
-- 我的观展日程列表复用活动预览，收藏按钮独立操作。
+- 我的观展日程列表复用详情面板，收藏按钮独立操作。
 - 全景范围、日期、筛选、场次数量、时间轴、图例及说明整合到SchedulePanel。
 - 窗口全屏使用原面板进入顶层展示，保留筛选与滚动位置，支持退出按钮和Esc；活动预览仍可使用。
 - 全屏与预览共享滚动锁，关闭或进入详情后恢复页面滚动。
@@ -123,3 +123,23 @@
 - 已验证320/390/768/1440px首次加载默认收起、展开收起操作，以及横屏全屏下时间轴仍可使用。
 
 - FilterSelect 使用 button 与 ARIA listbox／option，自定义分组样式，Popover API 提供顶层浮层和点击外部关闭。菜单滚动保留打开状态，外部滚动／窗口尺寸变化收起；Esc仅关闭菜单，保留全景全屏。验证触控点击、键盘选择、焦点恢复、组合筛选与两种日程视图。
+
+- 首页重构为观展概览，时间逻辑集中于 homeModel.ts：北京时间展前／展中／展后，收藏排序、已知进行中、未知时长的15分钟起点提示、未来一小时、已知时段冲突及跨午夜归属。每分钟刷新，重新显示页面时同步时钟。
+- 首页活动入口共用详情面板；展前／展后显示五日结构，展中显示活动／课程的每小时开始场次数。地图入口支持场馆与展位直达，未逛清单由 brands 减去 visited。
+- 验证320、390、768、1440px无页面级横向溢出，模拟展前／展中／展后、收藏预览、报名提示、地点提示与跨午夜场次。时间模型检查已知／未知结束时间、收藏冲突、展期边界及倒计时。
+
+- HeaderNavigation记录本次挂载后的路由key与访问路径，用于上级面包屑保留筛选；首次直达时链接所属目录，PC仅保留面包屑导航。顶栏显示日程日期／视图和地图图层；详情标题与艺术家中间节点自适应截断。
+- 验证全景筛选进入活动详情并通过上级面包屑原样返回、展商／活动详情首次直达回退、地图图层标题、640／768／1024／1440px布局与手机原Header／正文返回入口。
+
+- DetailProvider以当前路径的 detail 查询参数打开活动／展商／艺术家详情，保持源 Routes 与页面组件挂载。普通详情链接在应用内点击时进入面板，修饰键／新标签页／外链保持原链接行为；URL直达独立详情页仍可使用。
+- 关联内容保留面板内路径栈与各详情的滚动位置；关闭／浏览器返回可收起，首次直达 detail 查询时删除该参数并保留源筛选。源条目高亮，个人记录即时同步。
+- 1024px起非模态侧栏，较窄屏幕showModal并共享滚动锁。面板根据全屏日程状态迁移至其DOM内，避免被顶层模态遮挡；进出全屏及断点切换重新打开正确模式并恢复阅读位置。
+- 验证320／390／768／1024／1440px无横向溢出，源时间轴保持同一DOM与500px滚动，地图保持原transform；展商筛选、连续切换、活动／展商／艺术家关联返回、阅读位置1422px恢复、全屏进出200px恢复、Esc层级、手机滚动解锁与独立标签页链接。
+
+### Detail framework redesign
+
+- Shared DetailDocument, DetailSection and DetailSources components supply section navigation, grouped content and source disclosures for activity/exhibitor/artist details.
+- Activity pages separate essentials, editorial content, participation requirements and associated exhibitors. Artist biographies in event articles expand on demand; artist pages prioritize appearances.
+- Exhibitors separate booth location, brand/product background and related activities.
+- Container queries replace page-wide two-column detail assumptions; standalone routes retain readable line lengths.
+- Browser validation covered 320/390/768/1024/1440px, source filter preservation, section scrolling, biography disclosure, association navigation and standalone artist routing. Build and lint pass.

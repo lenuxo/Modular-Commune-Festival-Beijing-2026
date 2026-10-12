@@ -1,7 +1,7 @@
 let locks = 0
 let previousOverflow = ''
 
-// Multiple top-layer dialogs may coexist (fullscreen schedule + event preview).
+// Multiple top-layer dialogs may coexist (fullscreen schedule + detail modal).
 export function lockBodyScroll() {
   if (locks === 0) {
     previousOverflow = document.body.style.overflow

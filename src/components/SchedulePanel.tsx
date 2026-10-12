@@ -22,9 +22,11 @@ export function SchedulePanel({count, scopeControl, children}: {count: number; s
       element.show()
       previousFocus?.focus({preventScroll: true})
     }
+    window.dispatchEvent(new Event('schedule-panel-mode'))
     return () => {
       element.close()
       unlock()
+      queueMicrotask(() => window.dispatchEvent(new Event('schedule-panel-mode')))
     }
   }, [expanded])
 
