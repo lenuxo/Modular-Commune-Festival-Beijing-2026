@@ -1,3 +1,4 @@
+import {Button} from '../design-system/Button'
 import {useEffect, useRef} from 'react'
 import {NavLink} from 'react-router'
 import {ArrowRight, Bookmark, Info, Search, X} from 'lucide-react'
@@ -36,7 +37,7 @@ export function NavigationMenu({items, savedCount, status, onClose, exiting}: {
     }
   }, [onClose])
 
-  return <dialog id="global-menu" ref={dialog} className="navigation-menu" aria-labelledby="navigation-menu-title" data-exiting={exiting} inert={exiting}
+  return <dialog id="global-menu" ref={dialog} className="material-elevated navigation-menu" aria-labelledby="navigation-menu-title" data-exiting={exiting} inert={exiting}
     onCancel={event => {event.preventDefault(); if (!exiting) onClose()}}
     onClick={e => {
       if (exiting || e.target !== e.currentTarget) return
@@ -45,7 +46,7 @@ export function NavigationMenu({items, savedCount, status, onClose, exiting}: {
     }}>
     <header className="navigation-menu-heading">
       <div><h2 id="navigation-menu-title">交流方式观展手册</h2><span className="mono">BEIJING 2026 · 10/21—25</span></div>
-      <button className="icon-btn" aria-label="关闭全局菜单" onClick={onClose}><X size={21}/></button>
+      <Button className="icon-btn" aria-label="关闭全局菜单" onClick={onClose}><X size={21}/></Button>
     </header>
     <NavLink className="menu-search" to="/search" onClick={onClose} aria-label="全局搜索"><Search size={19}/><span>搜索活动、艺术家、展商…</span><ArrowRight size={16}/></NavLink>
     <nav aria-label="全局导航">

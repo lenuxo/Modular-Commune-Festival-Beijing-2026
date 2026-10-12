@@ -1,0 +1,24 @@
+@import './tokens.css';
+@import './materials.css';
+@import './controls.css';
+@import './components.css';
+
+/* Semantic aliases keep layout and domain components independent of the palette. */
+:root {
+  --bg: var(--color-canvas);
+  --surface: var(--color-panel);
+  --surface-alt: var(--color-control);
+  --ink: var(--color-text);
+  --muted: var(--color-muted);
+  --line: color-mix(in srgb, var(--color-border) 65%, var(--color-panel));
+  --accent: var(--color-primary);
+  --accent-ink: var(--color-primary);
+  --accent-soft: color-mix(in srgb, var(--color-primary) 10%, var(--color-panel));
+  --selected: var(--color-navigation-selected);
+  --selected-text: var(--color-text);
+  --sidebar: var(--color-panel);
+  --cover-ink: var(--color-on-primary);
+  --control-light: linear-gradient(180deg, rgb(255 255 255 / .035), transparent 65%);
+  --shadow-floating: 0 16px 48px rgb(0 0 0 / .32), inset 0 1px 0 rgb(255 255 255 / .06);
+  color-scheme: dark;
+}

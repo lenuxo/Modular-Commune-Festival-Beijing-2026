@@ -1,3 +1,4 @@
+import {Button} from '../design-system/Button'
 import {useEffect, useId, useRef, useState} from 'react'
 import type {KeyboardEvent} from 'react'
 import {Check, ChevronDown} from 'lucide-react'
@@ -92,15 +93,15 @@ export function FilterSelect({label, value, groups, onChange}: {
   }
   let index = 0
   return <>
-    <button ref={trigger} className={`filter-select-trigger ${value !== 'all' ? 'is-filtered' : ''}`} aria-label={`${label}：${current.triggerLabel ?? current.label}`}
+    <Button ref={trigger} className={`filter-select-trigger ${value !== 'all' ? 'is-filtered' : ''}`} aria-label={`${label}：${current.triggerLabel ?? current.label}`}
       aria-haspopup="listbox" aria-expanded={open} aria-controls={id} title={current.triggerLabel ?? current.label}
       onClick={() => open ? close() : show()} onKeyDown={event => {
         if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {event.preventDefault(); show(event.key === 'ArrowUp' ? options.length - 1 : selected)}
       }}>
       <span>{current.triggerLabel ?? current.label}</span><ChevronDown size={14} aria-hidden="true"/>
-    </button>
+    </Button>
     <div ref={popup} id={id} popover="auto" role="listbox" tabIndex={-1} aria-label={label} aria-activedescendant={`${id}-option-${active}`}
-      className="filter-select-menu" onKeyDown={onKeyDown} onToggle={event => setOpen(event.newState === 'open')}
+      className="material-elevated filter-select-menu" onKeyDown={onKeyDown} onToggle={event => setOpen(event.newState === 'open')}
       onBlur={event => {if (!event.currentTarget.contains(event.relatedTarget)) close(false)}}>
       {groups.map((group, groupIndex) => <div key={group.label ?? groupIndex} role={group.label ? 'group' : undefined} aria-label={group.label} className="filter-option-group">
         {group.label && <div className="filter-group-heading" aria-hidden="true">{group.label}</div>}

@@ -1,0 +1,80 @@
+/* Domain palette: the same category signals on rows, charts and previews. */
+:is(.live, .party, .special) { --kind-color: var(--color-activity); }
+:is(.talk, .diy, .master) { --kind-color: var(--color-course); }
+.kind-dot { background: var(--kind-color); }
+.overview-mark { background: var(--kind-color); border-radius: 2px; }
+.time-block {
+  background: color-mix(in srgb, var(--kind-color) 11%, var(--color-panel));
+  border: 1px solid color-mix(in srgb, var(--kind-color) 35%, var(--color-border));
+  border-top: 2px solid var(--kind-color);
+  border-radius: var(--radius-tag);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / .045);
+}
+.time-block.unknown { border: 1px solid var(--line); border-top: 2px solid var(--kind-color); border-radius: var(--radius-tag); }
+.time-block:hover { filter: brightness(1.12); }
+.time-block.is-saved { outline: 2px solid var(--color-primary); }
+.time-block.is-inspected { outline: 2px solid var(--color-primary); }
+:is(.timeline-corner, .lane-heading, .festival-day-head, .time-ruler, .time-ruler>span) { background: var(--color-control); }
+.hour-line { background: color-mix(in srgb, var(--line) 60%, transparent); }
+.rhythm-cell.activity { background: var(--color-activity); }
+.rhythm-cell.course { background: var(--color-course); }
+
+/* Reading and directory surfaces stay flat; state never moves surrounding rows. */
+:is(.event-row, .directory-list>article) { border-bottom-color: var(--line); }
+:is(.event-row, .directory-list>article):hover { background: color-mix(in srgb, var(--color-control) 30%, transparent); }
+:is(.event-row, .directory-list>article).is-inspected {
+  background: var(--accent-soft);
+  box-shadow: inset 2px 0 0 var(--color-primary);
+}
+:is(.event-row, .directory-list>article):last-child { border-bottom: 0; }
+.booth-code { color: var(--color-text); border-radius: var(--radius-tag); }
+.booth-code.indie { color: var(--color-primary); background: var(--color-inset); border-color: var(--line); }
+.detail-document .detail-facts { background: var(--color-inset); border: 1px solid var(--line); border-radius: var(--radius-control); }
+.detail-booth-location { background: var(--color-inset); border: 1px solid var(--line); border-radius: var(--radius-control); }
+.detail-jump { background: var(--color-panel); }
+.detail-jump button[aria-current] { background: var(--accent-soft); box-shadow: var(--shadow-inset); color: var(--color-primary); }
+:is(.saved-tag, .profile-topics>span) { border-radius: var(--radius-tag); background: var(--accent-soft); color: var(--color-primary); }
+.inline-notice { background: color-mix(in srgb, var(--color-warning) 7%, var(--color-panel)); border-color: color-mix(in srgb, var(--color-warning) 30%, var(--line)); }
+.inline-notice>svg { color: var(--color-warning); }
+.toast { color: var(--color-text); }
+
+/* Shell composition: seam between frame and content, black selected navigation. */
+.sidebar { background: var(--color-panel); border-right-color: var(--line); }
+:is(.sidebar nav>a, .navigation-menu nav>a).active {
+  background: var(--color-navigation-selected);
+  color: var(--color-text);
+  box-shadow: var(--shadow-inset), inset 0 0 0 1px rgb(255 255 255 / .04);
+}
+.topbar { background: var(--color-panel); box-shadow: 0 1px 0 rgb(0 0 0 / .25), inset 0 1px 0 rgb(255 255 255 / .04); }
+.topbar .global-search { background: var(--color-inset); color: var(--color-muted); border-color: var(--line); box-shadow: var(--shadow-inset); }
+.detail-panel { border-radius: 0; }
+.detail-panel.is-modal { border-radius: var(--radius-panel) var(--radius-panel) 0 0; }
+.detail-panel-body { background: var(--color-panel); }
+:is(.detail-panel, .navigation-menu)::backdrop { background: rgb(9 14 15 / .65); }
+.schedule-panel { overflow: hidden; }
+.schedule-panel .timeline-viewport,.schedule-panel .festival-viewport { border-radius: 0; box-shadow: none; background: var(--color-inset); }
+.schedule-panel.is-expanded { border-radius: 0; }
+.schedule-panel-controls { background: var(--color-panel); }
+.map-floating-controls { border-radius: var(--radius-control); }
+.map-floating-controls .icon-btn { border-radius: 0; }
+.map-bg { fill: var(--color-inset); }
+.map-spot rect { fill: var(--color-control); stroke: var(--color-border); }
+.map-spot text { fill: var(--color-text); }
+.map-spot.selected rect { fill: var(--color-primary); stroke: var(--color-on-primary); }
+.map-spot.selected text { fill: var(--color-on-primary); }
+.map-subtitle { fill: var(--color-muted); }
+.map-spot.saved circle { fill: var(--color-primary); stroke: var(--color-inset); stroke-width: 2px; }
+
+/* Scale remains restrained at any viewport; technical numbers keep their own hierarchy. */
+body { font-size: var(--type-body-size); line-height: var(--type-body-line-height); }
+:is(.page-heading h1, .visit-heading h1, .detail-identity h1) { font-size: var(--type-title-size); font-weight: var(--type-title-weight); line-height: var(--type-title-line-height); }
+.visit-start h2 { font-size: 20px; }
+:is(.detail-panel-body .event-article p, .detail-panel-body .artist-article p) { font-size: 14px; line-height: 1.85; }
+@media(min-width:1024px) { .topbar { height: var(--size-desktop-header); } }
+@media(max-width:639px) {
+  .search-field input { font-size: 16px; }
+  .schedule-panel-heading { gap: 6px; }
+  .detail-panel-body .detail-identity h1 { font-size: 23px; }
+}
+@media(min-width:640px) and (max-width:1023px) { .detail-panel.is-modal { border-radius: var(--radius-panel); } }
+@media(prefers-reduced-motion:reduce) { :is(.ui-button, .primary-btn, .secondary-btn):active:not(:disabled) { transform: none; } }

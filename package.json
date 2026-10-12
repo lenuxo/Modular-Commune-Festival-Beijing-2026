@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "npm run design:tokens && tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "design:tokens": "node scripts/build-design-tokens.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.55.0",

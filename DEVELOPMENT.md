@@ -161,3 +161,11 @@
 - 将原深色色板提升为唯一根级色板，移除浅色色板和运行时系统主题监听；HTML声明dark color-scheme及深色浏览器主题色。
 - 移除“我的观展”外观设置，保留个人记录备份与日历导出。个人记录不再保存theme字段；旧记录／备份中的该字段会被忽略，收藏、想逛和已逛数据继续读取。
 - 构建、oxlint与差异检查通过；6项旧记录兼容检查确认移除theme字段后个人记录完整保留。浏览器确认根级color-scheme为dark、深色背景生效、外观选择入口已移除。
+
+### Detail spacing audit
+
+Audited every currently reachable activity (194), exhibitor (69), and artist (136) detail at 1440px desktop and 390px mobile widths. Checked empty text/sections, adjacent horizontal rules and pane overflow, including expanded biography and source disclosures. Visual checks covered a long masterclass, an independent exhibitor with no associated activities, and artist background. Removed legacy 35px section bottom margins, normalized article sections to a 24px gap, removed extra artist-title/resource spacing, and removed the navigation rule that could sit next to a chapter rule during scrolling. Secondary notes retain smaller text.
+
+### Soft-touch console UI implementation (2026-10-12)
+
+Design tokens are generated from the approved visual specification; `src/design-system/` separates materials, controls and domain recipes. All native buttons use the shared Button primitive. Existing layout is isolated in the legacy cascade layer. Browser verification covered 32 route/viewport combinations (320/390/768/1440), native mobile/desktop details, fullscreen detail nesting and Escape order, grouped filtering and source-state preservation, menu and map zoom. Semantic foreground/background contrast pairs are ≥4.5:1. Screenshot samples are in `output/playwright/soft-touch-final-*.png`. Build and lint pass; the existing large main chunk warning remains.

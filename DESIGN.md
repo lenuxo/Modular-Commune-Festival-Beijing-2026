@@ -6,7 +6,7 @@
 
 ## Color
 
-中性底色、橙红强调色；OKLCH变量在 src/index.css 中维护。橙红用于日期选择、定位、收藏状态和首页展期信息。全景中类型颜色辅助识别，配合列标题、图例与详情文字。
+软触控制台视觉：灰绿面板、深色凹槽、鼠尾草绿主操作；活动为橙色，课程为青色。唯一颜色与材质来源为 `design/soft-touch-console/tokens.json`，构建时生成 `src/design-system/tokens.css`；语义别名、材质配方、控件与业务组件分层维护。
 
 ## Typography
 
@@ -18,7 +18,7 @@
 
 ## Components
 
-统一44px按钮、日期选择器、书签、详情事实列表、地图目的地链接、来源链接、空状态。角半径约4–8px，使用细边框而非装饰阴影。
+统一44px按钮、日期选择器、书签、详情事实列表、地图目的地链接、来源链接、空状态。圆角分为标签4px、控件6px、面板8px。共用 Button 原生交互组件与 panel/elevated/inset/toolbar 四种材质配方；控制面采用浅浮雕和顶部高光，输入区采用凹槽阴影，阅读区保持平整。
 
 ## Interaction
 
@@ -71,8 +71,12 @@
 
 ### Compact desktop navigation
 
-Desktop navigation uses an 88px rail with icons and short Chinese labels. The brand mark carries a compact 观展手册 caption; redundant edition and English sublabels are omitted. The active item uses a light background and dark text within the fixed dark palette, saved count remains as a small badge, and full names are available through accessible labels and hover titles. Detail panes split the space remaining after the rail equally. Tablet navigation stays 80px; phone navigation stays in the header menu.
+Desktop navigation uses an 88px rail with icons and short Chinese labels. The brand mark carries a compact 观展手册 caption; redundant edition and English sublabels are omitted. The active item uses a black background and light text within the fixed dark palette, saved count remains as a small badge, and full names are available through accessible labels and hover titles. Detail panes split the space remaining after the rail equally. Tablet navigation stays 80px; phone navigation stays in the header menu.
 
 ### Detail reading structure
 
 Activity, exhibitor and artist details share a narrow-first reading document with a compact sticky section navigation. The identity, primary actions and practical facts precede editorial content. Chapters use a clear heading/divider hierarchy; nested article headings are smaller, and long artist background in activity pages is disclosed on demand. Source attribution remains available in a collapsed footer. Exhibitors lead with booth location and map access; artists lead with performance dates before creative background. Container queries adapt the facts and product lists to the actual pane width, while wide standalone pages maintain a 720px reading measure. Keyboard focus follows section navigation and reduced-motion settings are respected.
+
+## Soft-touch implementation
+
+全站按钮使用 `src/design-system/Button.tsx`；材质与控件样式在 `src/design-system/` 组合，现有布局放入 legacy 层避免高特异性覆盖材质系统。共享日程面板、筛选器、详情文档及地图组件直接组合材质类，禁止在页面中重复写高光和阴影。`npm run design:tokens` 生成 Token，build 自动执行。更多维护规则见 `src/design-system/README.md`。

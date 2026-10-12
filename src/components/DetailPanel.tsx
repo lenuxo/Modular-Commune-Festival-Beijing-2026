@@ -1,3 +1,4 @@
+import {Button} from '../design-system/Button'
 import {useCallback,useEffect,useLayoutEffect,useRef,useState} from 'react'
 import type {ReactNode,MouseEvent} from 'react'
 import {createPortal} from 'react-dom'
@@ -95,9 +96,9 @@ function DetailPanel({path,exiting,canBack,onBack,onClose}:{path:string;exiting:
  const exhibitor=kind==='exhibitors'?exhibitors.find(e=>e.id===id):undefined
  const label=kind==='events'?'活动详情':kind==='exhibitors'?'展商详情':'艺术家资料'
  const title=exhibitor?.name??(event?(kind==='artists'?event.presenter:eventDisplayTitle(event)):label)
- const content=<dialog ref={dialog} className={`detail-panel ${desktop?'is-side':'is-modal'}`} aria-label={`${label}：${title}`} aria-modal={!desktop||undefined} data-exiting={exiting} inert={exiting}
+ const content=<dialog ref={dialog} className={`material-elevated detail-panel ${desktop?'is-side':'is-modal'}`} aria-label={`${label}：${title}`} aria-modal={!desktop||undefined} data-exiting={exiting} inert={exiting}
   onCancel={event=>{event.preventDefault();if(!exiting)onClose()}} onClick={event=>{if(!exiting&&event.target===event.currentTarget){const r=event.currentTarget.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)onClose()}}}>
-  <header className="detail-panel-header">{canBack&&<button className="icon-btn" aria-label="返回上一个详情" title="返回上一个详情" onClick={onBack}><ArrowLeft size={18}/></button>}<span>{label}</span><Link to={path} target="_blank" rel="noreferrer" className="icon-btn" aria-label="在新标签页打开详情" title="在新标签页打开详情"><ExternalLink size={17}/></Link><button className="icon-btn detail-panel-close" aria-label="关闭详情" title="关闭详情" onClick={onClose}><X size={21}/></button></header>
+  <header className="material-toolbar detail-panel-header">{canBack&&<Button className="icon-btn" aria-label="返回上一个详情" title="返回上一个详情" onClick={onBack}><ArrowLeft size={18}/></Button>}<span>{label}</span><Link to={path} target="_blank" rel="noreferrer" className="icon-btn" aria-label="在新标签页打开详情" title="在新标签页打开详情"><ExternalLink size={17}/></Link><Button className="icon-btn detail-panel-close" aria-label="关闭详情" title="关闭详情" onClick={onClose}><X size={21}/></Button></header>
   <div ref={body} className="detail-panel-body" onScroll={()=>{if(body.current)scrolls.current.set(path,body.current.scrollTop)}}><div ref={contentMotion}>{kind==='events'?<EventDetail id={id}/>:kind==='exhibitors'?<ExhibitorDetail id={id}/>:<ArtistDetail id={id}/>}</div></div>
  </dialog>
  // A nonmodal panel must remain inside a fullscreen dialog to stay interactive in its top layer.

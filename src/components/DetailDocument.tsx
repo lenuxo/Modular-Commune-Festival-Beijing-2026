@@ -1,3 +1,4 @@
+import {Button} from '../design-system/Button'
 import {useEffect,useRef,useState,type ReactNode} from 'react'
 import {ChevronDown} from 'lucide-react'
 
@@ -21,7 +22,7 @@ export function DetailDocument({children,parts}:{children:ReactNode;parts:Detail
   update();scrollTarget.addEventListener('scroll',update,{passive:true});window.addEventListener('resize',update)
   return()=>{observer.disconnect();scrollTarget.removeEventListener('scroll',update);window.removeEventListener('resize',update)}
  },[sectionKeys])
- return <article ref={documentRef} className="detail-document"><nav className="detail-jump" aria-label="详情内容导航">{parts.map(part=><button key={part.key} aria-current={active===part.key?'location':undefined} onClick={event=>{const document=event.currentTarget.closest('.detail-document');const target=document?.querySelector<HTMLElement>(`[data-detail-section="${part.key}"]`);target?.scrollIntoView({block:'start',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});target?.focus({preventScroll:true})}}>{part.label}</button>)}</nav><div className="detail-document-content">{children}</div></article>
+ return <article ref={documentRef} className="detail-document"><nav className="detail-jump" aria-label="详情内容导航">{parts.map(part=><Button key={part.key} aria-current={active===part.key?'location':undefined} onClick={event=>{const document=event.currentTarget.closest('.detail-document');const target=document?.querySelector<HTMLElement>(`[data-detail-section="${part.key}"]`);target?.scrollIntoView({block:'start',behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});target?.focus({preventScroll:true})}}>{part.label}</Button>)}</nav><div className="detail-document-content">{children}</div></article>
 }
 export function DetailSection({section,title,count,children}:{section:string;title:string;count?:number;children:ReactNode}){
  return <section className="detail-chapter" data-detail-section={section} tabIndex={-1} aria-label={title}><div className="detail-chapter-heading"><h2>{title}</h2>{count!==undefined&&<span className="mono meta">{count}</span>}</div>{children}</section>

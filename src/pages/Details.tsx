@@ -1,3 +1,4 @@
+import {Button} from '../design-system/Button'
 import {Link,useParams} from 'react-router'
 import {ArrowUpRight,Bookmark,MapPin,ExternalLink,AlertCircle} from 'lucide-react'
 import {events,eventKindLabel,exhibitors,relatedEvents,overlaps,artistProfiles,presenterRole,eventDisplayTitle} from '../data/festival'
@@ -17,7 +18,7 @@ export function EventDetail({id:detailId}:{id?:string}={}){
  <h1>{eventDisplayTitle(e)}</h1>
  {eventDisplayTitle(e)!==e.title&&<p className="detail-subtitle">{e.details.title?e.title:e.title.split(' / ').slice(0,-1).join(' / ')}</p>}
  {e.presenter&&e.presenter!==e.title&&<p className="detail-byline">{presenterRole(e)}：{e.presenter}</p>}
- <div className="detail-primary-actions"><button className={saved?'secondary-btn selected':'primary-btn'} onClick={()=>toggle('saved',e.id)} aria-pressed={saved}><Bookmark size={17} fill={saved?'currentColor':'none'}/>{saved?'已加入日程':'加入我的日程'}</button>{e.booking&&<a className="secondary-btn" href={e.booking} target="_blank" rel="noreferrer"><ExternalLink size={16}/>报名 / 购票</a>}</div>
+ <div className="detail-primary-actions"><Button className={saved?'secondary-btn selected':'primary-btn'} onClick={()=>toggle('saved',e.id)} aria-pressed={saved}><Bookmark size={17} fill={saved?'currentColor':'none'}/>{saved?'已加入日程':'加入我的日程'}</Button>{e.booking&&<a className="secondary-btn" href={e.booking} target="_blank" rel="noreferrer"><ExternalLink size={16}/>报名 / 购票</a>}</div>
  <EventMeta event={e}/>
  <Link className="detail-location-link" to={e.venue==='expo'?'/map?layer=floors':`/map?layer=venues&venue=${e.venue}`}><MapPin size={16}/><span>{e.locationConfirmed?'在地图中查看场馆':'查看总图 · 具体地点待核实'}</span><ArrowUpRight size={16}/></Link>
  {e.details.alert&&<div className="inline-notice"><AlertCircle size={18}/><p>{e.details.alert}</p></div>}
