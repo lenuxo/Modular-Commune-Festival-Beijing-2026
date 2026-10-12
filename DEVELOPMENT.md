@@ -169,3 +169,11 @@ Audited every currently reachable activity (194), exhibitor (69), and artist (13
 ### Soft-touch console UI implementation (2026-10-12)
 
 Design tokens are generated from the approved visual specification; `src/design-system/` separates materials, controls and domain recipes. All native buttons use the shared Button primitive. Existing layout is isolated in the legacy cascade layer. Browser verification covered 32 route/viewport combinations (320/390/768/1440), native mobile/desktop details, fullscreen detail nesting and Escape order, grouped filtering and source-state preservation, menu and map zoom. Semantic foreground/background contrast pairs are ≥4.5:1. Screenshot samples are in `output/playwright/soft-touch-final-*.png`. Build and lint pass; the existing large main chunk warning remains.
+
+### Framed business lists
+
+Event and exhibitor rows share ListRow; exhibitors reuse one component in directory, personal collection, search and related details. Technical identifiers sit in an inset/separated leading zone, saved/inspected state colors the complete frame, and visited state retains a textual badge. Compact home/map links share the same list material. Verified 28 route/viewport combinations at 320/390/768/1440px without page or row overflow, mobile detail opening, source filter retention, whole-row saved state and personal exhibitor synchronization.
+
+### Framed-list spacing audit
+
+Reviewed overview, schedule, directory, personal lists, search, map selection and all three detail structures at desktop/mobile widths. Row shells no longer contribute trailing margins; adjacent rows own 12px spacing and grid collections own their gap. Compact linked collections own 8px gaps with no trailing space. Added 16px between prose and related cards, 12px between the home map and venue cards, and balanced map preview insets. Personal record preferences use a 32px section gap after bordered lists. Verified 28 route/viewport combinations at 320/390/768/1440 without overflow, plus populated personal lists, artist appearances and mobile map/detail screenshots. Build and lint pass.

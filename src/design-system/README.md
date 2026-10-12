@@ -20,3 +20,11 @@ Primary actions use sage; activities use orange; courses use teal. Selected navi
 ## Verification
 
 Browser checks cover 320, 390, 768 and 1440px: overview, list/panorama, exhibitors, personal guide, map, visitor guide and search have no page overflow. Detail panes retain source filters; mobile dialogs, header menu, grouped filtering, fullscreen nesting and Escape ordering work. Tokens and semantic foreground pairs are contrast checked. Build and lint must pass after changes.
+
+## List components
+
+`ListRow.tsx` owns a framed row and its saved/inspected/visited state; `ExhibitorRow.tsx` owns booth identity, summary, visited badge and bookmark and is shared by the directory, personal list, search results and related exhibitors. `EventRow` uses the same shell and a whole-row open target including its technical time zone. `lists.css` owns the complete border, material, reading/action spacing and responsive adaptation, including compact home/map/related links. Do not add closing rules between these independent row panels. Keep real booth codes, never synthesize brand logos.
+
+## Composite text fields
+
+`TextField.tsx` is a label-based input container. It owns the single 2px focus ring for its icon, padding and input as a whole. Descendant text inputs/textarea suppress their own outline only while inside this component; standalone controls retain global keyboard focus styles. Directory, global search and map locator use this component. Focus and blur were checked on desktop and mobile for all three fields.

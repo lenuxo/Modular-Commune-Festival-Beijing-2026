@@ -44,7 +44,32 @@
 }
 
 /* Recessed selectors: the active key rises from a dark shared track. */
-:is(.segmented, .panorama-dates) { background: var(--color-inset); padding: 3px; }
+/* The common track owns containment; selection is a physical key, not a pill. */
+:is(.segmented, .panorama-dates) {
+  background: var(--color-inset);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-control);
+  box-shadow: var(--shadow-inset);
+  padding: 3px;
+  gap: 3px;
+}
+.ui-segmented { display: inline-flex; min-width: 0; max-width: 100%; }
+.ui-segmented .ui-button {
+  min-height: 44px;
+  padding: 8px 14px;
+  color: var(--color-muted);
+  font-size: 12px;
+  white-space: nowrap;
+  border-radius: var(--radius-tag);
+}
+.directory-controls { display: flex; align-items: center; gap: 16px; margin-bottom: 12px; }
+.directory-controls>.meta { margin-left: auto; white-space: nowrap; }
+.personal-tabs { margin: 20px 0; }
+@media(max-width:639px) {
+  .ui-segmented .ui-button { font-size: 11px; padding-inline: 8px; }
+  .directory-controls { flex-wrap: wrap; gap: 8px; }
+  .directory-controls>.meta { font-size: 11px; }
+}
 :is(.segmented, .panorama-dates) .ui-button.active {
   background: var(--control-light), var(--color-control);
   color: var(--color-primary);
@@ -67,5 +92,14 @@
 .filter-option { border-radius: var(--radius-tag); }
 .filter-option.is-active { background: var(--color-control); outline-color: var(--color-border); }
 .filter-option[aria-selected='true'] { color: var(--color-primary); background: var(--accent-soft); }
-.search-field:focus-within { border-color: var(--color-primary); outline: 2px solid var(--color-primary); outline-offset: 2px; }
+/* Only the composite field draws the ring. Global focus styles remain for standalone inputs. */
+.ui-text-field:focus-within {
+  border-color: var(--line);
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+.ui-text-field :is(input, textarea):is(:focus, :focus-visible) {
+  outline: none;
+  box-shadow: none;
+}
 .search-field input { font-size: 14px; }

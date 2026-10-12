@@ -1,3 +1,4 @@
+import {ExhibitorRow} from '../components/ExhibitorRow'
 import {Button} from '../design-system/Button'
 import {Link,useParams} from 'react-router'
 import {ArrowUpRight,Bookmark,MapPin,ExternalLink,AlertCircle} from 'lucide-react'
@@ -26,7 +27,7 @@ export function EventDetail({id:detailId}:{id?:string}={}){
  </header>
  {hasContent&&<DetailSection section="content" title="活动内容">{e.description?.trim()&&<p className="detail-lead">{e.description}</p>}<EventArticle event={e}/></DetailSection>}
  <DetailSection section="attendance" title="参与须知"><p>{e.kind==='diy'?'DIY 工作坊需要通过官方入口预约，材料费用与容量按项目公布；收藏不会占用名额。':e.kind==='master'?'大师课需要单独购票，普通音乐节免费入场不包含大师课。报名和购票以官方说明为准。':e.kind==='party'?'夜间活动使用跨午夜日程，凌晨的场次属于前一晚的 Party。票价、预约与入场规则以官方为准。':e.kind==='live'?'场次依据官方演出时间表整理，现场可能调整，以舞台公告为准。':'讲座和演示的报名方式、语言、具体场地以官方或现场说明为准。'}</p>{e.origin&&<p className="detail-byline">官方标注来源地：{e.origin}</p>}{e.artistId&&<Link className="detail-related-link" to={`/artists/${e.artistId}`}><span>艺术家资料与其他场次</span><ArrowUpRight size={16}/></Link>}</DetailSection>
- {associated.length>0&&<DetailSection section="related" title="关联展商" count={associated.length}>{associated.map(x=><Link className="detail-related-link" key={x.id} to={`/exhibitors/${x.id}`}><span>{x.name}</span><span className="mono">{x.floor===1?x.booth:'2F'} <ArrowUpRight size={15}/></span></Link>)}</DetailSection>}
+ {associated.length>0&&<DetailSection section="related" title="关联展商" count={associated.length}>{associated.map(x=><ExhibitorRow key={x.id} exhibitor={x} compact/>)}</DetailSection>}
  <DetailSources checkedAt={e.details.checkedAt}>{e.details.sources.map(source=><Source key={source.url} {...source}/>)}{e.externalLinks.filter(url=>!e.details.sources.some(source=>source.url===url)).map(url=><Source key={url} url={url} label="官方表格附加链接（对应关系以原表为准）"/>)}</DetailSources>
  </DetailDocument></>
 }
