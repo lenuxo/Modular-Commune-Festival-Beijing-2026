@@ -1,0 +1,124 @@
+/* Motion vocabulary: feedback → changed content → spatial surfaces.
+   No global transition:all, permanent compositor layers or list choreography. */
+:root {
+  --motion-feedback: 120ms;
+  --motion-content: 160ms;
+  --motion-enter: 240ms;
+  --motion-exit: 180ms;
+  --motion-ease-out: cubic-bezier(.22, 1, .36, 1);
+  --motion-ease-in: cubic-bezier(.4, 0, 1, 1);
+  --motion-distance: 24px;
+  --motion-nudge: 6px;
+}
+
+/* Direction expresses origin: right-side detail, bottom sheet, top menu. */
+.detail-panel { --surface-x: var(--motion-distance); --surface-y: 0px; }
+.detail-panel.is-modal { --surface-x: 0px; --surface-y: var(--motion-distance); }
+.navigation-menu { --surface-x: 0px; --surface-y: calc(-1 * var(--motion-distance)); }
+:is(.detail-panel, .navigation-menu)[open] {
+  animation: motion-surface-in var(--motion-enter) var(--motion-ease-out) both;
+}
+:is(.detail-panel, .navigation-menu)[data-exiting="true"] {
+  animation: motion-surface-out var(--motion-exit) var(--motion-ease-in) both;
+  pointer-events: none;
+}
+:is(.detail-panel, .navigation-menu)::backdrop {
+  animation: motion-backdrop-in var(--motion-enter) var(--motion-ease-out) both;
+}
+:is(.detail-panel, .navigation-menu)[data-exiting="true"]::backdrop {
+  animation: motion-backdrop-out var(--motion-exit) var(--motion-ease-in) both;
+}
+@keyframes motion-surface-in {
+  from { opacity: 0; transform: translate(var(--surface-x), var(--surface-y)); }
+  to { opacity: 1; transform: translate(0, 0); }
+}
+@keyframes motion-surface-out {
+  from { opacity: 1; transform: translate(0, 0); }
+  to { opacity: 0; transform: translate(var(--surface-x), var(--surface-y)); }
+}
+@keyframes motion-backdrop-in { from { opacity: 0; } to { opacity: 1; } }
+@keyframes motion-backdrop-out { from { opacity: 1; } to { opacity: 0; } }
+
+/* Native popovers retain the top layer through both transitions. Browsers
+   without discrete transitions keep an immediate, fully usable menu. */
+@supports (transition-behavior: allow-discrete) {
+  .filter-select-menu {
+    opacity: 0;
+    transform: translateY(var(--popover-offset, var(--motion-nudge)));
+    transition: opacity var(--motion-exit) var(--motion-ease-out),
+      transform var(--motion-exit) var(--motion-ease-out),
+      display var(--motion-exit) allow-discrete,
+      overlay var(--motion-exit) allow-discrete;
+  }
+  .filter-select-menu:popover-open { opacity: 1; transform: translateY(0); }
+  .filter-select-menu:not(:popover-open) { pointer-events: none; }
+  @starting-style {
+    .filter-select-menu:popover-open {
+      opacity: 0; transform: translateY(var(--popover-offset, var(--motion-nudge)));
+    }
+  }
+}
+
+/* Shared controls: preserve hit targets and avoid moving dense data marks. */
+:is(.icon-btn, .primary-btn, .secondary-btn, .small-btn, .filter-select-trigger,
+  .schedule-mine, .segmented button, .scope-switch button, .date-tabs button,
+  .panorama-dates button, .map-tabs button, .detail-jump button, .filter-option,
+  .sidebar nav>a, .navigation-menu nav>a, .text-link, .global-search, .menu-search) {
+  transition: color var(--motion-feedback) ease-out,
+    background-color var(--motion-feedback) ease-out,
+    border-color var(--motion-feedback) ease-out,
+    opacity var(--motion-feedback) ease-out;
+}
+:is(.icon-btn, .primary-btn, .secondary-btn, .small-btn) {
+  transition: color var(--motion-feedback) ease-out,
+    background-color var(--motion-feedback) ease-out,
+    border-color var(--motion-feedback) ease-out,
+    transform var(--motion-feedback) var(--motion-ease-out);
+}
+:is(.icon-btn, .primary-btn, .secondary-btn, .small-btn):active:not(:disabled) { transform: scale(.97); }
+.filter-select-trigger>svg,
+.schedule-panel-footer>summary>svg:last-child,
+.detail-source-fold>summary>svg {
+  transition: transform var(--motion-exit) var(--motion-ease-out);
+}
+:is(.event-row, .exhibitor-list article, .directory-list article, .time-block, .overview-mark) {
+  transition: background-color var(--motion-feedback) ease-out,
+    border-color var(--motion-feedback) ease-out, color var(--motion-feedback) ease-out;
+}
+:is(input, textarea, select) { transition: border-color var(--motion-feedback) ease-out; }
+@media (hover: hover) and (pointer: fine) {
+  .text-link>svg:last-child { transition: translate var(--motion-feedback) var(--motion-ease-out); }
+  .text-link:hover>svg:last-child { translate: 2px -1px; }
+}
+
+/* Progressive disclosure: text appears as one block, without animating long
+   biography heights or changing readers' scroll positions. */
+:is(.detail-source-fold, .detail-bio-fold, .schedule-panel-footer, .map-extra)[open]>:not(summary) {
+  animation: motion-disclose var(--motion-content) var(--motion-ease-out);
+}
+.map-spot-preview { animation: motion-disclose var(--motion-content) var(--motion-ease-out); }
+@keyframes motion-disclose {
+  from { opacity: .55; translate: 0 var(--motion-nudge); }
+  to { opacity: 1; translate: 0 0; }
+}
+
+/* Status feedback has one stable position; it never blocks pointer input. */
+.toast {
+  transition: opacity var(--motion-exit) var(--motion-ease-out),
+    transform var(--motion-exit) var(--motion-ease-out);
+}
+.toast.visible { transition-duration: var(--motion-content); }
+
+/* Also used by JS presence and content motion. Live preference changes cancel
+   active animations and complete closing surfaces immediately. */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-feedback: 0ms; --motion-content: 0ms;
+    --motion-enter: 0ms; --motion-exit: 0ms;
+    --motion-distance: 0px; --motion-nudge: 0px;
+  }
+  *, *::before, *::after {
+    animation: none !important; transition: none !important; scroll-behavior: auto !important;
+  }
+  .text-link:hover>svg:last-child { translate: none; }
+}

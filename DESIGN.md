@@ -2,7 +2,7 @@
 
 ## Context
 
-个人观展工具。白天园区查地图，展区找品牌，夜间查看演出时间。默认跟随系统，支持浅色与深色。
+个人观展工具。白天园区查地图，展区找品牌，夜间查看演出时间。全产品固定深色主题，原生控件与浏览器界面声明深色配色，不提供主题切换或系统主题跟随。
 
 ## Color
 
@@ -26,7 +26,18 @@
 
 ## Motion
 
-短暂收藏通知和控件状态反馈；尊重 prefers-reduced-motion。
+动效按交互语义统一组织，参数集中在 `src/motion.css`，组件通过 `src/components/motion.ts` 复用存在状态与内容切换逻辑。整体采用无弹跳的减速曲线，不增加动效依赖。
+
+| 层级 | 用途 | 规则 |
+| --- | --- | --- |
+| 反馈 | 按钮、收藏、筛选、导航选中 | 120ms颜色／边框过渡，操作按钮按下缩至97%，触控目标保持原尺寸 |
+| 内容 | 路由、日程日期／筛选、个人页签、面板内关联详情、全屏切换 | 160ms单块淡入，不重新挂载时间轴或地图，不对搜索输入逐字播放 |
+| 空间 | 桌面详情、移动详情、全局菜单 | 240ms进入／180ms退出，位移24px；分别从右、下、上边缘进入，遮罩同步淡入淡出 |
+| 辅助 | 下拉菜单、资料折叠、地图定位卡、通知 | 6px轻量位移与短淡入；下拉依据展开方向进入，通知保持固定锚点 |
+
+关闭浮层通过共享 `usePresence` 保留DOM、滚动锁和焦点生命周期，退出结束后卸载；退出阶段不可重复操作，重新打开取消待卸载任务。详情切换只淡入正文，面板和阅读位置管理继续复用。桌面分栏直接完成重排，不逐帧动画宽度；全景数据块、地图手势、长文高度和整屏列表不做逐项编排。首次加载立即呈现内容，没有滚动触发的隐藏或入场队列。
+
+`prefers-reduced-motion` 下全部即时呈现；系统偏好在运行中变化时取消内容动画、立即完成浮层退出。支持CSS离散过渡的浏览器通过 `display`／`overlay` 与 `@starting-style` 保留下拉浮层的顶层退出动画，其他浏览器保持原生即时收起。
 
 ## Responsive adaptation
 
@@ -60,7 +71,7 @@
 
 ### Compact desktop navigation
 
-Desktop navigation uses an 88px rail with icons and short Chinese labels. The brand mark carries a compact 观展手册 caption; redundant edition and English sublabels are omitted. The active item uses the original dark background and light text (theme-aware), saved count remains as a small badge, and full names are available through accessible labels and hover titles. Detail panes split the space remaining after the rail equally. Tablet navigation stays 80px; phone navigation stays in the header menu.
+Desktop navigation uses an 88px rail with icons and short Chinese labels. The brand mark carries a compact 观展手册 caption; redundant edition and English sublabels are omitted. The active item uses a light background and dark text within the fixed dark palette, saved count remains as a small badge, and full names are available through accessible labels and hover titles. Detail panes split the space remaining after the rail equally. Tablet navigation stays 80px; phone navigation stays in the header menu.
 
 ### Detail reading structure
 

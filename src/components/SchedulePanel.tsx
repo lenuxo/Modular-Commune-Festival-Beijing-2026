@@ -2,10 +2,11 @@ import {useEffect, useRef, useState} from 'react'
 import type {ReactNode} from 'react'
 import {GanttChart, Maximize2, Minimize2} from 'lucide-react'
 import {lockBodyScroll} from './scrollLock'
+import {useContentMotion} from './motion'
 
 export function SchedulePanel({count, scopeControl, children}: {count: number; scopeControl: ReactNode; children: ReactNode}) {
   const [expanded, setExpanded] = useState(false)
-  const panel = useRef<HTMLDialogElement>(null)
+  const panel = useContentMotion<HTMLDialogElement>(String(expanded))
   const expandButton = useRef<HTMLButtonElement>(null)
 
   useEffect(() => {
@@ -28,7 +29,7 @@ export function SchedulePanel({count, scopeControl, children}: {count: number; s
       unlock()
       queueMicrotask(() => window.dispatchEvent(new Event('schedule-panel-mode')))
     }
-  }, [expanded])
+  }, [expanded, panel])
 
   return <dialog ref={panel} className={`schedule-panel ${expanded ? 'is-expanded' : ''}`}
     role={expanded ? 'dialog' : 'region'} aria-label="全景日程" aria-modal={expanded || undefined}

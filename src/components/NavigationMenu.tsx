@@ -12,11 +12,12 @@ const descriptions: Record<string, string> = {
   '/mine': '收藏日程与想逛清单',
 }
 
-export function NavigationMenu({items, savedCount, status, onClose}: {
+export function NavigationMenu({items, savedCount, status, onClose, exiting}: {
   items: {path: string; label: string; icon: LucideIcon}[]
   savedCount: number
   status: string
   onClose: () => void
+  exiting: boolean
 }) {
   const dialog = useRef<HTMLDialogElement>(null)
   useEffect(() => {
@@ -35,10 +36,10 @@ export function NavigationMenu({items, savedCount, status, onClose}: {
     }
   }, [onClose])
 
-  return <dialog id="global-menu" ref={dialog} className="navigation-menu" aria-labelledby="navigation-menu-title"
-    onCancel={onClose} onClose={onClose}
+  return <dialog id="global-menu" ref={dialog} className="navigation-menu" aria-labelledby="navigation-menu-title" data-exiting={exiting} inert={exiting}
+    onCancel={event => {event.preventDefault(); if (!exiting) onClose()}}
     onClick={e => {
-      if (e.target !== e.currentTarget) return
+      if (exiting || e.target !== e.currentTarget) return
       const rect = e.currentTarget.getBoundingClientRect()
       if (e.clientX < rect.left || e.clientX > rect.right || e.clientY < rect.top || e.clientY > rect.bottom) onClose()
     }}>

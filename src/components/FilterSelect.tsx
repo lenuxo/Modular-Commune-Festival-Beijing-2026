@@ -59,6 +59,7 @@ export function FilterSelect({label, value, groups, onChange}: {
     const below = topEdge + height - rect.bottom - 18
     const above = rect.top - topEdge - 18
     const upwards = below < 260 && above > below
+    element.style.setProperty('--popover-offset', upwards ? 'calc(-1 * var(--motion-nudge))' : 'var(--motion-nudge)')
     element.style.width = `${menuWidth}px`
     element.style.left = `${Math.max(leftEdge + 12, Math.min(rect.left, leftEdge + width - menuWidth - 12))}px`
     element.style.maxHeight = `${Math.max(44, Math.min(500, upwards ? above : below))}px`

@@ -8,6 +8,7 @@ import {ExhibitorDetail} from '../pages/Exhibitors'
 import {events,exhibitors,eventDisplayTitle} from '../data/festival'
 import {lockBodyScroll} from './scrollLock'
 import {DetailContext} from './detailContext'
+import {useContentMotion,usePresence} from './motion'
 
 const detailPattern=/^\/(events|exhibitors|artists)\/[^/]+$/
 
@@ -15,6 +16,7 @@ export function DetailProvider({children}:{children:ReactNode}){
  const location=useLocation();const navigate=useNavigate()
  const params=new URLSearchParams(location.search);const requested=params.get('detail')
  const detailPath=requested&&detailPattern.test(requested)?requested:null
+ const presence=usePresence(detailPath)
  const trail:string[]=detailPath?(location.state?.detailTrail??[detailPath]):[]
  const openDetail=useCallback((path:string,nested=false)=>{
   if(!detailPattern.test(path))return
@@ -42,15 +44,16 @@ export function DetailProvider({children}:{children:ReactNode}){
   const path=url.hash.slice(1).split('?')[0]
   if(detailPattern.test(path)){event.preventDefault();openDetail(path,!!link.closest('.detail-panel'))}
  }
- return <DetailContext.Provider value={{detailPath,openDetail}}><div className={detailPath?'detail-workspace detail-open':'detail-workspace'} onClickCapture={capture}>
+ return <DetailContext.Provider value={{detailPath,openDetail}}><div className={presence.value?'detail-workspace detail-open':'detail-workspace'} onClickCapture={capture}>
   {children}
-  {detailPath&&<DetailPanel path={detailPath} canBack={trail.length>1} onBack={back} onClose={close}/>}
+  {presence.value&&<DetailPanel path={presence.value} exiting={presence.exiting} canBack={trail.length>1} onBack={back} onClose={close}/>}
  </div></DetailContext.Provider>
 }
 
-function DetailPanel({path,canBack,onBack,onClose}:{path:string;canBack:boolean;onBack:()=>void;onClose:()=>void}){
+function DetailPanel({path,exiting,canBack,onBack,onClose}:{path:string;exiting:boolean;canBack:boolean;onBack:()=>void;onClose:()=>void}){
  const [desktop,setDesktop]=useState(()=>matchMedia('(min-width:1024px)').matches)
  const dialog=useRef<HTMLDialogElement>(null);const body=useRef<HTMLDivElement>(null)
+ const contentMotion=useContentMotion<HTMLDivElement>(path)
  const closeRef=useRef(onClose);useEffect(()=>{closeRef.current=onClose},[onClose])
  const trigger=useRef<HTMLElement|null>(null)
  const scrolls=useRef(new Map<string,number>());const previousPath=useRef(path)
@@ -66,9 +69,8 @@ function DetailPanel({path,canBack,onBack,onClose}:{path:string;canBack:boolean;
   return()=>window.removeEventListener('schedule-panel-mode',change)
  },[host])
  useEffect(()=>{const media=matchMedia('(min-width:1024px)');const change=()=>setDesktop(media.matches);media.addEventListener('change',change);return()=>media.removeEventListener('change',change)},[])
- useEffect(()=>{
+ useLayoutEffect(()=>{
   trigger.current=document.activeElement instanceof HTMLElement?document.activeElement:null
-  return()=>{if(trigger.current?.isConnected)trigger.current.focus({preventScroll:true})}
  },[])
  useEffect(()=>{
   const element=dialog.current!;element.close()
@@ -77,10 +79,12 @@ function DetailPanel({path,canBack,onBack,onClose}:{path:string;canBack:boolean;
   if(desktop)element.show();else {element.showModal();unlock=lockBodyScroll()}
   element.querySelector<HTMLButtonElement>('.detail-panel-close')?.focus({preventScroll:true})
   if(body.current)body.current.scrollTop=position
-  const escape=(event:KeyboardEvent)=>{if(desktop&&event.key==='Escape'&&!document.querySelector(':popover-open')){event.preventDefault();event.stopPropagation();closeRef.current()}}
+  const escape=(event:KeyboardEvent)=>{if(desktop&&!element.inert&&event.key==='Escape'&&!document.querySelector(':popover-open')){event.preventDefault();event.stopPropagation();closeRef.current()}}
   document.addEventListener('keydown',escape,true)
   return()=>{document.removeEventListener('keydown',escape,true);element.close();unlock()}
  },[desktop,host])
+ // Restore focus after dialog cleanup; an exiting inert modal cannot accept it.
+ useEffect(()=>()=>{if(trigger.current?.isConnected)trigger.current.focus({preventScroll:true})},[])
  useLayoutEffect(()=>{
   if(body.current)body.current.scrollTop=scrolls.current.get(path)??0
   previousPath.current=path
@@ -91,10 +95,10 @@ function DetailPanel({path,canBack,onBack,onClose}:{path:string;canBack:boolean;
  const exhibitor=kind==='exhibitors'?exhibitors.find(e=>e.id===id):undefined
  const label=kind==='events'?'活动详情':kind==='exhibitors'?'展商详情':'艺术家资料'
  const title=exhibitor?.name??(event?(kind==='artists'?event.presenter:eventDisplayTitle(event)):label)
- const content=<dialog ref={dialog} className={`detail-panel ${desktop?'is-side':'is-modal'}`} aria-label={`${label}：${title}`} aria-modal={!desktop||undefined}
-  onCancel={event=>{event.preventDefault();onClose()}} onClick={event=>{if(event.target===event.currentTarget){const r=event.currentTarget.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)onClose()}}}>
-  <header className="detail-panel-header">{canBack&&<button className="icon-btn" aria-label="返回上一个详情" title="返回上一个详情" onClick={onBack}><ArrowLeft size={18}/></button>}<span>{label}</span><Link to={path} target="_blank" rel="noreferrer" className="icon-btn" aria-label="在新标签页打开详情" title="在新标签页打开详情"><ExternalLink size={17}/></Link><button autoFocus className="icon-btn detail-panel-close" aria-label="关闭详情" title="关闭详情" onClick={onClose}><X size={21}/></button></header>
-  <div ref={body} className="detail-panel-body" onScroll={()=>{if(body.current)scrolls.current.set(path,body.current.scrollTop)}}>{kind==='events'?<EventDetail id={id}/>:kind==='exhibitors'?<ExhibitorDetail id={id}/>:<ArtistDetail id={id}/>}</div>
+ const content=<dialog ref={dialog} className={`detail-panel ${desktop?'is-side':'is-modal'}`} aria-label={`${label}：${title}`} aria-modal={!desktop||undefined} data-exiting={exiting} inert={exiting}
+  onCancel={event=>{event.preventDefault();if(!exiting)onClose()}} onClick={event=>{if(!exiting&&event.target===event.currentTarget){const r=event.currentTarget.getBoundingClientRect();if(event.clientX<r.left||event.clientX>r.right||event.clientY<r.top||event.clientY>r.bottom)onClose()}}}>
+  <header className="detail-panel-header">{canBack&&<button className="icon-btn" aria-label="返回上一个详情" title="返回上一个详情" onClick={onBack}><ArrowLeft size={18}/></button>}<span>{label}</span><Link to={path} target="_blank" rel="noreferrer" className="icon-btn" aria-label="在新标签页打开详情" title="在新标签页打开详情"><ExternalLink size={17}/></Link><button className="icon-btn detail-panel-close" aria-label="关闭详情" title="关闭详情" onClick={onClose}><X size={21}/></button></header>
+  <div ref={body} className="detail-panel-body" onScroll={()=>{if(body.current)scrolls.current.set(path,body.current.scrollTop)}}><div ref={contentMotion}>{kind==='events'?<EventDetail id={id}/>:kind==='exhibitors'?<ExhibitorDetail id={id}/>:<ArtistDetail id={id}/>}</div></div>
  </dialog>
  // A nonmodal panel must remain inside a fullscreen dialog to stay interactive in its top layer.
  return createPortal(content,host)

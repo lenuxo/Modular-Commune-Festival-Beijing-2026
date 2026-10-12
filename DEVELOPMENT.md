@@ -3,7 +3,7 @@
 ## 已完成的第一版
 
 - React + TypeScript + Tailwind CSS + Vite纯前端应用，Hash路由和静态托管。
-- 移动端五入口、桌面侧栏；浅色/深色/跟随系统。
+- 移动端五入口、桌面侧栏；固定深色主题。
 - 194场官方活动：131场现场演出、29场Afterparty演出、22场讲座/演示、6场DIY、5场大师课、1场纪录片首映。
 - 日程列表、九区域的单日全景、手机同时可见的五天展期总览、紧凑视图、统一详情面板、筛选和我的安排。
 - 69个展商名称：一层43个、二层26个；共用展位、未知位置和开发者名称定位。
@@ -143,3 +143,21 @@
 - Exhibitors separate booth location, brand/product background and related activities.
 - Container queries replace page-wide two-column detail assumptions; standalone routes retain readable line lengths.
 - Browser validation covered 320/390/768/1024/1440px, source filter preservation, section scrolling, biography disclosure, association navigation and standalone artist routing. Build and lint pass.
+
+
+### 统一动效系统（2026-10-12）
+
+- `src/motion.css` 统一反馈120ms、内容160ms、浮层进入240ms／退出180ms、曲线和24px／6px位移；移除原先分散的通知时长和减少动效规则。
+- `usePresence` 让详情和菜单在退出期间保持挂载及滚动锁，退出后恢复焦点；快速重开取消待卸载任务。退出期间禁用面板交互，阻止重复关闭。详情焦点在原生dialog清理之后恢复。
+- `useContentMotion` 在实际内容键变化时播放可取消淡入；路由、日程结果与画布、我的页签、关联详情及全屏复用同一机制。初次加载立即显示，详情参数变化不触发底层页面淡入。
+- 原生筛选Popover使用display／overlay离散过渡保留顶层退出效果；方向跟随实际向上／向下展开。不支持时使用即时关闭。控件、折叠正文、地图定位卡与通知复用统一动效参数。
+- 减少动态效果同时覆盖CSS和JS；运行中改变系统偏好会取消内容动画并立即完成浮层退出。长文高度、地图拖动和数据块位置不参与动画。
+- 构建与oxlint通过。浏览器检查320px菜单、390px手机详情、768px平板详情、1440px侧栏／全屏；无页面级横向溢出。验证筛选Esc后保持全屏、详情Esc按层级关闭、滚动锁与焦点恢复、嵌套详情返回阅读位置830px，以及打开详情／进出全屏保留时间轴770.5px。
+- 隔离的React StrictMode回归检查11项通过：初次显示、退出保留、快速重开、退出卸载、减少动效即时退出、运行中偏好改变、内容动画启动与连续取消、减少动效下禁播和CSS关闭规则。检查入口保存在忽略目录 `output/motion/check.html`，以Vite预览运行，不纳入产品构建。
+
+
+### 固定深色主题（2026-10-12）
+
+- 将原深色色板提升为唯一根级色板，移除浅色色板和运行时系统主题监听；HTML声明dark color-scheme及深色浏览器主题色。
+- 移除“我的观展”外观设置，保留个人记录备份与日历导出。个人记录不再保存theme字段；旧记录／备份中的该字段会被忽略，收藏、想逛和已逛数据继续读取。
+- 构建、oxlint与差异检查通过；6项旧记录兼容检查确认移除theme字段后个人记录完整保留。浏览器确认根级color-scheme为dark、深色背景生效、外观选择入口已移除。
