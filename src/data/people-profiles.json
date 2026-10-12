@@ -1,0 +1,293 @@
+{
+  "stan": {
+    "name": "Stan / 卢赛翼（Moddyriffs）",
+    "paragraphs": [
+      "Stan 是音乐制作人、混音师、DJ 与 Ableton 认证培训讲师，有器乐演奏背景。Ableton 的讲师介绍记录了他自 2014 年起的教学经历，重点涉及声音设计、电子舞曲制作与现场演出。",
+      "他的 Live Set 将 Ableton Live、Push、合成器和实地声音采样结合，采用软件与硬件并用的工作流程。公开教学面向不同水平的用户，可使用中英文授课。传新科技的 2026 年活动资料也将他介绍为 Ableton 中国区产品专家；这些背景有助于理解他如何把乐器控制转化为演奏表达。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Ableton 认证讲师档案",
+        "url": "https://www.ableton.com/zh-cn/certified-training/stan-lu/"
+      },
+      {
+        "label": "传新科技：Ableton 体验活动与 Stan 介绍",
+        "url": "https://www.dmtpro.com.cn/index.php?a=show&bid=13&c=index&catid=3&id=3684&m=content"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "jake-knight": {
+    "name": "Jake Knight",
+    "paragraphs": [
+      "Jake Knight 是 RYK Modular 的乐器设计者。2025 年 Sonicstate 的 midierror 专访回顾了他从 Roland System 100M 兼容模块开始的开发经历，以及后来设计 Night Rider、Algo、Vector Wave 等模块的过程；产品同时包含成品与部分 DIY 套件。",
+      "他也从事影像创作，与 Ryoko Tanaka 共同制作短片《Salaryman 6》，并以 Ne-o 名义为 The Chemical Brothers、The Herbaliser、Coldcut 等制作音乐录像。专访说明，两人也共同参与 RYK 的工作，体现了乐器设计与视听创作之间的联系。",
+      "本场官方日程署名 Jake Knight，题名却为“203 Systems workshop”。人物资料可以确认其 RYK 背景，尚不能据此确认他与本场题名品牌的关系；实际讲解品牌和内容以主办方说明为准。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Sonicstate：midierror 对 Jake Knight 的专访（2025）",
+        "url": "https://sonicstate.com/news/2025/03/17/podcast-midierror-meets-jake-knight-ryk-modular/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "omar-mashaal": {
+    "name": "Omar Mashaal",
+    "paragraphs": [
+      "Omar Mashaal 的公开职业档案将他与 Australian Tactile Instruments 的合成器模块工作联系起来，同时记录了软件和数字工程背景，涉及实时系统与基础设施。活动日程将他列为 Australian Tactile Instruments 工作坊主讲人。",
+      "这个背景连接了数字系统开发与实体音乐工具：既关注内部的信号和程序，也关注演奏者如何通过具体动作使用设备。目前可核实的资料未详细列出他的个人音乐发行或本场演示清单，因此不将品牌全部产品当作他的个人作品。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Omar Mashaal 的公开职业档案",
+        "url": "https://au.linkedin.com/in/omarmashaal"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "dennis-de-bel": {
+    "name": "Dennis de Bel（Picha）",
+    "paragraphs": [
+      "Dennis de Bel 是兼具艺术、交互设计与电子制作背景的创作者。transmediale 的人物档案记录了他在鹿特丹 Willem de Kooning Academy 的交互媒体设计学习，以及 Piet Zwart Institute 的媒体设计与传播硕士经历。",
+      "他曾与 Roel Roscam Abbing 合作研究后数字时代的通信方式，并在 transmediale 参与 DIY Packet Radio 等工作坊。PCBWay 的设计竞赛评委介绍还将他列为教育者、电子与嵌入式工程师、Picha 创始人和 Varia 共同创办者。",
+      "本次 Pana Wave Laboratory 工作坊由他以 Picha 相关创作者身份参与，连接实验电子、动手制作与声音探索；其通信研究背景不等于本场会教授无线电或网络技术。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "transmediale：Dennis de Bel 人物档案",
+        "url": "https://archive.transmediale.de/content/dennis-de-bel"
+      },
+      {
+        "label": "PCBWay：设计竞赛评委介绍",
+        "url": "https://www.pcbway.fr/activity/7th-project-design-contest.html"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "nicolo-merendino": {
+    "name": "Nicolò Merendino / 明允成",
+    "paragraphs": [
+      "明允成是常驻广州的 UX/UI 设计者、研究者和数字制作实践者。他的个人网站介绍了十余年协助艺术家和音乐人开发交互设备的经验，关注新的音乐体验、实体界面以及图形界面的设计。",
+      "作品集包含 Knurl、Dispositivo Cinetico MIDI、strophonion、Noiseboard 与 Motion Composer GUI 等项目。他研究开放工具如何帮助创作者修改、共享和实现自己的设备，也关注设计实践的长期影响与可持续性。",
+      "这种跨越外壳制作、操作界面和实际演奏的实践，为本次使用 FLOSS 设计自有设备的讲座提供了具体背景。上述项目是其作品集线索，并非本场已公布的逐项展示内容。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "明允成个人网站与设计作品集",
+        "url": "https://chihauccisoilconte.eu/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "victoria-liu": {
+    "name": "Victoria Liu",
+    "paragraphs": [
+      "官方日程将 Victoria Liu 与 Dominic Au 共同列为 ASM Leviasynth 与 Diosynth 演示的主讲人 / 参与者。现有活动资料未进一步说明她在本场的分工。",
+      "已检索其他人物与音乐机构资料，但尚未找到能够与本次署名可靠对应的个人简介。暂不合并同名演奏者的学历、任职或作品；待 ASM 或主办方公布对应资料后再补充。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      }
+    ],
+    "status": "limited",
+    "checkedAt": "2026-10-12"
+  },
+  "wei-yuchen": {
+    "name": "卫雨晨",
+    "paragraphs": [
+      "卫雨晨是“Prompt 之后：让音乐 AI 成为一件可演奏、可编辑的乐器”的官方署名主讲人。本场题目聚焦音乐 AI 的演奏与编辑能力。",
+      "活动页尚未公布其个人履历。补充检索未找到能将同名人物与本次活动可靠对应的机构或个人资料，因此目前不列未经确认的任职、学历与作品。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      }
+    ],
+    "status": "limited",
+    "checkedAt": "2026-10-12"
+  },
+  "oscar-xie": {
+    "name": "Oscar / 解路禄",
+    "paragraphs": [
+      "解路禄（Oscar Xie）是 Robkoo 锣钹科技创始人兼 CEO。品牌的英文创始人介绍与中文活动资料可对应这一姓名；日程中的“Oscar / 解路禄”按同一位主讲人的中英文署名展示。",
+      "Robkoo 的 2024 年 NAMM 回顾记录了他在 MIDI 协会展台介绍音乐科技产品生态与小小笛 App 的经历。2025 年上海音乐学院的活动报道中，他以“AI 时代音乐科技人才培养变革”为题，讨论音乐与技术结合后的岗位需求、跨学科能力和校企协作。",
+      "这些公开经历连接智能乐器、软件产品与音乐教育，提供了理解本次 AI 音源和音色设计讲座的背景；本场具体模型、演示设备与操作流程仍以活动说明为准。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Robkoo：创始人 Oscar Xie 专访介绍",
+        "url": "https://www.robkoo.com/zh/archives/5625"
+      },
+      {
+        "label": "Robkoo：2024 NAMM 活动回顾",
+        "url": "https://www.robkoo.com/zh/archives/8304"
+      },
+      {
+        "label": "上海音乐学院：解路禄的 AI 与音乐科技分享（2025）",
+        "url": "https://xsc.shcmusic.edu.cn/2025/0410/c1858a57444/pagem.htm"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "guo-yixiong": {
+    "name": "郭逸雄（Roland）",
+    "paragraphs": [
+      "郭逸雄在 2024 年产品培训及 2025 年 GETshow 的公开活动资料中，被介绍为 Roland 合成器、鼓机与 DJ 产品经理。相关记录包含乐器产品培训、功能讲解与现场发布活动，反映了其面向音乐人解释设备操作与用途的工作经验。",
+      "本次官方日程将他与 LVNTE（Lavante）共同列为 Roland TR-1000 鼓机及新品介绍的参与者。产品讲解背景与 LVNTE 的音乐表演经验，提供了从功能到实际使用的不同观察角度；具体分工尚未公布。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "GETshow 活动现场：Roland V-STAGE 发布与郭逸雄介绍（2025）",
+        "url": "https://universal-truss.com/xwzx/54.html?l=zh"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "lu-xiaoxu": {
+    "name": "卢小旭 / Mr. Lu Louis",
+    "paragraphs": [
+      "卢小旭是小旭音乐创始人，长期参与游戏及其他视听项目的音乐制作。2025 年中国（上海）国际乐器展的官方活动日程将他介绍为小旭音乐创始人兼 CEO、AIGC 艺术家，并列出其 AI 音视频相关分享。",
+      "本届音乐节的 ECO LAND 艺术家介绍确认，他与 ECO（卢奕可）组成父子乐队，将电子音乐与戏曲、嘻哈、摇滚相结合，并在 MV 创作中使用 AI 视觉技术。音乐制作公司的工作经验与亲身创作实践，是理解其 AI 音乐主题的两条线索。",
+      "公司参与的游戏音乐项目不能直接等同于他的个人作曲署名；本场讨论哪些工具、案例和制作步骤，以官方课程或现场内容为准。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Music China 2025 官方活动日程：卢小旭介绍",
+        "url": "https://music-china.hk.messefrankfurt.com/content/dam/messefrankfurt-redaktion/musicchina/downloads/exhibitor-welcome-kit/MUC25_EventSchedule.pdf"
+      },
+      {
+        "label": "主办方：ECO LAND 艺术家介绍",
+        "url": "https://modularcommune.com/eco-land/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "shakmat-team": {
+    "name": "Shakmat 团队",
+    "paragraphs": [
+      "Shakmat 是来自布鲁塞尔的模块合成器设计团队，围绕节奏、控制和声音处理开发 Eurorack 乐器。本场 DIY 工作坊由官方日程以团队 / 品牌名署名，尚未列出具体授课成员。",
+      "同届活动中的 ERD（François Gaspard）介绍确认其参与 Shakmat，但不能据此推定他也主持这场 DIY 工作坊。具体讲师与套件信息等待主办方进一步公布。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Shakmat 官方网站",
+        "url": "https://www.shakmat.com/"
+      },
+      {
+        "label": "主办方：ERD 人物介绍",
+        "url": "https://modularcommune.com/erd/"
+      }
+    ],
+    "status": "team",
+    "checkedAt": "2026-10-12"
+  },
+  "donner-tba": {
+    "name": "Donner · 主讲人待公布",
+    "paragraphs": [
+      "官方日程目前署名 TBA，表示主讲人尚未公布。这里保留品牌与活动的对应关系，待公布姓名后补充个人背景、项目经验和资料来源。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "osc-audio-tba": {
+    "name": "Osc Audio · 主讲人待公布",
+    "paragraphs": [
+      "官方日程目前署名 TBA，表示主讲人尚未公布。这里保留品牌与活动的对应关系，待公布姓名后补充个人背景、项目经验和资料来源。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "genelec-tba": {
+    "name": "Genelec · 主讲人待公布",
+    "paragraphs": [
+      "官方日程目前署名 TBA，表示主讲人尚未公布。这里保留品牌与活动的对应关系，待公布姓名后补充个人背景、项目经验和资料来源。"
+    ],
+    "sources": [
+      {
+        "label": "官方活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "https://modularcommune.com/sylinder/": {
+    "name": "Christian Alsing / Sylinder（Elektron）",
+    "paragraphs": [
+      "Christian Alsing 是 Elektron 首席产品官（CPO），同时以 Sylinder 名义创作音乐。本届大师课的官方资料将其产品工作与个人创作联系起来，由他主持 Elektron 的创作分享。",
+      "Sylinder 是 Elektron 的 Christian Alsing 的音乐项目。官方简介以瑞典北方森林、潮湿苔藓和稳定节拍描述其声音气氛，没有详列本场作品与设备。"
+    ],
+    "sources": [
+      {
+        "label": "主办方艺术家介绍",
+        "url": "https://modularcommune.com/sylinder/"
+      },
+      {
+        "label": "官方大师课介绍",
+        "url": "https://modularcommune.com/master-class-2026/"
+      }
+    ],
+    "status": "official",
+    "checkedAt": "2026-10-12"
+  }
+}

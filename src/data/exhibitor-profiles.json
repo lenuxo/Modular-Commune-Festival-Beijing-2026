@@ -1,0 +1,1363 @@
+{
+  "爱新聚福": {
+    "summary": "专业音频设备销售与录音系统集成",
+    "description": "北京的音频设备与服务企业，业务涵盖乐器及录音设备销售、录音棚和 MIDI 教室建设，以及安装、调试与技术支持。",
+    "topics": [
+      "录音设备",
+      "系统集成",
+      "音乐教育"
+    ],
+    "products": [
+      "音频接口",
+      "合成器与舞台电钢",
+      "监听音箱"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://aixinmusic.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "A&C Pro Audio Distribution 德成科技": {
+    "summary": "连接录音硬件与音乐制作软件的音频代理商",
+    "description": "德成音频为个人工作室、专业录音室与现场演出提供设备和服务，官网产品体系包括 PreSonus 与 Fender Studio，覆盖录音、监听和制作流程。",
+    "topics": [
+      "音频代理",
+      "录音",
+      "音乐制作"
+    ],
+    "products": [
+      "PreSonus",
+      "Fender Studio"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.acproaudio.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Real Music 睿铭声光": {
+    "summary": "面向场馆与现场演出的音响系统服务商",
+    "description": "睿铭声光从事专业音响销售和系统集成，服务剧院、场馆、音乐节及商业空间，提供现场安装与调试。官网列有 ADAMSON、Void Acoustics 等品牌产品。",
+    "topics": [
+      "现场扩声",
+      "系统集成"
+    ],
+    "products": [
+      "ADAMSON",
+      "Void Acoustics"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://www.real-music.com.cn/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Steinberg": {
+    "summary": "面向编曲、录音与音频后期的软件品牌",
+    "description": "Steinberg 开发音乐制作、音频后期和记谱工具。Cubase 用于音乐创作与制作，Nuendo 面向后期与游戏声音，另有 WaveLab 和 Dorico 等产品。",
+    "topics": [
+      "音乐制作",
+      "音频后期",
+      "记谱"
+    ],
+    "products": [
+      "Cubase",
+      "Nuendo",
+      "WaveLab",
+      "Dorico"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.steinberg.net/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Global Audio 全球音兰": {
+    "summary": "录音制作、广播与数字音乐教育解决方案",
+    "description": "北京全球音兰提供专业音频技术和系统服务，覆盖音乐制作、广播电视、扩声会议与数字音乐教育，也提供音频工作站、接口、话筒和监听等设备。",
+    "topics": [
+      "录音系统",
+      "广播",
+      "音乐教育"
+    ],
+    "products": [
+      "音频工作站",
+      "录音设备",
+      "数字音乐教室"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://www.useaudio.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Sonic Vein 声脉科技": {
+    "summary": "以 AI 乐器探索可编辑的演奏表达",
+    "description": "声脉科技开发 AI 乐器与音乐制作工具。Sonic Vein Studio 将音符、奏法和音符间的过渡放入可编辑流程，帮助创作者塑造乐器的演奏细节。",
+    "topics": [
+      "AI 乐器",
+      "软件音源",
+      "音乐制作"
+    ],
+    "products": [
+      "Sonic Vein Studio",
+      "Yason ErHu"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://sonicvein.com/en"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Roland": {
+    "summary": "合成器、节奏设备与电子乐器制造商",
+    "description": "Roland 的产品横跨合成器、键盘、电子打击乐、吉他设备与音乐制作工具。对于电子音乐创作者，可以从合成器、节奏创作设备及 AIRA 产品线了解其方向。",
+    "topics": [
+      "合成器",
+      "节奏设备",
+      "电子乐器"
+    ],
+    "products": [
+      "合成器",
+      "AIRA",
+      "节奏创作设备"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.roland.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Lakeview": {
+    "summary": "电子乐器背后的发光按键与显示开关",
+    "description": "Lakeview 制造 LED 按键及 LCD、OLED、TFT 显示开关，应用包含电子音乐设备、广播及其他控制系统。适合关注硬件交互、面板设计和乐器开发的观众了解。",
+    "topics": [
+      "硬件元件",
+      "交互设计"
+    ],
+    "products": [
+      "RGB 发光按键",
+      "显示开关"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://www.lakeviewswitches.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Posin": {
+    "summary": "从电路板到面板与机箱的电子制造服务",
+    "description": "Posin 提供 PCB 制造、SMT 与通孔装配，以及成品组装和 OEM 服务，应用领域包括电子乐器。业务也涵盖机箱、面板和元器件采购。",
+    "topics": [
+      "电子制造",
+      "PCB",
+      "乐器开发"
+    ],
+    "products": [
+      "PCB 与 PCBA",
+      "机箱与面板"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://www.posinpcb.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "MIDIPLUS": {
+    "summary": "MIDI 控制与录音设备品牌",
+    "description": "MIDIPLUS 的设备面向编曲、演奏和录音，产品方向包括 MIDI 键盘、音频接口和监听设备。可以从控制器与录音设备的配合方式了解它的制作工具体系。",
+    "topics": [
+      "MIDI 控制器",
+      "录音",
+      "监听"
+    ],
+    "products": [
+      "MIDI 键盘",
+      "音频接口",
+      "监听设备"
+    ],
+    "sources": [
+      {
+        "label": "笛美音响品牌资料",
+        "url": "http://www.digime.com.cn/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Digime 笛美音响": {
+    "summary": "面向音乐创作与录音的设备代理商",
+    "description": "笛美音响从事音乐设备销售与服务，官网品牌中心列有 Arturia、Audient、MIDIPLUS 和 Peavey，产品覆盖合成器控制、音频接口及相关制作设备。",
+    "topics": [
+      "音频代理",
+      "音乐制作",
+      "录音"
+    ],
+    "products": [
+      "Arturia",
+      "Audient",
+      "MIDIPLUS"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://www.digime.com.cn/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Stylophone": {
+    "summary": "用触笔演奏的口袋合成器",
+    "description": "Stylophone 以触笔接触金属键盘的演奏方式著称，小型电子乐器兼顾直接上手与声音实验。其产品线也扩展到节奏设备、Theremin 与模块化声音探索。",
+    "topics": [
+      "便携合成器",
+      "触笔演奏",
+      "声音实验"
+    ],
+    "products": [
+      "Stylophone S-1",
+      "Stylophone BEAT",
+      "Theremin"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://stylophone.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Osc Audio 奥斯中乐": {
+    "summary": "专业录音设备与模拟声音处理",
+    "description": "Osc Audio 提供专业录音与声音处理设备。官网展示监听控制器、话筒、电子管压限器和 500 系列相关产品，适合了解录音信号链与外部硬件处理。",
+    "topics": [
+      "录音设备",
+      "模拟处理",
+      "监听"
+    ],
+    "products": [
+      "话筒",
+      "压限器",
+      "监听控制器"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://osc-pro.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Jeanie": {
+    "summary": "来自大连的模块与桌面合成器开发者",
+    "description": "主办方 2025 年介绍将 Jeanie 列为来自大连、专注 Eurorack 模块和桌面合成器设计的电子技术公司。这里保留其开发方向，具体本届展品以展位展示为准。",
+    "topics": [
+      "Eurorack",
+      "桌面合成器"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Fukusan Kigyo Co., Ltd": {
+    "summary": "日本电子乐器与录音设备进口代理商",
+    "description": "福产起业为日本市场引入电子乐器和录音设备，涵盖模拟及数字合成器、Eurorack、鼓机、效果器和前级，并提供经销与用户支持。",
+    "topics": [
+      "乐器代理",
+      "合成器",
+      "Eurorack"
+    ],
+    "products": [
+      "合成器",
+      "鼓机",
+      "效果器"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://fukusan.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "NoiseTone": {
+    "summary": "以合成器为中心的成都器材商店",
+    "description": "NoiseTone 为合成器玩家提供器材销售、资料翻译、教学和支持，也参与社区交流。主办方过往活动列出其提供的 SOMA、Torso、Bastl 等设备体验。",
+    "topics": [
+      "合成器商店",
+      "教学",
+      "社区"
+    ],
+    "products": [
+      "合成器",
+      "桌面电子乐器"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://noisetone.store/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "SOMA Laboratory": {
+    "summary": "强调身体参与和声音探索的电子乐器",
+    "description": "SOMA 以“浪漫工程”为理念，探索非常规的电子乐器交互。官网产品涵盖 LYRA-8、PULSAR-23、TERRA、COSMOS 等，关注触觉、即兴和持续变化的声音。",
+    "topics": [
+      "实验乐器",
+      "触觉演奏",
+      "声音探索"
+    ],
+    "products": [
+      "LYRA-8",
+      "PULSAR-23",
+      "TERRA",
+      "COSMOS"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://somasynths.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "ASM": {
+    "summary": "以 Hydrasynth 为代表的合成器品牌",
+    "description": "ASM（Ashun Sound Machines）开发键盘与合成器。Hydrasynth 以数字波形变形合成和复音触后等演奏控制为特点，产品包含键盘与桌面形态。",
+    "topics": [
+      "数字合成器",
+      "演奏控制"
+    ],
+    "products": [
+      "Hydrasynth 系列"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://www.ashunsoundmachines.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "ACE 安恒利": {
+    "summary": "音频、视频与舞台灯光设备及系统服务",
+    "description": "安恒利提供专业音频、视频和舞台灯光设备及工程服务，覆盖剧场、场馆和娱乐等应用。官网品牌包括 Allen & Heath，适合了解调音台及现场系统。",
+    "topics": [
+      "专业音频",
+      "现场扩声",
+      "系统集成"
+    ],
+    "products": [
+      "Allen & Heath",
+      "调音台",
+      "舞台系统"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://www.acehk.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "HarmTrix Instrument": {
+    "summary": "探索模块合成器设计与实践",
+    "description": "本届官方日程包含陈梓涵主讲的“HarmTrix：一些关于模块合成器的设计与实践”，并以 Harmtrix Instrument 署名参加演出。目前可确认其模块设计与实践方向，产品资料仍待补充。",
+    "topics": [
+      "模块设计",
+      "模块演出"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "本届官方讲座日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      }
+    ],
+    "status": "limited",
+    "checkedAt": "2026-10-12"
+  },
+  "Donner 唐农乐器": {
+    "summary": "覆盖演奏与音乐制作的乐器品牌",
+    "description": "Donner 开发乐器及相关音乐工具，官网产品包含吉他、数字钢琴与 MIDI 产品，也提供音乐学习资源。可从电子控制、演奏和制作设备了解其产品范围。",
+    "topics": [
+      "电子乐器",
+      "MIDI",
+      "音乐教育"
+    ],
+    "products": [
+      "MIDI 产品",
+      "数字钢琴",
+      "吉他"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.donnermusic.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Theresyn": {
+    "summary": "将 Theremin、合成与声学声音结合的混合乐器",
+    "description": "Theresyn 探索 Theremin 的非接触演奏、模拟合成器及声学音频的组合。官网还介绍 Les DiffYUseurs 等声音装置，可关注演奏动作与声音之间的关系。",
+    "topics": [
+      "非接触演奏",
+      "混合乐器",
+      "声音装置"
+    ],
+    "products": [
+      "Theresyn",
+      "Les DiffYUseurs"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://theresyn.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Tin Man Synths 锡人乐器": {
+    "summary": "面向 DIY 合成器的模块、套件与元件",
+    "description": "锡人乐器提供预装模块、DIY 套件、PCB、面板和元件，也参与合成器制作与教育。适合想从组装和电路层面理解模块合成器的观众。",
+    "topics": [
+      "DIY",
+      "Eurorack",
+      "元件"
+    ],
+    "products": [
+      "DIY 套件",
+      "PCB 与面板",
+      "预装模块"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://tinmansynths.cn/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Synido 森林岛": {
+    "summary": "面向创作与录音的 MIDI 和音频工具",
+    "description": "Synido 开发 MIDI 控制器、MIDI 键盘与音频接口，产品服务于编曲、演奏、录音和直播等场景，强调将演奏控制和音频输入接入创作流程。",
+    "topics": [
+      "MIDI 控制器",
+      "音频接口",
+      "录音"
+    ],
+    "products": [
+      "MIDI 控制器",
+      "MIDI 键盘",
+      "音频接口"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.synido.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Robkoo 锣拨科技": {
+    "summary": "把数字吹奏乐器与音乐应用连接起来",
+    "description": "锣拨科技开发数字吹奏乐器及音乐应用。官网包含 Clarii、R1 等乐器和 JamKoo、Qithesizer 等应用，可了解呼吸与演奏动作如何参与电子声音控制。",
+    "topics": [
+      "数字吹奏",
+      "演奏控制",
+      "音乐应用"
+    ],
+    "products": [
+      "Clarii",
+      "R1",
+      "JamKoo"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.robkoo.com/en/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "ESI Pro 怡歌": {
+    "summary": "录音接口、MIDI 与监听设备",
+    "description": "怡歌的 ESI 产品体系包含 USB 音频接口、MIDI 接口与控制器、监听设备和网络音频产品。适合了解个人工作室和移动录音中的输入、控制与监听。",
+    "topics": [
+      "音频接口",
+      "MIDI",
+      "监听"
+    ],
+    "products": [
+      "Neva",
+      "Amber",
+      "Xjam",
+      "MoCo"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "http://www.esi-audio.cn/indexnew.asp"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Leidian Audio 雷电音频": {
+    "summary": "面向录音工作室的专业音频设备",
+    "description": "雷电音频提供专业录音、监听与声音处理设备，官网列有 ATC、Bricasti Design、Drawmer、Heritage Audio、SOYUZ 等品牌，涵盖话筒、前级、压缩与监听信号链。",
+    "topics": [
+      "录音设备",
+      "监听",
+      "外部处理"
+    ],
+    "products": [
+      "ATC",
+      "Bricasti Design",
+      "Drawmer",
+      "SOYUZ"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.leidianaudio.com/index.html"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Elektron": {
+    "summary": "将音序与声音设计紧密结合的电子乐器",
+    "description": "Elektron 来自瑞典，开发用于创作和现场表演的电子乐器。Digitakt II 结合鼓机与立体声采样，Digitone II 侧重数字合成，Syntakt 结合节奏与合成；音序操作贯穿其创作流程。",
+    "topics": [
+      "音序器",
+      "采样",
+      "现场演奏"
+    ],
+    "products": [
+      "Digitakt II",
+      "Digitone II",
+      "Syntakt"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.elektron.se/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Erica Synths": {
+    "summary": "覆盖 Eurorack、鼓机与完整系统的合成器品牌",
+    "description": "Erica Synths 的产品横跨模块、完整 Eurorack 系统、合成器、鼓机、效果器与 DIY 套件。既能了解独立模块，也能观察完整声音系统的构成。",
+    "topics": [
+      "Eurorack",
+      "鼓机",
+      "DIY"
+    ],
+    "products": [
+      "Eurorack 模块与系统",
+      "鼓机",
+      "DIY 套件"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.ericasynths.lv/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Schlappi Engineering": {
+    "summary": "面向实验声音的 Eurorack 模块",
+    "description": "Schlappi Engineering 开发实验性 Eurorack 模块。官网产品包含 Three Body、100 Grit、Angle Grinder 和 Interstellar Radio，可从这些模块了解其声音生成与处理方向。",
+    "topics": [
+      "Eurorack",
+      "实验声音",
+      "声音处理"
+    ],
+    "products": [
+      "Three Body",
+      "100 Grit",
+      "Angle Grinder"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://schlappiengineering.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "ALM Busy Circuits": {
+    "summary": "模块、独立乐器与软件组成的创作工具",
+    "description": "ALM Busy Circuits 开发 Eurorack、独立硬件和软件工具。其产品包括 Squid Salmple 采样模块，适合关注采样及模块工作流程的创作者了解。",
+    "topics": [
+      "Eurorack",
+      "采样",
+      "软件工具"
+    ],
+    "products": [
+      "Squid Salmple",
+      "Eurorack 模块"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://busycircuits.com/"
+      },
+      {
+        "label": "Squid Salmple 官方产品手册",
+        "url": "https://busycircuits.com/docs/alm022-manual.pdf"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "RYK Modular": {
+    "summary": "以 M185 音序器为代表的模块开发者",
+    "description": "RYK Modular 开发模块合成器产品，M185 音序器是其代表产品之一。官网也提供 Vector Wave、Algo 等产品及部分模块的 DIY 套件制作资料。",
+    "topics": [
+      "Eurorack",
+      "音序器",
+      "DIY"
+    ],
+    "products": [
+      "M185",
+      "Vector Wave",
+      "Algo"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.ryk-modular.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Befaco": {
+    "summary": "结合成品模块、DIY 套件与工作坊的品牌",
+    "description": "Befaco 在巴塞罗那设计和组装模块合成器，提供成品、DIY 套件及实践工作坊。产品涵盖声音生成、处理、控制与机箱电源，适合边制作边理解模块系统。",
+    "topics": [
+      "Eurorack",
+      "DIY",
+      "工作坊"
+    ],
+    "products": [
+      "Rampage",
+      "Oneiroi",
+      "VCMC",
+      "DIY 套件"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.befaco.org/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "203 Systems": {
+    "summary": "以开放系统驱动的网格控制器",
+    "description": "203 Systems 的 Mystrix 是使用 Matrix OS 的智能网格控制器，应用涵盖音乐、游戏、直播与创意自动化。可以关注网格交互及控制器在创作流程中的可扩展性。",
+    "topics": [
+      "网格控制器",
+      "开放系统",
+      "音序"
+    ],
+    "products": [
+      "Mystrix",
+      "Matrix OS"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://203.io/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Easternedison 怡同科技": {
+    "summary": "连接专业录音软硬件的音频设备服务商",
+    "description": "怡同科技官网展示 Avid、sE、Rupert Neve Designs、Apogee 等产品，涵盖工作站、控制台、音频接口、话筒与模拟处理，适合了解专业录音链路。",
+    "topics": [
+      "音频代理",
+      "录音工作站",
+      "录音设备"
+    ],
+    "products": [
+      "Avid",
+      "Apogee",
+      "sE",
+      "Rupert Neve Designs"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.easternedison.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "DMT Pro 传新科技": {
+    "summary": "面向制作、广播和现场的专业音频方案",
+    "description": "传新科技为音乐与影视制作、广播电视、舞台及固定安装提供专业设备与方案。官网列有 Ableton、Eventide、Genelec、Expressive E 等品牌。",
+    "topics": [
+      "音频代理",
+      "音乐制作",
+      "系统方案"
+    ],
+    "products": [
+      "Ableton",
+      "Eventide",
+      "Genelec",
+      "Expressive E"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.dmtpro.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Ableton": {
+    "summary": "从软件到硬件的音乐创作工具",
+    "description": "Ableton 开发 Live 音乐制作软件，以及 Push、Move 和 Note 等工具。产品围绕创作、声音探索和表演构建，也提供合成与音乐学习资源。",
+    "topics": [
+      "音乐制作",
+      "现场表演",
+      "控制器"
+    ],
+    "products": [
+      "Live",
+      "Push",
+      "Move",
+      "Note"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.ableton.com/en/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Eventide": {
+    "summary": "从机架到踏板与插件的声音效果品牌",
+    "description": "Eventide 开发录音室处理器、效果踏板、插件和 Eurorack 产品，覆盖多种声音处理形式。代表设备包括 H9000 和 H90，可关注外部效果与制作流程的结合。",
+    "topics": [
+      "效果器",
+      "插件",
+      "声音处理"
+    ],
+    "products": [
+      "H9000",
+      "H90",
+      "音频插件"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.eventideaudio.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Australian Tactile Instruments": {
+    "summary": "为现场操作设计的声音处理硬件",
+    "description": "Australian Tactile Instruments + Synthesiser Modules 来自澳大利亚纽卡斯尔，受到 80、90 年代声音设备启发，开发用于现场演奏与操作的硬件，也探索软件与研究项目。",
+    "topics": [
+      "现场演奏",
+      "声音处理",
+      "硬件"
+    ],
+    "products": [
+      "Dual Pitchshifter",
+      "Air Conditioner"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://auti.sm/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Instruō": {
+    "summary": "在格拉斯哥设计与手工制作的模块乐器",
+    "description": "Instruō 的团队在苏格兰格拉斯哥设计和手工制作 Eurorack 模块，也开发独立乐器与生物信号声音化工具。官网提供产品与 patching 学习资料。",
+    "topics": [
+      "Eurorack",
+      "声音设计",
+      "生物信号"
+    ],
+    "products": [
+      "Eurorack 模块",
+      "Seashell",
+      "Pocket SCÍON"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://www.instruomodular.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Shakmat Modular": {
+    "summary": "围绕节奏、控制与声音生成的模块工具",
+    "description": "Shakmat 开发 Eurorack 模块，官网产品包含军鼓合成器、混合声音模块，以及可记录和处理演奏动作的控制工具，适合关注节奏与模块表演。",
+    "topics": [
+      "Eurorack",
+      "节奏",
+      "演奏控制"
+    ],
+    "products": [
+      "Lancer's Lash",
+      "Ballista Blast",
+      "Griffin's Claws"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://shakmat.com/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Gm.XE": {
+    "summary": "以简洁设计探索模块与触控乐器",
+    "description": "GM.XE 是设计模块合成器与声音乐器的个人工作室。官网介绍多通道 CV 生成与处理模块、FM 声音模块及触控相关项目，关注功能与简洁交互的结合。",
+    "topics": [
+      "Eurorack",
+      "CV 调制",
+      "触控"
+    ],
+    "products": [
+      "700 Function",
+      "700 FM Voice",
+      "AuraTie"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://gmxe.org/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Biti Workshop": {
+    "summary": "来自成都的模块制作与机箱工作室",
+    "description": "bitiworkshop 由软件工程师与合成器制作者运营，位于成都。项目包含与 FIG 合作重新设计面板的 Mutable Instruments 复刻模块、Eurorack 机箱及开源 3D 打印机箱。",
+    "topics": [
+      "DIY",
+      "Eurorack",
+      "开源机箱"
+    ],
+    "products": [
+      "BITI × FIG",
+      "Tiny Rack",
+      "Eurorack 机箱"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://bitiworkshop.com"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Tangible Music Lab": {
+    "summary": "研究身体、物件与音乐交互的艺术实验室",
+    "description": "Tangible Music Lab 是奥地利林茨艺术大学媒体研究所的艺术研究团队，探索音乐中的人机交互与可触摸界面，通过乐器设计和艺术实践研究声音如何被身体操作。",
+    "topics": [
+      "音乐交互",
+      "艺术研究",
+      "乐器设计"
+    ],
+    "products": [
+      "可触摸音乐界面",
+      "数字乐器研究"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://tamlab.kunstuni-linz.at/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Mad Kids Empire 疯孩帝国": {
+    "summary": "探索混沌声音的独立电子乐器",
+    "description": "主办方链接的 Sonic Seed 页面列有疯孩帝国的 Seofon 柒混沌合成器，以及 Mini Chaos Roll 和香蕉插头接线配件。可从混沌声音与不同接线形式了解其乐器方向。",
+    "topics": [
+      "混沌合成",
+      "实验乐器",
+      "配件"
+    ],
+    "products": [
+      "Seofon 柒",
+      "Mini Chaos Roll",
+      "香蕉接线"
+    ],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://sonic-seed.com/collections/madkids"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "ToyLeader": {
+    "summary": "开发音频插件的本土创作团队",
+    "description": "ToyLeader 开发音频软件与效果器。其公开新闻稿介绍 AIR Puncture 人声效果器插件，围绕人声声音处理与直接操作展开，适合关注软件音频开发的观众了解。",
+    "topics": [
+      "音频插件",
+      "人声处理"
+    ],
+    "products": [
+      "AIR Puncture"
+    ],
+    "sources": [
+      {
+        "label": "品牌新闻稿（Midifan 刊载）",
+        "url": "https://www.midifan.com/modulenews-detailview-56669.htm"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "Electro Weird 怪电屋": {
+    "summary": "以西海岸合成思路探索电子乐器",
+    "description": "主办方 2025 年资料介绍，怪电屋于 2023 年创立，主要在北京进行创作，关注西海岸合成风格、音频技术与乐器设计。",
+    "topics": [
+      "西海岸合成",
+      "乐器设计"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Heisenberg 海森堡电子工业": {
+    "summary": "来自北京的音频硬件开发团队",
+    "description": "主办方 2025 年资料介绍，海森堡电子工业是由王铭哲于大学期间发起的音频硬件开发团队，成立于 2021 年 4 月。具体本届设备仍待公开资料补充。",
+    "topics": [
+      "音频硬件",
+      "独立开发"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Modular Khiat": {
+    "summary": "以系统思路开发 Eurorack 模块",
+    "description": "主办方 2025 年资料将 modular.khiat 列为来自杭州的 Eurorack 制造者，强调以系统化思路设计模块。可以关注各模块在整套系统中的分工与连接。",
+    "topics": [
+      "Eurorack",
+      "系统设计"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Entropy Music": {
+    "summary": "连接电子设备、装置和即兴音乐的创作团体",
+    "description": "主办方 2025 年资料介绍，Entropy Music 由音乐人沐阳创立，创作涉及 MIDI 与音频设备、艺术装置、音乐工作坊和即兴音乐社区。",
+    "topics": [
+      "MIDI",
+      "艺术装置",
+      "即兴音乐"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Synthesis Minority 合成少数派": {
+    "summary": "分享合成器知识与声音探索的媒体平台",
+    "description": "主办方 2025 年资料介绍，合成少数派由孟奇与 Annqi 运营，面向合成器爱好者分享乐趣、资讯与见解，侧重知识传播和社区交流。",
+    "topics": [
+      "合成器媒体",
+      "知识分享",
+      "社区"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Synso Instrument": {
+    "summary": "来自杭州的独立乐器设计工作室",
+    "description": "主办方 2025 年资料将 SYNSO Instruments 介绍为位于浙江杭州的独立乐器设计工作室。这里保留已核实的定位，具体产品与本届展示内容待补充。",
+    "topics": [
+      "独立乐器",
+      "乐器设计"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Coding Inspire Modular": {
+    "summary": "关注模块硬件架构与灵活配置",
+    "description": "主办方 2025 年资料将 Coding Inspire Modular 列为来自福州的开发者，介绍重点为模块的硬件架构、适应性配置和声音设计工作流程。",
+    "topics": [
+      "Eurorack",
+      "硬件设计"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Akashic": {
+    "summary": "由独立开发者 Rux 创立的品牌",
+    "description": "主办方 2025 年资料介绍，Akashic 来自哈尔滨，由独立开发者 Rux 创立，属于哈尔滨云程文化传播有限公司。具体产品介绍仍待进一步核实。",
+    "topics": [
+      "独立开发"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "Mini Audio": {
+    "summary": "面向动手制作的 DIY 套件与模块机箱",
+    "description": "主办方 2025 年资料介绍，MiNi Audio 由独立开发者 Ciiyte 创立，来自银川，主要产品为 DIY 套件与定制 Eurorack 机箱。",
+    "topics": [
+      "DIY",
+      "Eurorack 机箱"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "PostInterface 后界面": {
+    "summary": "把声音创作转化为可触摸的交互体验",
+    "description": "主办方 2025 年资料介绍，后界面源于“模块化剧场”研究项目，探索声音、光与交互组成的开放表演系统，并推动可触摸界面成为便于参与的声音产品。",
+    "topics": [
+      "可触摸界面",
+      "交互设计",
+      "声光装置"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方 2025 年展商介绍",
+        "url": "https://modularcommune.com/exhibitors-2025/"
+      }
+    ],
+    "status": "historical",
+    "checkedAt": "2026-10-12"
+  },
+  "30K": {
+    "summary": "以 30K 署名参与本届现场演出",
+    "description": "本届官方日程列有“30K-杨堉 (30K)”的现场演出。目前可确认其演出署名，独立开发产品和技术方向尚缺少可核实的公开介绍。",
+    "topics": [
+      "现场演出"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "本届官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      }
+    ],
+    "status": "limited",
+    "checkedAt": "2026-10-12"
+  },
+  "Nightmare Huzz": {
+    "summary": "参与本届模块现场演出的创作者",
+    "description": "本届官方日程以“Huzz (Nightmare Huzzz)”署名列出演出，并有与 modular.khiat 的合作场次。名称按现有展位图保留，开发产品资料仍待补充。",
+    "topics": [
+      "模块演出"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "本届官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      }
+    ],
+    "status": "limited",
+    "checkedAt": "2026-10-12"
+  },
+  "Outlying Audio": {
+    "summary": "已列入主办方品牌制造商名单",
+    "description": "主办方本届展商页链接至 Outlying Audio 官网。目前官网以预告信息为主，尚未提供足以核实的产品介绍；后续公布后再补充具体方向。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "展商官网",
+        "url": "https://outlying.audio/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "Guangzhou Pro Light + Sound 广州国际灯光音响展": {
+    "summary": "专业灯光、音响与视听行业交流平台",
+    "description": "广州国际专业灯光、音响展览会连接专业音响、灯光与视听行业，也设有录音与制作相关展示内容，适合了解声音技术在制作、现场与系统应用中的交集。",
+    "topics": [
+      "行业展会",
+      "专业音响",
+      "灯光"
+    ],
+    "products": [],
+    "sources": [
+      {
+        "label": "展会官方博客",
+        "url": "https://prolight-sound-blog.com/recording-production-zone-audio-production-between-studio-stage-and-content-creation/"
+      }
+    ],
+    "status": "verified",
+    "checkedAt": "2026-10-12"
+  },
+  "cocolab 椰椰尤西卡": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "已按现有展商名单与展位图收录。此次检索暂未找到能够明确对应这一名称的产品或创作介绍，后续获得官网、开发者资料或主办方介绍后补充。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "Retrograde Future 因循未来": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "已按现有展商名单与展位图收录。此次检索暂未找到能够明确对应这一名称的产品或创作介绍，后续获得官网、开发者资料或主办方介绍后补充。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "Cosmic Slime (Invincible) 宇宙无敌史莱姆": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "已按现有展商名单与展位图收录。此次检索暂未找到能够明确对应这一名称的产品或创作介绍，后续获得官网、开发者资料或主办方介绍后补充。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "Telan": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "已按现有展商名单与展位图收录。此次检索暂未找到能够明确对应这一名称的产品或创作介绍，后续获得官网、开发者资料或主办方介绍后补充。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "SoundWall Audio": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "本届展位图将其列为二层独立开发者；Music X 2026 的公开新闻稿也列有同名音乐科技品牌。目前尚缺少可明确核实的产品方向，保留待补充状态。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      },
+      {
+        "label": "Music X 2026 新闻稿",
+        "url": "https://www.midifan.com/modulenews-detailview-61064.htm"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "Oenes Source": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "已按现有展商名单与展位图收录。此次检索暂未找到能够明确对应这一名称的产品或创作介绍，后续获得官网、开发者资料或主办方介绍后补充。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "DMI design": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "已按现有展商名单与展位图收录。此次检索暂未找到能够明确对应这一名称的产品或创作介绍，后续获得官网、开发者资料或主办方介绍后补充。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "GAUxWAn": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "已按现有展商名单与展位图收录。此次检索暂未找到能够明确对应这一名称的产品或创作介绍，后续获得官网、开发者资料或主办方介绍后补充。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  },
+  "Liman Instrument": {
+    "summary": "二层独立开发者 · 介绍待补充",
+    "description": "已按现有展商名单与展位图收录。此次检索暂未找到能够明确对应这一名称的产品或创作介绍，后续获得官网、开发者资料或主办方介绍后补充。",
+    "topics": [],
+    "products": [],
+    "sources": [
+      {
+        "label": "主办方展商目录",
+        "url": "https://modularcommune.com/exhibitors-2026/"
+      }
+    ],
+    "status": "pending",
+    "checkedAt": "2026-10-12"
+  }
+}

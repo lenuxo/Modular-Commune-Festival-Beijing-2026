@@ -1,0 +1,7210 @@
+{
+  "master-21-5b235d116d32": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/an-on-bast-master-class/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "从艺术意图到舞台操作，设计适合自己演奏的模块系统。",
+    "sections": [
+      {
+        "heading": "课程内容",
+        "paragraphs": [
+          "An On Bast 将从创作意图出发，讨论模块系统由构想到舞台的全过程：系统设计、音色架构、动态变化、灵活性及实际演奏流程。课程重点包含多声部 Patch、动态过渡，以及结构化编排与即兴之间的平衡。",
+          "另一部分关注接线与操作的人体工学：如何让舞台系统直观、可控制，并容纳外部硬件乐器。目标是把设备组合成能够表达个人艺术想法的乐器，而不是只停留在功能配置。"
+        ]
+      },
+      {
+        "heading": "购票与语言",
+        "paragraphs": [
+          "单场大师课 200 元，五场通票 500 元。官方专页提供微信购票二维码，也说明可现场购票；课程提供现场中文翻译。普通音乐节入场与大师课票务需分别确认。",
+          "官方未统一要求自带设备，也未公布预备知识门槛。可先梳理个人创作中的问题，是否需要携带器材以购票入口或主办方通知为准。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/an-on-bast/"
+    ]
+  },
+  "master-22-2c7990283490": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/eric-schlappi-master-class/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "跟随乐器设计者，理解反馈路径如何塑造强烈而可变化的音色。",
+    "sections": [
+      {
+        "heading": "课程内容",
+        "paragraphs": [
+          "Eric Schlappi 将解析自己熟悉的反馈路径，涉及 Interstellar Radio、100 Grit、Three Body 和 Eddy 等模块。课程从目标功能或音色出发，说明反馈如何改变、变异和发展原有声音。",
+          "官方介绍列出的内容包括反馈的基本原理、运作机制、不同场景中的接线方法，以及由这些路径产生的音色特征。可以带着“什么时候反馈成为可演奏的声音材料”这一问题参加。"
+        ]
+      },
+      {
+        "heading": "购票与语言",
+        "paragraphs": [
+          "单场大师课 200 元，五场通票 500 元。官方专页提供微信购票二维码，也说明可现场购票；课程提供现场中文翻译。普通音乐节入场与大师课票务需分别确认。",
+          "官方未统一要求自带设备，也未公布预备知识门槛。可先梳理个人创作中的问题，是否需要携带器材以购票入口或主办方通知为准。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/eric-schlappi/"
+    ]
+  },
+  "live-23-00eaa2d1cb28": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Jarrod Radnich 汪明哲 / (Heisenberg 海森堡电子工业)",
+        "url": "https://modularcommune.com/jarrod-radnich/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/jarrod-radnich/"
+    ],
+    "summary": "汪明哲是来自长春的电子音乐爱好者、合成器开发者和乐队键盘手，主理海森堡电子工业。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可观察硬件控制与软件功能如何结合，以及键盘演奏经验如何影响现场操作和音乐组织。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/jarrod-radnich/"
+    ]
+  },
+  "live-23-793c045ea066": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Ayshém 艾闪",
+        "url": "https://modularcommune.com/ayshem/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ayshem/"
+    ],
+    "summary": "北京音乐人 Ayshém 艾闪的实践包括词曲、演唱与演奏。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "她的现场以模块硬件即兴为重要表达方式，可关注精细音色、旋律感与舞曲节奏如何在实时操作中相互牵引。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ayshem/"
+    ]
+  },
+  "live-23-4641d9375c8f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Ankar Arken",
+        "url": "https://modularcommune.com/ankar-arken/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ankar-arken/"
+    ],
+    "summary": "Ankar Arken 是声音设计师、DJ 与声音艺术家，经历连接伦敦实验场景及中国地下俱乐部。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可以同时听声源的质地与节奏的推动，留意现实声音如何被处理为抽象电子材料。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ankar-arken/"
+    ]
+  },
+  "live-23-06af939226fb": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Gia Wang",
+        "url": "https://modularcommune.com/gia-wang/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/gia-wang/"
+    ],
+    "summary": "Gia Wang 是北京前卫音乐艺术家、作曲者，以模拟合成器与电子管弦乐探索现场表达。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从旋律的自由展开、身体动作与声音之间的联系入手，不必用单一舞曲类型理解她的创作。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/gia-wang/"
+    ]
+  },
+  "live-23-13445c0a4f52": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：rezenico",
+        "url": "https://modularcommune.com/rezenico/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/rezenico/"
+    ],
+    "summary": "rezenico 是实验音乐人、制作人、DJ 和策划者，运营 table桌 与 zine 项目 lyndossier連帶責任。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从俱乐部、声音实验和媒体实践之间的连接理解现场，留意材料与情绪的组织。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/rezenico/"
+    ]
+  },
+  "live-23-13b39e251032": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：kevinke 王凯文 (bitiworkshop)",
+        "url": "https://modularcommune.com/kevinkewang/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/kevinkewang/"
+    ],
+    "summary": "王凯文曾从事软件工程，后转向音乐创作，是 bitiworkshop 模块品牌的独立开发者，也推广 DIY 合成器文化。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意音色缓慢变化与空间的关系，以及开发者对声音工具的理解如何进入演奏。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/kevinkewang/"
+    ]
+  },
+  "talk-23-cb4e9b35f407": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "品牌官网",
+        "url": "https://www.expressivee.com/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "接触 Expressive E 对触感、动作与电子声音表现力的探索。",
+    "sections": [
+      {
+        "heading": "活动内容",
+        "paragraphs": [
+          "官方目前以“Expressive E workshop”公布本场，并署名 Stan，没有进一步列出课程大纲、演示设备或参与者准备要求。品牌背景可以帮助理解这场活动，但不能据此认定会展示全部产品。"
+        ]
+      },
+      {
+        "heading": "品牌背景",
+        "paragraphs": [
+          "Expressive E 的产品关注电子乐器的表现力控制，例如将触摸、压力和演奏动作映射到声音变化。相比只选择一个固定音色，这类界面强调在单个音符内部持续改变声音。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可带着这些问题观看：一个动作会同时改变哪些声音特征？声音变化能否保持连续？演奏者如何把动作控制转化为音乐句法？实际讲解内容仍以现场为准。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "stan"
+    ]
+  },
+  "live-23-731f72b83f05": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：WENXI 温其希",
+        "url": "https://modularcommune.com/wenxi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/wenxi/"
+    ],
+    "summary": "温其希是台湾声音艺术家、电声作曲者，结合电子声音设计、多模态合成器与当代原声配器。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意音色的呼吸、空间与渐变，把细微纹理而非固定节拍作为聆听起点。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/wenxi/"
+    ]
+  },
+  "live-23-9c69b9572ce4": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：SYNSO (SYNSO Instruments)",
+        "url": "https://modularcommune.com/synso/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/synso/"
+    ],
+    "summary": "SYNSO 是独立乐器设计者、视觉艺术家与 SYNSO INSTRUMENT 创始人，毕业于中国美术学院时尚设计专业，也是“一枝花”乐队鼓手。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从节奏经验、视觉背景与乐器设计的交汇进入现场，观察工具如何影响表达。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/synso/"
+    ]
+  },
+  "live-23-f057e4aba500": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Wanfan 万子昊 (GAU x WAn)",
+        "url": "https://modularcommune.com/wanfan/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/wanfan/"
+    ],
+    "summary": "Wanfan 万子昊是常驻广州的制作人、DJ 及影视配乐创作者，也从事音乐制作教学。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意声音的远近、质感和色彩变化，听配乐及制作经验如何进入现场。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/wanfan/"
+    ]
+  },
+  "live-23-039536bb0d29": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Laurent Lettrée AKA 觉然",
+        "url": "https://modularcommune.com/laurent-lettree/"
+      },
+      {
+        "label": "主办方：Ola Moonk",
+        "url": "https://modularcommune.com/ola-moonk/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/laurent-lettree/",
+      "https://modularcommune.com/ola-moonk/"
+    ],
+    "summary": "法国艺术家 Laurent Lettrée / 觉然自 1990 年代起制作声音、装置与电子乐器，经常为演出开发新的装置。 Ola Moonk 是荷兰声音艺术家、乐器制作者 Peter de Haan，长期制作手鼓并组织工作坊，后转向 Eurorack，与 Error Instruments 的 Paul Tas 合作制作和演奏。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Laurent Lettrée AKA 觉然：可关注装置与动作怎样影响声音，把现场当作没有固定剧本的声音叙事来体验。",
+          "Ola Moonk：可关注声音在空间中的位置与移动，以及手工乐器思维怎样进入模块演奏；联合场次配置仍需现场确认。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/laurent-lettree/",
+      "https://modularcommune.com/ola-moonk/"
+    ]
+  },
+  "diy-23-397e72161139": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/tian-jinqin-xian-kong-qin-instruments/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "亲手制作源于田进勤 1978 年设计的单音 MIDI / CV 条带控制器。",
+    "sections": [
+      {
+        "heading": "制作内容",
+        "paragraphs": [
+          "工作坊将介绍田进勤的弦控乐器，并制作一款可用于 MIDI 乐器及模块系统的单音 Ribbon Controller。它保留连续音高和包络的触感表达，同时加入可选音律、可调音域及触后控制等现代功能。",
+          "三小时内将完成硬件组装、电路板编程及合成器或数字音源测试。官方明确表示无需电子、编程或合成器预备知识；可携带自己的设备，现场也会提供测试乐器。"
+        ]
+      },
+      {
+        "heading": "报名与准备",
+        "paragraphs": [
+          "本场免费，名额 10 人。请于 10 月 15 日前向 enrique.tomas@kunstuni-linz.at 发送中文或英文邮件，简述兴趣及未来使用乐器的构想；官方计划于 10 月 16 日通知入选者。收藏活动不会完成报名。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "title": "弦控琴工作坊：制作单音 MIDI / CV 条带控制器",
+    "peopleIds": [
+      "https://modularcommune.com/enrique-tomas/",
+      "https://modularcommune.com/boris-shershenkov/"
+    ]
+  },
+  "live-23-2bfa97293c36": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Andrew",
+        "url": "https://modularcommune.com/andrew/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/andrew/"
+    ],
+    "summary": "Andrew 的创作兴趣在电子电路的混沌中寻找声音、美感与噪音，并通过锡人乐器推广 DIY 合成器文化。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可把噪音和不稳定的变化当作乐器的响应来听，关注它们如何被组织成现场表达。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/andrew/"
+    ]
+  },
+  "talk-23-4ad936e6ace9": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Ableton 官网",
+        "url": "https://www.ableton.com/en/"
+      },
+      {
+        "label": "主办方：CRAT西略",
+        "url": "https://modularcommune.com/crat/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/crat/"
+    ],
+    "summary": "以 Push 独立演奏为起点，讨论循环、MPE 和 CV 的氛围音乐工作流。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "题目明确连接 Push 独立演出、Live Looping、MPE 和 CV 合成器拓展，目标语境是氛围音乐工作流。可以把它理解为从一个核心演奏界面连接实时循环、表现力控制及外部合成器的讨论；官方尚未公布逐段演示或具体接线方案。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注循环如何叠加而保持变化、MPE 如何增加音符内部的表达，以及 CV 控制与声音信号各自承担什么角色。无需据题目推定必须自带 Push 或硬件。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/crat/"
+    ]
+  },
+  "live-23-767fb4115c19": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Philip Gelb",
+        "url": "https://modularcommune.com/philip-gelb/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/philip-gelb/"
+    ],
+    "summary": "Philip Gelb 常驻加州奥克兰，演奏尺八及 Buchla 模块系统。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从呼吸、持续音和细微音色变化进入作品，关注原声与电子声音如何共存。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/philip-gelb/"
+    ]
+  },
+  "live-23-d3250b2e0c77": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Shitaraba",
+        "url": "https://modularcommune.com/shitaraba/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/shitaraba/"
+    ],
+    "summary": "Shitaraba 以 Buchla 系统探索不断演变的即兴，创作范围从抽象节拍、复杂纹理到深沉低频，强调接线和声音设计的个人方法。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听音色与节奏如何共同生成，而不是只把合成器当作固定预设的声音来源。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/shitaraba/"
+    ]
+  },
+  "talk-23-def84d5b84bf": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "203 Systems 官网",
+        "url": "https://203.io/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "了解 203 Systems 的网格控制器及开放式交互工具。",
+    "sections": [
+      {
+        "heading": "活动内容",
+        "paragraphs": [
+          "官方日程署名 Jake Knight，题目为“203 Systems workshop”，尚未公布完整讲解内容。独立专访确认了 Jake 的 RYK Modular 设计背景，但本场题名与人物的对应关系仍需主办方确认。"
+        ]
+      },
+      {
+        "heading": "品牌背景",
+        "paragraphs": [
+          "203 Systems 的 Mystrix 是运行 Matrix OS 的网格控制器，应用范围包括音乐与创意交互。其开放系统与网格界面提供了观察音序、控制和自定义使用方式的背景。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注一个网格如何表示节奏、音符或控制状态，以及不同应用怎样改变同一硬件的用途。本场是否包含编程、产品体验或特定演示仍待公布。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "jake-knight"
+    ]
+  },
+  "live-23-a793ce4b6e3b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Lengleng (愣愣)",
+        "url": "https://modularcommune.com/lengleng/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/lengleng/"
+    ],
+    "summary": "愣愣是电子声音艺术家、作曲家与现场表演者，有爵士钢琴和现场电子背景。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注声音对动作和环境的响应，把演奏视为多个媒介之间的互动。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/lengleng/"
+    ]
+  },
+  "live-23-defaab9ce18b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：ERD (Shakmat)",
+        "url": "https://modularcommune.com/erd/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/erd/"
+    ],
+    "summary": "ERD 是 François Gaspard 的个人项目，他活跃于布鲁塞尔独立电子场景并参与 Shakmat。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听精确的节奏结构与不断演变的深层纹理如何相互作用。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/erd/"
+    ]
+  },
+  "live-23-cfbd9d6a6cb9": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Gouty Stone",
+        "url": "https://modularcommune.com/gouty-stone/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/gouty-stone/"
+    ],
+    "summary": "Gouty Stone 是台湾媒体艺术创作者黄咏仁发起的实验电子计划，受 Post-Club 影响，融合实验噪音、Glitch 和 IDM。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意故障、打断和音色碎片如何形成节奏，以及不连续的听感如何成为表达的一部分。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/gouty-stone/"
+    ]
+  },
+  "live-23-bd67362196fb": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Nefo Zhang 张曼琦",
+        "url": "https://modularcommune.com/nefo-zhang/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/nefo-zhang/"
+    ],
+    "summary": "Nefo Zhang 张曼琦由无线电兴趣进入声音实验，尝试 FM 电路、光合作用信号、弦与 CV 的连接，以及环形调制的磁带反馈。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听电路、反馈与不同信号转换后的音色，关注声音材料如何在系统中重新生成。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/nefo-zhang/"
+    ]
+  },
+  "talk-23-152c58257660": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Donner 官网",
+        "url": "https://www.donnermusic.com/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "Donner 品牌工作坊；具体产品和讲师仍待公布。",
+    "sections": [
+      {
+        "heading": "活动内容",
+        "paragraphs": [
+          "官方以“Donner workshop”公布这场活动，主讲目前为 TBA。资料没有说明演示产品、课程大纲、语言、参与门槛或自带设备要求。"
+        ]
+      },
+      {
+        "heading": "品牌背景",
+        "paragraphs": [
+          "Donner 唐农乐器的产品涵盖电子乐器、MIDI 工具、数字钢琴和吉他，也提供音乐学习资源。这些是品牌的业务范围，并不代表本场会覆盖全部类别。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可先整理自己对演奏控制、声音制作或学习流程的疑问，待讲师和演示产品明确后再决定重点。具体体验或动手环节需要后续官方信息确认。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "donner-tba"
+    ]
+  },
+  "live-23-240a380c99ac": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Éon (Instruō)",
+        "url": "https://modularcommune.com/eon/"
+      },
+      {
+        "label": "主办方：Braes (Instruō)",
+        "url": "https://modularcommune.com/braes/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/eon/",
+      "https://modularcommune.com/braes/"
+    ],
+    "summary": "Éon 是硬件合成器开发者与演奏者，以大多即兴的现场营造暂时性的想象空间。 Braes 是苏格兰作曲家 David A. Pollock 的项目，他也是 Instruō 团队成员。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Éon (Instruō)：可跟随缓慢音景到节奏性声部的变化，听同一氛围如何在不同能量下保持或转向。",
+          "Braes (Instruō)：可留意细小声音、旋律和空间感如何共同形成情绪，以及合作时声部之间的呼应。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/eon/",
+      "https://modularcommune.com/braes/"
+    ]
+  },
+  "live-23-4891b0d38949": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：CRAT西略",
+        "url": "https://modularcommune.com/crat/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/crat/"
+    ],
+    "summary": "CRAT西略是来自广西的电子音乐制作人，以 Live Set 连接乐器演奏与民族性表达，创作涉及 Tech House、Breakbeat 和 R&B。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从节奏摆动、乐器音色与现场层次的关系入手，听传统素材与电子编排如何共同推进音乐。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/crat/"
+    ]
+  },
+  "talk-23-411dff36ad26": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Shakmat 官网",
+        "url": "https://shakmat.com/"
+      },
+      {
+        "label": "主办方：ERD (Shakmat)",
+        "url": "https://modularcommune.com/erd/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/erd/"
+    ],
+    "summary": "由 ERD 主讲的 Shakmat 工作坊，连接模块工具与节奏实践。",
+    "sections": [
+      {
+        "heading": "活动内容",
+        "paragraphs": [
+          "官方仅公布“Shakmat workshop”及主讲 ERD，尚未列出本场模块清单或课程步骤。Shakmat 的产品围绕声音生成、节奏与演奏控制，可作为认识活动的背景。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注节奏模块怎样从规则拍点产生变化，控制信号怎样形成可演奏的结构，以及声音设计与节奏之间如何相互影响。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/erd/"
+    ]
+  },
+  "live-23-0ed7da5b812b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：叶晔",
+        "url": "https://modularcommune.com/yeye/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/yeye/"
+    ],
+    "summary": "叶晔以古典作曲式思路演奏 Buchla，创作涉及电影原声与世界民族音乐风格。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听旋律、声部与段落的组织，以及模块音色如何承担类似传统乐器的表达功能。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/yeye/"
+    ]
+  },
+  "live-23-138552e71877": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Ëgg",
+        "url": "https://modularcommune.com/egg/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/egg/"
+    ],
+    "summary": "Ëgg 是 Manu Retamero 的首个个人项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听节奏如何从音景中浮现，以及较明确的结构与即兴纹理之间的张力。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/egg/"
+    ]
+  },
+  "live-23-383ae60f3d4f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：希言",
+        "url": "https://modularcommune.com/xi-yan/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/xi-yan/"
+    ],
+    "summary": "希言来自西安，喜欢行走、记录有趣声音，再在不同空间中重现。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听记录声音在重放、切分或处理后怎样改变原有意义，感受现实环境与演出空间的连接。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/xi-yan/"
+    ]
+  },
+  "live-23-8b1d08475be4": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：灰 Gray Fover",
+        "url": "https://modularcommune.com/gray-fover/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/gray-fover/"
+    ],
+    "summary": "Gray Fover 是声音艺术家与跨领域创作者，工作涉及氛围、电子音乐和声音互动设计，常从日常生活、人与人的关系及环境声响中获取素材。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从环境声音与情绪的关系入手，听日常素材如何被转化为音乐中的空间与记忆。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/gray-fover/"
+    ]
+  },
+  "live-23-79761bfe140b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Eric Schlappi (Schlappi Engineering)",
+        "url": "https://modularcommune.com/eric-schlappi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/eric-schlappi/"
+    ],
+    "summary": "Eric Schlappi 是音乐人、电气工程师及 Schlappi Engineering 创始人，自 2016 年起设计 Eurorack 模块。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注反馈声音的稳定与失控边缘，以及节奏如何为复杂音色提供框架。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/eric-schlappi/"
+    ]
+  },
+  "talk-23-b4695d030af8": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "品牌官网",
+        "url": "https://auti.sm/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "了解 Australian Tactile Instruments 面向现场操作的声音工具。",
+    "sections": [
+      {
+        "heading": "活动内容",
+        "paragraphs": [
+          "官方以品牌工作坊公布，并署名 Omar Mashaal；目前未给出更详细的课程计划或主讲个人介绍。这里保留官方署名，不把品牌相关音乐项目直接当作其个人身份。"
+        ]
+      },
+      {
+        "heading": "品牌背景",
+        "paragraphs": [
+          "Australian Tactile Instruments 来自澳大利亚纽卡斯尔，以早期电子设备为灵感开发面向现场演奏的声音处理硬件，也探索软件与研究。官网产品包括 Dual Pitchshifter 和 Air Conditioner 等。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可留意手动操作怎样即时改变声音、处理设备怎样进入演出信号链，以及工具的限制如何成为创作方法。本场使用哪些产品仍待确认。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "omar-mashaal"
+    ]
+  },
+  "live-23-b1bb90a7262e": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：泻火 (MiNi Audio / Akashic)",
+        "url": "https://modularcommune.com/xie-huo/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/xie-huo/"
+    ],
+    "summary": "泻火是 Eurorack 玩家，官方自述特别强调对滤波和频域处理的兴趣，日程也以 MiNi Audio / Akashic 署名。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意声音频谱从暗到亮、从简单到复杂的变化，以及滤波如何改变音乐的能量。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/xie-huo/"
+    ]
+  },
+  "live-23-e41f45b09845": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Huzz (Nightmare Huzzz)",
+        "url": "https://modularcommune.com/huzz/"
+      },
+      {
+        "label": "主办方：oo-khiat (modular.khiat 模块乌戛)",
+        "url": "https://modularcommune.com/oo-khiat/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/huzz/",
+      "https://modularcommune.com/oo-khiat/"
+    ],
+    "summary": "Huzz（花刺）来自莱芜、现居义乌，设计制作 random nightmare 随机噩梦电子设备。 oo-khiat 乌戛是电子音乐人、声音设计者、多乐器演奏者及跨媒体创作者，实践连接俱乐部、剧场、美术馆和电子电路。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Huzz (Nightmare Huzzz)：可关注自制设备的声音性格与不稳定变化；多人演出不代表其品牌设备是唯一声源。",
+          "oo-khiat (modular.khiat 模块乌戛)：可关注声音调制、动作和系统响应，理解开发工具与现场实践如何相互促进。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/huzz/",
+      "https://modularcommune.com/oo-khiat/"
+    ]
+  },
+  "talk-23-e9b053ffb44f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主办方：陈梓涵 (Harmtrix Instrument)",
+        "url": "https://modularcommune.com/chen-zi-han/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/chen-zi-han/"
+    ],
+    "summary": "从创作者与设计者的角度，讨论模块合成器的设计和使用。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "HarmTrix 的题目明确讨论模块合成器的设计与实践，由陈梓涵主讲。活动页尚未展开具体产品、案例或动手环节，因此现阶段可以确认的是设计和创作的连接方向。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可带着“一个创作需要如何变成模块功能”“功能选择怎样影响演奏”“原型与实际使用如何互相反馈”这些问题参加。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/chen-zi-han/"
+    ]
+  },
+  "live-23-cc5bfbfe10bc": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：30K-杨堉 (30K)",
+        "url": "https://modularcommune.com/30k/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/30k/"
+    ],
+    "summary": "杨堉的实践跨越声音、雕塑、装置与行为现场。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可以把声音当作一种会变化的材料，留意音色的形状、密度与空间感，以及手工设备与现场动作之间的联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/30k/"
+    ]
+  },
+  "live-23-73cbbc84b4b4": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：RYK Modular (RYK Modular)",
+        "url": "https://modularcommune.com/ryk-modular/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ryk-modular/"
+    ],
+    "summary": "RYK Modular 是兼具乐器开发与声音探索的项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可观察乐器设计与现场声音实验的联系，但不能由品牌产品清单推定本场必用设备。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ryk-modular/"
+    ]
+  },
+  "diy-23-9ea3b24e3b82": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/pana-wave-laboratory-2026/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "用 Pana Wave Laboratory 探索身边电子设备产生的电磁声音。",
+    "sections": [
+      {
+        "heading": "项目内容",
+        "paragraphs": [
+          "Pana Wave Laboratory 是把电磁活动转为可听声音的实验工具，官方介绍覆盖市电、手机和 Wi-Fi 等信号源。身体、手部动作与附近金属物体也会影响设备响应，使日常电子环境成为声音探索的对象。",
+          "产品资料介绍了外置天线接口和音量 / 滤波控制，但活动页未公布分段制作流程。包装清单包含已经组装的 PWL、工具和说明书，因此不能直接认定每位参与者都会从零焊接整台设备。"
+        ]
+      },
+      {
+        "heading": "准备与参与",
+        "paragraphs": [
+          "官方日程标注材料费 100 元、10 个名额。产品包装不含 9V 电池；官网建议使用带 3.5mm 立体声插头的耳机。电池、耳机和工具是否由工作坊统一提供，需通过活动报名入口核实。"
+        ]
+      }
+    ],
+    "status": "schedule-discrepancy",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "alert": "时间资料存在差异：官方课程日程标注 10 月 23 日 18:00–21:00，项目专页标注当天 15:00–18:00。当前日程沿用课程表，参加前请通过报名入口向主办方确认。",
+    "peopleIds": [
+      "dennis-de-bel"
+    ]
+  },
+  "live-23-f303c2299394": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：BANANAsu",
+        "url": "https://modularcommune.com/bananasu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/bananasu/"
+    ],
+    "summary": "BANANAsu 是来自东京的电吹管演奏者，也负责 T-SQUARE 乐手伊东毅的相关设备配置与音色设计。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听呼吸、力度和句法如何作用于电子音色，理解电子管乐器与传统吹奏表达之间的联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/bananasu/"
+    ]
+  },
+  "talk-23-db3d6ea5a245": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主讲个人网站",
+        "url": "https://chihauccisoilconte.eu/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "以自由及开源工具探索定制旋钮和个人设备设计。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "题目中的 FLOSS 指自由及开源软件，活动由 Nicolò Merendino 明允成主讲，围绕用这类工具设计自己的设备展开。官方没有列出具体软件、制作步骤或材料要求，不能预设它是一场完整的硬件焊接课。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注旋钮的布局和反馈怎样影响操作、开放工具如何支持修改和分享，以及从个人需求出发设计设备的方法。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "nicolo-merendino"
+    ]
+  },
+  "live-23-4f4f3d673c86": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Paul Tas (Error Instruments)",
+        "url": "https://modularcommune.com/paul-tas/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/paul-tas/"
+    ],
+    "summary": "Paul Tas 来自阿姆斯特丹，以 Error Instruments 设计实验乐器。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意机械动作、粗糙数字细节与较柔和声源的对比，听非传统设备如何扩展乐器概念。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/paul-tas/"
+    ]
+  },
+  "live-23-3a2f7592fc00": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Erdna",
+        "url": "https://modularcommune.com/erdna/"
+      },
+      {
+        "label": "主办方：Leo",
+        "url": "https://modularcommune.com/leo/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/erdna/",
+      "https://modularcommune.com/leo/"
+    ],
+    "summary": "Erdna 出生、成长于澳大利亚墨尔本，目前在北京交流学习，探索合成器与乐器、人声或其他人为声音的结合，也对 Techno 创作感兴趣。 Leo（晨旭）是来自澳大利亚悉尼的键盘手与电子音乐人，曾以 circuits. 名义发行音乐。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Erdna：可关注电子与非电子声源之间的衔接；联合演出时，两位创作者的分工以现场为准。",
+          "Leo：可从键盘与电子创作背景理解合作，留意两位演奏者如何建立共同的节奏和音景。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/erdna/",
+      "https://modularcommune.com/leo/"
+    ]
+  },
+  "live-23-c5a22ad1a541": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：THESSIAN",
+        "url": "https://modularcommune.com/thessian/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/thessian/"
+    ],
+    "summary": "THESSIAN 是 Alex 的音乐计划，他也是音乐活动组织者、贝斯手及摇滚乐手，自 2023 年起探索模块系统。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从多种音乐经验交汇形成的节奏与音色听感入手，关注自制工具与演奏的关系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/thessian/"
+    ]
+  },
+  "live-23-de37f2d491f7": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Sylinder (Elektron)",
+        "url": "https://modularcommune.com/sylinder/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/sylinder/"
+    ],
+    "summary": "Sylinder 是 Elektron 的 Christian Alsing 的音乐项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意自然意象般的氛围与坚定节奏的对照，理解环境感与律动之间的关系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/sylinder/"
+    ]
+  },
+  "live-23-610be7790fee": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Dra333 (叁Modular)",
+        "url": "https://modularcommune.com/dra333/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/dra333/"
+    ],
+    "summary": "Dra333（叁Modular）从高中开始接触电子音乐，先探索 VCV Rack，再转向硬件。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从系统的实时变化和模块间的互动聆听；官方尚未给出本场风格或曲目，适合保留开放预期。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/dra333/"
+    ]
+  },
+  "live-23-6b29e430bb1a": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：张樵",
+        "url": "https://modularcommune.com/zhang-qiao/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/zhang-qiao/"
+    ],
+    "summary": "张樵是来自西安的独立音乐人与艺术工作者，从摇滚转向声音美学，活跃于实验音乐和影像配乐等领域。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从氛围与叙事感进入音乐，关注摇滚和配乐经验如何被转化为声音结构。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/zhang-qiao/"
+    ]
+  },
+  "live-23-82304e33ffe3": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Glenn Keteleer aka Linear Straight/Radical G (Soma Laboratory)",
+        "url": "https://modularcommune.com/glenn-keteleer-aka-linear-straight-radical-g/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/glenn-keteleer-aka-linear-straight-radical-g/"
+    ],
+    "summary": "Glenn Keteleer 常驻比利时通厄伦，以 Radical G 和 Linear Straight 等项目创作，跨越 Techno、EBM、Electro、工业、氛围和实验电子。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意设备数量与音色丰富度之间的关系，听不同层次如何在有限系统里被组织起来。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/glenn-keteleer-aka-linear-straight-radical-g/"
+    ]
+  },
+  "live-23-32258af0f1b5": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：tamiX",
+        "url": "https://modularcommune.com/tamix/"
+      },
+      {
+        "label": "主办方：Nori Ubukata (Theresyn)",
+        "url": "https://modularcommune.com/nori-ubukata/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/tamix/",
+      "https://modularcommune.com/nori-ubukata/"
+    ],
+    "summary": "tamiX 以 Buchla 200e 纯硬件即兴演奏，亦从事视觉实践，是 Midifan 创办者及音乐活动组织者，与 Eventide 有艺术家合作关系。 Nori Ubukata 是东京出生、现居法国的作曲家、特雷门琴及合成器演奏者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "tamiX：可观察手势、接线和音色变化之间的联系，听非传统键盘界面如何影响音乐的走向。",
+          "Nori Ubukata (Theresyn)：可听连续音高、手势和电子音色之间的联系，以及传统演奏表达怎样进入新型乐器界面。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/tamix/",
+      "https://modularcommune.com/nori-ubukata/"
+    ]
+  },
+  "master-23-a2687dc87373": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/elektron-master-class/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "了解 Elektron 乐器的创作流程，并探索设备之外的新声音思路。",
+    "sections": [
+      {
+        "heading": "课程内容",
+        "paragraphs": [
+          "这场课程由官方公布的 Elektron 首席产品官 Christian Alsing 主持，围绕品牌乐器的创意工作流程展开，关注不同设备的特点、充分利用已有功能的方法，以及寻找新音色的途径。",
+          "课程专页没有进一步公布具体设备清单、分段大纲或需要自带的器材。准备时可整理自己在音序、声音设计和现场操作中的问题；这些是参与建议，不代表已经公布的课程环节。"
+        ]
+      },
+      {
+        "heading": "品牌与主讲背景",
+        "paragraphs": [
+          "Elektron 于 1998 年在瑞典哥德堡成立，开发面向创作和表演的电子乐器。Christian 也以 Sylinder 名义进行音乐创作，官方艺术家介绍将稳定节拍与北方森林般的氛围并置。"
+        ]
+      },
+      {
+        "heading": "购票与语言",
+        "paragraphs": [
+          "单场大师课 200 元，五场通票 500 元。官方专页提供微信购票二维码，也说明可现场购票；课程提供现场中文翻译。普通音乐节入场与大师课票务需分别确认。",
+          "官方未统一要求自带设备，也未公布预备知识门槛。可先梳理个人创作中的问题，是否需要携带器材以购票入口或主办方通知为准。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/sylinder/"
+    ]
+  },
+  "live-23-f657b2472678": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Seven_九 (63 Studio)",
+        "url": "https://modularcommune.com/seven-jiu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/seven-jiu/"
+    ],
+    "summary": "Seven_九 是来自云南的 Techno DJ、制作人与模块开发者，具有工程师背景。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听节奏推进与音色结构的关系，观察工程思维与现场能量如何结合。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/seven-jiu/"
+    ]
+  },
+  "live-23-43186ab96940": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：DNS",
+        "url": "https://modularcommune.com/dns/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/dns/"
+    ],
+    "summary": "现居横滨的 DNS 是音乐人、声音艺术家，也是东京视听企划 Synesthesia Array 联合创办人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意缓慢积累与突然释放的对比，听声音层次如何构成一种有方向的现场叙事。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/dns/"
+    ]
+  },
+  "live-23-926f3e56371d": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：陈梓涵 (Harmtrix Instrument)",
+        "url": "https://modularcommune.com/chen-zi-han/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/chen-zi-han/"
+    ],
+    "summary": "陈梓涵是作曲、编曲、音乐制作人与实验乐器创作者，实践横跨电子音乐、模块系统、影视及跨媒介项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注传统音乐语言与模块声音的结合，以及乐器设计如何影响演奏和编排。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/chen-zi-han/"
+    ]
+  },
+  "live-23-e825c91f1ae0": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Enrique Tomás",
+        "url": "https://modularcommune.com/enrique-tomas/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/enrique-tomas/"
+    ],
+    "summary": "Enrique Tomás 是声音艺术家与研究者，工作涉及声音艺术、计算机音乐、位置媒体及人机交互。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意声音与所在空间的关系，把聆听位置及注意力的变化也视作体验的一部分。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/enrique-tomas/"
+    ]
+  },
+  "live-23-284f5102b481": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Jason H. J. Lim (Instruō)",
+        "url": "https://modularcommune.com/jason-h-j-lim/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/jason-h-j-lim/"
+    ],
+    "summary": "Jason H. J. Lim 是格拉斯哥音乐人、技术创作者与 Instruō 创始人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听设计者如何使用自己创造的工具，关注音色、演奏动作与结构之间的联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/jason-h-j-lim/"
+    ]
+  },
+  "live-23-3e7d4f6609ad": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Solar Bird (Soma Laboratory)",
+        "url": "https://modularcommune.com/solar-bird/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/solar-bird/"
+    ],
+    "summary": "Solar Bird 是 Regina Pechenina 的音乐项目，结合学院派长笛训练、电子音乐与实验。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听呼吸与电子声音之间的关系，以及古典演奏经验如何进入实验音景。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/solar-bird/"
+    ]
+  },
+  "live-23-43b8c582313d": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Wang Yi 王懿 (EAU)",
+        "url": "https://modularcommune.com/eau/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/eau/"
+    ],
+    "summary": "王懿 EAU 常驻上海，专注当代音乐、电声与跨媒介创作，以多层空间声音表现情绪和时间流动。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听声音层次的空间位置与流动，关注抽象音色如何与视觉或时间结构形成联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/eau/"
+    ]
+  },
+  "live-23-e58ea0579362": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Philip Gelb",
+        "url": "https://modularcommune.com/philip-gelb/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/philip-gelb/"
+    ],
+    "summary": "Philip Gelb 常驻加州奥克兰，演奏尺八及 Buchla 模块系统。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从呼吸、持续音和细微音色变化进入作品，关注原声与电子声音如何共存。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/philip-gelb/"
+    ]
+  },
+  "live-23-36e67e371c22": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：bunyi",
+        "url": "https://modularcommune.com/bunyi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/bunyi/"
+    ],
+    "summary": "bunyi 是常驻吉隆坡的马来西亚电子音乐人和模块演奏者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可跟随一个节奏或音色听它如何演化，留意偶然变化被保留并发展为音乐的瞬间。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/bunyi/"
+    ]
+  },
+  "live-23-b611c2dd9c46": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Tambu",
+        "url": "https://modularcommune.com/tambu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/tambu/"
+    ],
+    "summary": "Tambu 是意大利电子创作者，经历从钢琴到 Hardcore，现探索带有反乌托邦氛围的 Breakbeat Techno 与催眠感节奏。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听碎拍、氛围和推进感如何相互牵引，以及不同音乐训练留下的结构感。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/tambu/"
+    ]
+  },
+  "live-23-4c0d50dfadca": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Andrew Levine (安若闻)",
+        "url": "https://modularcommune.com/andrew-levine/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/andrew-levine/"
+    ],
+    "summary": "Andrew Levine 受过小提琴与声乐训练，也从事录音工作，曾获德国录音师协会的 Goldener Bobby 奖。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意连续音高、触摸或身体动作与音色之间的联系，以及不同电子界面如何影响即兴的呼吸和句法。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/andrew-levine/"
+    ]
+  },
+  "live-23-6726c9597aa4": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Nervous Whistle",
+        "url": "https://modularcommune.com/nervous-whistle/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/nervous-whistle/"
+    ],
+    "summary": "Nervous Whistle 是常驻上海的视听独奏项目，将半模块合成器、手工磁带循环、田野录音与现场视频混合视作同一创作层。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意重复材料的衰退、模糊和变化，以及声音与影像中的信息损失如何产生情绪。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/nervous-whistle/"
+    ]
+  },
+  "live-23-58bc05985410": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Jungle of Wires",
+        "url": "https://modularcommune.com/jungle-of-wires/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/jungle-of-wires/"
+    ],
+    "summary": "Jungle of Wires 是荷兰电子演奏者 Mandy Bakker 的项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听有限设备如何产生层次和变化，以及节奏在不断演化的结构中如何保持推进。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/jungle-of-wires/"
+    ]
+  },
+  "live-24-2225e9c5b5eb": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Dr. Alan Ip",
+        "url": "https://modularcommune.com/alan-ip/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/alan-ip/"
+    ],
+    "summary": "出生于香港、现居伦敦的 Dr. Alan Ip 是作曲家、制作人、多乐器演奏者及古董乐器收藏者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "他的背景同时连接早期电子音乐与当代音乐技术，可从缓慢变化的音景与反复律动之间的关系来聆听。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/alan-ip/"
+    ]
+  },
+  "live-24-884e61e74cad": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Clouded5000郭大为",
+        "url": "https://modularcommune.com/clouded5000/"
+      },
+      {
+        "label": "主办方：Liyv 橄榄",
+        "url": "https://modularcommune.com/livyyu/"
+      },
+      {
+        "label": "主办方：张原铭",
+        "url": "https://modularcommune.com/zhang-yuan-ming/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/clouded5000/",
+      "https://modularcommune.com/livyyu/",
+      "https://modularcommune.com/zhang-yuan-ming/"
+    ],
+    "summary": "Clouded5000 郭大为是北京独立音乐人、手碟演奏者，也是英水帝江团队成员。 Liyv 橄榄是独立音乐人与合成器爱好者，官方资料亦提到文学学习背景。 张原铭以音乐制作讲师、电子音乐人和合成器玩家的身份活动。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Clouded5000郭大为：可关注原声敲击的共鸣与电子层次的关系；联合署名场次的具体配置未公布，不能预设一定采用相同设备。",
+          "Liyv 橄榄：可观察合作中的呼应、留白和层次关系；不要把个人背景当作合作曲目说明。",
+          "张原铭：可关注合作中的音色层次与相互响应，具体设备和角色需要以现场为准。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/clouded5000/",
+      "https://modularcommune.com/livyyu/",
+      "https://modularcommune.com/zhang-yuan-ming/"
+    ]
+  },
+  "live-24-1ed49613b3c1": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Z.KAY",
+        "url": "https://modularcommune.com/z-kay/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/z-kay/"
+    ],
+    "summary": "来自深圳的 Z.KAY 在实验性与可听性之间探索，曾与舞踏、实验舞蹈和装置艺术合作。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意低强度氛围到密集冲击的变化，以及不规则节奏如何形成张力。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/z-kay/"
+    ]
+  },
+  "special-24-706de43f22a3": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "弦控琴工作坊背景",
+        "url": "https://modularcommune.com/tian-jinqin-xian-kong-qin-instruments/"
+      },
+      {
+        "label": "主办方：Yukes 玉刻",
+        "url": "https://modularcommune.com/yukes/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/yukes/"
+    ],
+    "summary": "通过纪录片重新认识田进勤与弦控琴这段电子乐器历史。",
+    "sections": [
+      {
+        "heading": "首映内容",
+        "paragraphs": [
+          "官方安排《Lost Keys of China: The Works of Tian Jinqin》（《弦浪：田进勤与弦控琴》）首映，由 Yukes 玉刻署名。主题指向田进勤及弦控琴；目前没有公布影片时长、完整剧情或是否安排映后问答。"
+        ]
+      },
+      {
+        "heading": "相关背景",
+        "paragraphs": [
+          "本届另有弦控琴条带控制器 DIY、田进勤主题讲座及致敬演出。DIY 官方介绍明确追溯到田进勤 1978 年的设计，让观众能够从影像、研究、制作和演奏几个角度理解同一段乐器历史。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注触觉、连续音高与传统演奏经验怎样进入电子乐器。若想继续了解，可在日程中搜索“田进勤”；影片主创职责及现场流程仍待进一步公布。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/yukes/"
+    ]
+  },
+  "live-24-10e84e18cc33": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Melts77",
+        "url": "https://modularcommune.com/melts77/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/melts77/"
+    ],
+    "summary": "Melts77 从 Punk、Post-punk、Post-rock、迷幻和 Shoegaze 等摇滚风格逐渐转向氛围声音。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听长音、效果尾音与层叠音色如何形成空间，以及摇滚听觉经验如何转化为电子表达。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/melts77/"
+    ]
+  },
+  "live-24-ea5c31927e80": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：SPOTLITE",
+        "url": "https://modularcommune.com/spotlite/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/spotlite/"
+    ],
+    "summary": "SPOTLITE（Max）是电子音乐人、制作人、DJ 和策划者，主理 DAWless 茶馆。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注演奏流程和音乐结构如何匹配，听声音设计与舞池功能之间的平衡。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/spotlite/"
+    ]
+  },
+  "live-24-6f23b143caa2": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Modgeist",
+        "url": "https://modularcommune.com/modgeist/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/modgeist/"
+    ],
+    "summary": "Modgeist 是法国音乐人 Mikaël Charry 的个人项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听持续推进的电子节奏、音色和象征性氛围如何形成结构与叙事。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/modgeist/"
+    ]
+  },
+  "live-24-5587a5d71f63": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Lantuu",
+        "url": "https://modularcommune.com/lantuu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/lantuu/"
+    ],
+    "summary": "Lantuu 是电子制作人与现场演奏者，从地下 Hip-hop 的 Beatmaking 和 DJ 实践转向模块合成。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从节拍组织与声音变化的关系入手，观察制作、DJ 和模块演奏经验如何交汇。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/lantuu/"
+    ]
+  },
+  "live-24-e36a75abe19f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：垢教授",
+        "url": "https://modularcommune.com/gou-jiao-shou/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/gou-jiao-shou/"
+    ],
+    "summary": "垢教授的官方资料仅以幽默的自我介绍呈现，没有展开音乐风格、作品经历或本场设备信息。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "适合带着开放预期聆听。可先关注现场的声源、节奏与操作方式，再形成自己的理解。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/gou-jiao-shou/"
+    ]
+  },
+  "live-24-f422b56d9124": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：锤瓜 CUIGUA",
+        "url": "https://modularcommune.com/cuigua/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/cuigua/"
+    ],
+    "summary": "锤瓜 CUIGUA 是谱造司 PUZAOSI 的视听演出项目，由声音艺术家 Mr.V 与视觉艺术家 VJ Mian 合作，围绕原创 IP《囧恩的神经漫游记》发展电子声音、电影感节奏与视觉叙事。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可把影像与声音作为一个整体观看，关注角色、节奏与场景如何共同表达情绪。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/cuigua/"
+    ]
+  },
+  "diy-24-a9ec0cc2ae40": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/error-instruments-diy-workshops-2026/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "学习焊接、组装和测试，制作一台独立式实验合成器。",
+    "sections": [
+      {
+        "heading": "可以制作什么",
+        "paragraphs": [
+          "Error Instruments 公布了三种项目，每种材料费均为 650 元：以火焰和非传统电子处理探索声音的 Ritual Synthesis with a Flame；强调不可预测音色的 Cloud Busting；以及偏粗噪音与极端声音的 Data Synth。三款均为独立式乐器，不需要接入电脑或模块系统。",
+          "工作坊涵盖电烙铁使用、电子元件原理、套件组装、测试排错和使用成品创作实验声音。官方说明会协助排查和修复问题，并在活动结束前确认乐器能正常工作。"
+        ]
+      },
+      {
+        "heading": "报名与选择",
+        "paragraphs": [
+          "官方日程标注本场 16 个名额，报名采用活动专页的微信二维码。周六和周日各有一场；套件选择、库存及工具准备以报名确认信息为准，不能据三款项目介绍推定一次费用包含全部三台。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/paul-tas/",
+      "https://modularcommune.com/ola-moonk/"
+    ]
+  },
+  "live-24-bc25b73a3346": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Loop Fighter",
+        "url": "https://modularcommune.com/loop-fighter/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/loop-fighter/"
+    ],
+    "summary": "Loop Fighter 是人间指南乐队主唱、吉他手老翟的个人实验计划，围绕循环叠加的氛围后摇和噪音即兴展开，也参与舞蹈、剧场和文学现场。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听循环每次叠加产生的变化，以及整体架构如何在即兴中保持连贯；本场时长不能由以往演出推定。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/loop-fighter/"
+    ]
+  },
+  "talk-24-62e36e4c4abe": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主办方：Dominic @ Polypumpkins",
+        "url": "https://modularcommune.com/dominic/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/dominic/"
+    ],
+    "summary": "围绕 ASM Leviasynth 与 Diosynth，讨论合成器的演奏可能。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "活动由 Dominic Au 与 Victoria Liu 署名，主题是通过 Leviasynth 和 Diosynth 探索更多演奏方式。官方日程没有进一步说明分工、示范作品或现场参与环节。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可重点观察控制界面、力度或动作如何进入声音，以及同一个音色怎样通过演奏变得更有层次。产品功能背景不能视作本场的完整演示清单。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/dominic/",
+      "victoria-liu"
+    ]
+  },
+  "live-24-590c24e1918e": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：第五维度 5th Dimension",
+        "url": "https://modularcommune.com/5th-dimension/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/5th-dimension/"
+    ],
+    "summary": "第五维度是 Lowsky 的个人项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可把波形的运动与声音能量的变化作为进入作品的线索；这些意象不等于本场已公布的技术方案。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/5th-dimension/"
+    ]
+  },
+  "live-24-69063ac5f0e2": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：GUOFEI aka OSCPLLEX",
+        "url": "https://modularcommune.com/guofei-aka-oscpllex/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/guofei-aka-oscpllex/"
+    ],
+    "summary": "GUOFEI / OSCPLLEX 常驻上海，实践跨越声音、实验影像和新媒体，创作涵盖 Ambient、Drone、Dub Techno、电声与田野录音。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听各层声音的缓慢变化，关注重复中的细小差异以及声场深度。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/guofei-aka-oscpllex/"
+    ]
+  },
+  "live-24-2691a3ada13e": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：While Roses Fade 玫瑰凋零时 (GING)",
+        "url": "https://modularcommune.com/while-roses-fade-ging/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/while-roses-fade-ging/"
+    ],
+    "summary": "While Roses Fade 是 GING 于 2025 年推出的迷幻电子计划，结合舞蹈、视觉交互和摇滚等元素。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可把音乐、动作和视觉作为共同的情绪叙事观看，关注幽暗与明亮之间的转换。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/while-roses-fade-ging/"
+    ]
+  },
+  "live-24-90ad5901df9c": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：SPEKT2",
+        "url": "https://modularcommune.com/spekt2/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/spekt2/"
+    ],
+    "summary": "SPEKT2 是受过专业音乐训练的 DJ 与 Live Set 演奏者，东北成长和北美音乐场景经历共同影响其风格。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从节奏冲击、反复与能量累积聆听，关注结构变化如何影响身体律动。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/spekt2/"
+    ]
+  },
+  "live-24-0ac2912afb59": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Jason H. J. Lim (Instruō)",
+        "url": "https://modularcommune.com/jason-h-j-lim/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/jason-h-j-lim/"
+    ],
+    "summary": "Jason H. J. Lim 是格拉斯哥音乐人、技术创作者与 Instruō 创始人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听设计者如何使用自己创造的工具，关注音色、演奏动作与结构之间的联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/jason-h-j-lim/"
+    ]
+  },
+  "live-24-d717eb19c9e4": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Jungle of Wires",
+        "url": "https://modularcommune.com/jungle-of-wires/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/jungle-of-wires/"
+    ],
+    "summary": "Jungle of Wires 是荷兰电子演奏者 Mandy Bakker 的项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听有限设备如何产生层次和变化，以及节奏在不断演化的结构中如何保持推进。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/jungle-of-wires/"
+    ]
+  },
+  "talk-24-8fc64c4abbb8": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主办方：Andrew Levine (安若闻)",
+        "url": "https://modularcommune.com/andrew-levine/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/andrew-levine/"
+    ],
+    "summary": "跟随 Andrew Levine 深入认识 Haken 乐器的演奏表达。",
+    "sections": [
+      {
+        "heading": "活动内容",
+        "paragraphs": [
+          "官方以“Haken deep dive”公布，由安若闻 Andrew Levine 主讲，目前没有列出具体设备与细化大纲。“深入”这一定位适合带着演奏界面与声音控制的问题参加，而不能据此推定为从零操作教学。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注连续控制怎样同时影响音高和音色，以及演奏者怎样把细微动作转化为连贯的乐句。是否需要预先了解设备或携带器材，官方尚未说明。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/andrew-levine/"
+    ]
+  },
+  "live-24-ded4c524143b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Randombrothers",
+        "url": "https://modularcommune.com/randombrothers/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/randombrothers/"
+    ],
+    "summary": "Randombrothers 是印度尼西亚兄弟 Nara Anindyaguna 与 Randy Danistha 组成的电子团体，以模拟合成器和现代技术实验。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听流行音乐的可辨识元素如何与电子声音实验结合，以及双人演奏如何组织层次。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/randombrothers/"
+    ]
+  },
+  "live-24-01a74da2cde2": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Cloud Choir 浮云合唱团",
+        "url": "https://modularcommune.com/cloud-choir/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/cloud-choir/"
+    ],
+    "summary": "浮云合唱团由 Richard Doran（董默涵）与 Michael Cupoli（小麦）组成，自 2011 年起发行作品并演出。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听每一层声音如何改变已有音景，不必急于寻找主旋律，而是感受整体密度与意识状态的变化。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/cloud-choir/"
+    ]
+  },
+  "talk-24-f8b7a75c3db6": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主办方：灰 Gray Fover",
+        "url": "https://modularcommune.com/gray-fover/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/gray-fover/"
+    ],
+    "summary": "通过 Gray Fover 的经验，讨论小众音乐社群与现场实践。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "题目包括小众音乐社群的经营、模块场景故事以及演出技巧交流。它把社群组织与音乐实践放在同一讨论里，但官方尚未公布具体案例、讨论形式或分段内容。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可带着如何吸引初次参与者、保持长期交流，以及把创作经验转化为公开演出等问题参加。这些问题来自题目和讲师背景，不代表已确认的逐项议程。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/gray-fover/"
+    ]
+  },
+  "live-24-cd437f70084c": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：bunyi",
+        "url": "https://modularcommune.com/bunyi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/bunyi/"
+    ],
+    "summary": "bunyi 是常驻吉隆坡的马来西亚电子音乐人和模块演奏者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可跟随一个节奏或音色听它如何演化，留意偶然变化被保留并发展为音乐的瞬间。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/bunyi/"
+    ]
+  },
+  "live-24-fad9f44da452": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Zhong Qing 重轻",
+        "url": "https://modularcommune.com/zhong-qing/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/zhong-qing/"
+    ],
+    "summary": "重轻是生活在北京的吉他手、电子音乐制作人、讲师及硬件合成器爱好者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可把声音选择与音乐经验、技术观念联系起来，关注现场中旋律、音色和结构的关系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/zhong-qing/"
+    ]
+  },
+  "live-24-83a41f353d45": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Eric Liu",
+        "url": "https://modularcommune.com/eric-liu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/eric-liu/"
+    ],
+    "summary": "Eric Liu 以模块系统探索实验电子、Techno 和当代氛围音乐，通过组合和控制不同模块发展音色与节奏。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听同一声音在调制中如何变化，以及变化的音色与稳定节奏之间的关系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/eric-liu/"
+    ]
+  },
+  "live-24-4060709c45ac": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Wang Daoshan 王道善",
+        "url": "https://modularcommune.com/wang-daoshan/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/wang-daoshan/"
+    ],
+    "summary": "王道善常驻山东青岛，结合传统管乐即兴、氛围、合成器噪音及极端声音。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注持续气息、噪音和强度之间的关系，把声源与处理后的质地一起聆听。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/wang-daoshan/"
+    ]
+  },
+  "live-24-689280d19ee5": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：An On Bast",
+        "url": "https://modularcommune.com/an-on-bast/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/an-on-bast/"
+    ],
+    "summary": "An On Bast 是波兰弗罗茨瓦夫的 Anna Suda，兼具作曲、制作与现场演奏实践。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "她强调现场生成的过程。可观察重复节奏如何逐渐变形、声部如何进入退出，以及舞池能量与内省氛围的转换。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/an-on-bast/"
+    ]
+  },
+  "talk-24-777cbbb8454c": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "弦控琴项目介绍",
+        "url": "https://modularcommune.com/tian-jinqin-xian-kong-qin-instruments/"
+      },
+      {
+        "label": "主办方：Enrique Tomás",
+        "url": "https://modularcommune.com/enrique-tomas/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/enrique-tomas/"
+    ],
+    "summary": "从乐器研究的角度重新认识中国电子乐器先驱田进勤。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "Enrique Tomás 将以田进勤为主题讨论中国电子乐器的先驱实践。讲座页没有单独公布详细大纲；同届弦控琴项目明确以田进勤 1978 年的乐器设计为历史起点。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注一种演奏动作如何从历史乐器延续到当代控制器，以及中国电子乐器史与今日创作之间的联系。纪录片首映和致敬演出也提供了继续了解的入口。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/enrique-tomas/"
+    ]
+  },
+  "live-24-b8f6bb76971b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：BANANAsu",
+        "url": "https://modularcommune.com/bananasu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/bananasu/"
+    ],
+    "summary": "BANANAsu 是来自东京的电吹管演奏者，也负责 T-SQUARE 乐手伊东毅的相关设备配置与音色设计。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听呼吸、力度和句法如何作用于电子音色，理解电子管乐器与传统吹奏表达之间的联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/bananasu/"
+    ]
+  },
+  "live-24-467e88f9304a": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Lorenzo Donato",
+        "url": "https://modularcommune.com/lorenzo-donato/"
+      },
+      {
+        "label": "主办方：Tambu",
+        "url": "https://modularcommune.com/tambu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/lorenzo-donato/",
+      "https://modularcommune.com/tambu/"
+    ],
+    "summary": "Lorenzo Donato 是意大利作曲者、电子音乐人与声音设计者，也是 Sintetica Collective 创始人。 Tambu 是意大利电子创作者，经历从钢琴到 Hardcore，现探索带有反乌托邦氛围的 Breakbeat Techno 与催眠感节奏。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Lorenzo Donato：可关注实时操作如何影响节奏和结构，以及不同设备或演奏者之间的呼应。",
+          "Tambu：可听碎拍、氛围和推进感如何相互牵引，以及不同音乐训练留下的结构感。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/lorenzo-donato/",
+      "https://modularcommune.com/tambu/"
+    ]
+  },
+  "talk-24-c5ace979fb36": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Bitwig The Grid 官方介绍",
+        "url": "https://www.bitwig.com/the-grid/"
+      },
+      {
+        "label": "主办方：Meng Qi 孟奇",
+        "url": "https://modularcommune.com/meng-qi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/meng-qi/"
+    ],
+    "summary": "与孟奇探索 The Grid 中从零搭建混沌系统的思路。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "题目明确为“合成少数派 × Bitwig：用 Grid 从零构建一个混沌系统”，由 Meng Qi 主讲。官方尚未公布使用版本、系统电路或示范 Patch，因此这里不提供推定的接线步骤。"
+        ]
+      },
+      {
+        "heading": "工具与主讲背景",
+        "paragraphs": [
+          "The Grid 是 Bitwig 的模块化声音设计环境，允许组合不同功能单元进行声音与信号处理。孟奇同时从事合成器设计、演奏和教学，其乐器实践长期关注界面、声音响应及实验性表达。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注反馈与非线性变化如何从少量单元产生复杂行为，以及混沌信号怎样成为可控制的声音材料。官方未要求自带电脑或提前安装软件。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/meng-qi/"
+    ]
+  },
+  "live-24-c70877afc74f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：thruoutin",
+        "url": "https://modularcommune.com/thruoutin/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/thruoutin/"
+    ],
+    "summary": "thruoutin 自 2009 年起开展音乐实践，结合有机与数字声音，涉及 Leftfield Club、Footwork、Gqom、Bass、Amapiano 和 Ambient 等方向。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注节奏的偏移与不同声源之间的连接，不必用单一类型限定现场。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/thruoutin/"
+    ]
+  },
+  "live-24-9e2e9af1706b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Dominic @ Polypumpkins",
+        "url": "https://modularcommune.com/dominic/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/dominic/"
+    ],
+    "summary": "Dominic 是 Polypumpkins 创始人、ASM 产品总监，也是一位制作人、声音设计者和电子乐器设计者，参与 Hydrasynth 与 Leviasynth 的设计。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注表现力控制与即兴操作，把乐器设计者的声音探索和音乐编排联系起来。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/dominic/"
+    ]
+  },
+  "live-24-0adecd0746e9": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：layer",
+        "url": "https://modularcommune.com/layer/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/layer/"
+    ],
+    "summary": "layer 自 1999 年起制作氛围与实验电子音乐，曾在意大利 Disasters By Choice 发行唱片。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听声音层次、空间处理和持续变化的关系，从制作细节理解氛围音乐的展开。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/layer/"
+    ]
+  },
+  "diy-24-ef30671f93a6": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/cricket-diy-workshop-2026/"
+      },
+      {
+        "label": "Cricket 产品资料（Alex4）",
+        "url": "https://www.alex4.de/terms-agb/item/meng-qi-cricket"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "与孟奇一起接触 Cricket 蟋蟀这一小型、可玩奏的电子乐器。",
+    "sections": [
+      {
+        "heading": "项目背景",
+        "paragraphs": [
+          "Cricket 是孟奇的太阳能小型电子乐器，通过光照与触摸改变声音，既是独立发声的音乐玩具，也可作为随身佩戴的物件。它体现了孟奇对触感、界面与声音表达关系的兴趣。",
+          "本届专页确认这是三小时 DIY 工作坊并提供报名链接，但没有公布逐步制作大纲。组装环节、焊接要求及自备工具需以报名页面说明为准，不宜把产品功能说明当作完整课程计划。"
+        ]
+      },
+      {
+        "heading": "报名与准备",
+        "paragraphs": [
+          "官方日程标注材料费 230 元、30 个名额。活动专页提供淘宝报名入口，可从本页“官方报名 / 购票”进入；报名标题为“10月24号北京孟奇蟋蟀工作坊”。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/meng-qi/"
+    ]
+  },
+  "live-24-7eb4c753bd3e": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：梁斯怡",
+        "url": "https://modularcommune.com/liang-si-yi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/liang-si-yi/"
+    ],
+    "summary": "梁斯怡是现居上海的电子音乐创作者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可以先从现场的声源、节奏与音色变化进入，再根据实际演奏形成理解。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/liang-si-yi/"
+    ]
+  },
+  "talk-24-81ad99fed5d7": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主办方：Laurent Lettrée AKA 觉然",
+        "url": "https://modularcommune.com/laurent-lettree/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/laurent-lettree/"
+    ],
+    "summary": "从觉然的装置与乐器实践出发，探索声音与空间的关系。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "“声音的隐形几何”由 Laurent Lettrée AKA 觉然主讲。这个题目提示了声音、空间和感知的关系，但官方没有说明理论框架、演示装置或课堂步骤。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可思考看不见的声音怎样被动作和空间组织，装置怎样让身体感知电子系统，以及同一声源在不同位置和环境中如何改变。这些是理解主题的入口，并非已公布课程清单。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/laurent-lettree/"
+    ]
+  },
+  "live-24-460118048d18": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Hiss",
+        "url": "https://modularcommune.com/hiss/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/hiss/"
+    ],
+    "summary": "Hiss 将模拟模块与现场编程的 Elektra 相结合，与 Australian Tactile Instruments 相关。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意节奏如何在纹理中出现、偏移和重组，以及现场编码与硬件声音的相互作用。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/hiss/"
+    ]
+  },
+  "live-24-0a400d5b9d50": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Clouded5000郭大为",
+        "url": "https://modularcommune.com/clouded5000/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/clouded5000/"
+    ],
+    "summary": "Clouded5000 郭大为是北京独立音乐人、手碟演奏者，也是英水帝江团队成员。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注原声敲击的共鸣与电子层次的关系；联合署名场次的具体配置未公布，不能预设一定采用相同设备。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/clouded5000/"
+    ]
+  },
+  "live-24-f234a8038ae1": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：YAO",
+        "url": "https://modularcommune.com/yao/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/yao/"
+    ],
+    "summary": "YAO 是独立电子音乐人和 DJ，实践连接氛围、即兴、舞池与声音艺术，参与音乐节、美术馆、户外及品牌现场。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听节奏与空间变化如何影响身体感受，以及音乐如何回应所在场域。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/yao/"
+    ]
+  },
+  "live-24-3f4304c20b04": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：DNS",
+        "url": "https://modularcommune.com/dns/"
+      },
+      {
+        "label": "主办方：Gm.XE (GM.XE instrument)",
+        "url": "https://modularcommune.com/gm-xe/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/dns/",
+      "https://modularcommune.com/gm-xe/"
+    ],
+    "summary": "现居横滨的 DNS 是音乐人、声音艺术家，也是东京视听企划 Synesthesia Array 联合创办人。 Gm.XE（小恩）兼具独立音乐人与职业经理人身份，具有摇滚演奏及电子音乐背景，擅长 Buchla 等模块系统。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "DNS：可留意缓慢积累与突然释放的对比，听声音层次如何构成一种有方向的现场叙事。",
+          "Gm.XE (GM.XE instrument)：可从音色设计的细节与音乐整体的流动同时聆听，留意声音技术如何进入现场编排。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/dns/",
+      "https://modularcommune.com/gm-xe/"
+    ]
+  },
+  "live-24-7bdc9e6a3a95": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Shawn",
+        "url": "https://modularcommune.com/shawn/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/shawn/"
+    ],
+    "summary": "Shawn 是不可回收 NoRe 成员，强调电子音乐中的直接演奏，偏爱让身体动作影响声音的系统以及带有随机性的系统。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可观察动作、力度或触摸如何改变声音，听可控演奏与随机变化之间的互动。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/shawn/"
+    ]
+  },
+  "live-24-945e115f3431": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Rayne (+Tesla Coil)",
+        "url": "https://modularcommune.com/rayne/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/rayne/"
+    ],
+    "summary": "Rayne 来自兰州，是乐手和混音师，使用 Groovebox 与半模块系统探索声音。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注声音的距离感与节奏的时间感；“+Tesla Coil”是官方署名，具体呈现方式尚未详细说明。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/rayne/"
+    ]
+  },
+  "live-24-35f55143eb84": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Nervous Whistle",
+        "url": "https://modularcommune.com/nervous-whistle/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/nervous-whistle/"
+    ],
+    "summary": "Nervous Whistle 是常驻上海的视听独奏项目，将半模块合成器、手工磁带循环、田野录音与现场视频混合视作同一创作层。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意重复材料的衰退、模糊和变化，以及声音与影像中的信息损失如何产生情绪。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/nervous-whistle/"
+    ]
+  },
+  "live-24-b83bcd80d956": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Odyssée",
+        "url": "https://modularcommune.com/odyssee/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/odyssee/"
+    ],
+    "summary": "Odyssée 是居住在法国阿尔卑斯山区的艺术家，常把模块合成器带到自然环境和不寻常的地点创作。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从景观感、缓慢展开的纹理与电子脉冲之间的关系来聆听。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/odyssee/"
+    ]
+  },
+  "master-24-21f5c354ebf3": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/soma-laboratory-master-class/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "通过设计理念和现场示范，寻找有个人辨识度的声音。",
+    "sections": [
+      {
+        "heading": "课程内容",
+        "paragraphs": [
+          "课程先由 Regina Pechenina 介绍 SOMA 的设计理念，以及特殊的乐器界面怎样帮助形成个人声音。随后由品牌艺术家展示设备在演出和制作中的用法，讨论如何把这些声音工具放入自己的工作流程。",
+          "Glenn Keteleer 将展示 The PIPE、COSMOS 等乐器；Tim Kroker 将结合舞台与录音经验演示 FLUX 和 TERRA。官方还公布了 ENIGMA 的预览，这款合成器以金属物体的位置和移动作为控制方式。"
+        ]
+      },
+      {
+        "heading": "购票与语言",
+        "paragraphs": [
+          "单场大师课 200 元，五场通票 500 元。官方专页提供微信购票二维码，也说明可现场购票；课程提供现场中文翻译。普通音乐节入场与大师课票务需分别确认。",
+          "官方未统一要求自带设备，也未公布预备知识门槛。可先梳理个人创作中的问题，是否需要携带器材以购票入口或主办方通知为准。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/glenn-keteleer-aka-linear-straight-radical-g/",
+      "https://modularcommune.com/solar-bird/",
+      "https://modularcommune.com/tim-kroker/"
+    ]
+  },
+  "live-24-d365e6311473": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：IVPete",
+        "url": "https://modularcommune.com/ivpete/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ivpete/"
+    ],
+    "summary": "IVPete 使用 Loopstation 与效果器实时采样、叠加人声，曾进入 2024 中国 Beatbox 锦标赛设备组外卡前五。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听一个人声片段如何成为节奏、和声或纹理，以及新录入的素材怎样改变循环。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ivpete/"
+    ]
+  },
+  "live-24-6e5bef608727": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Solar Bird (Soma Laboratory)",
+        "url": "https://modularcommune.com/solar-bird/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/solar-bird/"
+    ],
+    "summary": "Solar Bird 是 Regina Pechenina 的音乐项目，结合学院派长笛训练、电子音乐与实验。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听呼吸与电子声音之间的关系，以及古典演奏经验如何进入实验音景。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/solar-bird/"
+    ]
+  },
+  "live-24-e3039eb6d02a": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Andrew Levine (安若闻)",
+        "url": "https://modularcommune.com/andrew-levine/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/andrew-levine/"
+    ],
+    "summary": "Andrew Levine 受过小提琴与声乐训练，也从事录音工作，曾获德国录音师协会的 Goldener Bobby 奖。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意连续音高、触摸或身体动作与音色之间的联系，以及不同电子界面如何影响即兴的呼吸和句法。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/andrew-levine/"
+    ]
+  },
+  "live-24-6c6a6b02bb26": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Nian YongXin",
+        "url": "https://modularcommune.com/nian-yongxin/"
+      },
+      {
+        "label": "主办方：Yuting Wu",
+        "url": "https://modularcommune.com/yuting-wu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/nian-yongxin/",
+      "https://modularcommune.com/yuting-wu/"
+    ],
+    "summary": "年永鑫出生于青海西宁，自学作曲后于 2017 年起从事影视配乐，参与院线电影和艺术短片的音乐。 Yuting Wu 是电子音乐人与声音艺术创作者，研究声音设计、空间音频和现场交互，也参与电影、舞蹈及商业声音项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Nian YongXin：可从音乐的时间感与情绪组织理解其表达；与 Yuting Wu 的合作内容未单独公布。",
+          "Yuting Wu：可关注声音在空间中的组织与现场响应；与年永鑫的合作计划未另行公布。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/nian-yongxin/",
+      "https://modularcommune.com/yuting-wu/"
+    ]
+  },
+  "live-24-0743bedb5570": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Liy 梁蜜",
+        "url": "https://modularcommune.com/liy/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/liy/"
+    ],
+    "summary": "Liy 梁蜜毕业于美声专业，经历包括演唱和互联网工作，关注电影、声音现场和艺术展。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注一位新参与者如何把既有音乐经验带入合成器实践，本场风格和配置仍待现场揭晓。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/liy/"
+    ]
+  },
+  "live-24-b85a64915a45": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Huzz (Nightmare Huzzz)",
+        "url": "https://modularcommune.com/huzz/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/huzz/"
+    ],
+    "summary": "Huzz（花刺）来自莱芜、现居义乌，设计制作 random nightmare 随机噩梦电子设备。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注自制设备的声音性格与不稳定变化；多人演出不代表其品牌设备是唯一声源。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/huzz/"
+    ]
+  },
+  "live-24-f4d0e8a7582e": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：PakYeeSoi·WooYimTee 白夜休·乌烟啼 (+audiovisual)",
+        "url": "https://modularcommune.com/pakyeesoi-wooyimtee/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/pakyeesoi-wooyimtee/"
+    ],
+    "summary": "白夜休·乌烟啼是音视多媒体组合，把东方神话、文化意象与现代电子音乐相连。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可同时观察视觉意象和声音结构，听传统文化材料如何在当代电子语境中被重新组织。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/pakyeesoi-wooyimtee/"
+    ]
+  },
+  "live-24-baa424afe619": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Snow Arpeggio!",
+        "url": "https://modularcommune.com/snow-arpeggio/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/snow-arpeggio/"
+    ],
+    "summary": "Snow Arpeggio! 的官方介绍标注了实验电子音乐、视觉艺术和插画实践，没有展开作品经历或本场计划。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从声音与视觉创作的交汇理解其背景；实际有没有影像、采用何种形式，以现场为准。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/snow-arpeggio/"
+    ]
+  },
+  "live-24-219280c5a0b8": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Songyuan Shi",
+        "url": "https://modularcommune.com/songyuan-shi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/songyuan-shi/"
+    ],
+    "summary": "Songyuan Shi 是音频开发者与声音设计者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意音色构造和声音处理细节；开发者身份不能直接视作某种曲风或设备承诺。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/songyuan-shi/"
+    ]
+  },
+  "live-24-136af0043037": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：MCV",
+        "url": "https://modularcommune.com/mcv/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/mcv/"
+    ],
+    "summary": "MCV（Machine Control Voltage）是声音与视觉艺术项目，以极简电子原声、混乱失谐和不连续声场探索未知变化，创作在静默克制与高强度混沌之间移动。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意声音突然中断或更替的时刻，感受秩序与混乱、静默与密集之间的对比。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/mcv/"
+    ]
+  },
+  "live-24-8d4153d55fa0": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Laurent Lettrée AKA 觉然",
+        "url": "https://modularcommune.com/laurent-lettree/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/laurent-lettree/"
+    ],
+    "summary": "法国艺术家 Laurent Lettrée / 觉然自 1990 年代起制作声音、装置与电子乐器，经常为演出开发新的装置。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 1F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注装置与动作怎样影响声音，把现场当作没有固定剧本的声音叙事来体验。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/laurent-lettree/"
+    ]
+  },
+  "live-24-d634434dd9e9": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Ninando",
+        "url": "https://modularcommune.com/ninando/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ninando/"
+    ],
+    "summary": "Ninando 是常驻新加坡的塞尔维亚电子演奏者，最早以朋克鼓手进入音乐。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 1F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听鼓手经验如何体现在节奏推进中，以及低音和音色变化怎样塑造整体冲击。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ninando/"
+    ]
+  },
+  "live-24-8a8043006f78": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Odyssée",
+        "url": "https://modularcommune.com/odyssee/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/odyssee/"
+    ],
+    "summary": "Odyssée 是居住在法国阿尔卑斯山区的艺术家，常把模块合成器带到自然环境和不寻常的地点创作。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从景观感、缓慢展开的纹理与电子脉冲之间的关系来聆听。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/odyssee/"
+    ]
+  },
+  "live-24-f689e40c112f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Jungle of Wires",
+        "url": "https://modularcommune.com/jungle-of-wires/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/jungle-of-wires/"
+    ],
+    "summary": "Jungle of Wires 是荷兰电子演奏者 Mandy Bakker 的项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 1F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听有限设备如何产生层次和变化，以及节奏在不断演化的结构中如何保持推进。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/jungle-of-wires/"
+    ]
+  },
+  "live-24-a71714e31a7c": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Modgeist",
+        "url": "https://modularcommune.com/modgeist/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/modgeist/"
+    ],
+    "summary": "Modgeist 是法国音乐人 Mikaël Charry 的个人项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听持续推进的电子节奏、音色和象征性氛围如何形成结构与叙事。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/modgeist/"
+    ]
+  },
+  "live-24-6ff8279b2435": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：ERD (Shakmat)",
+        "url": "https://modularcommune.com/erd/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/erd/"
+    ],
+    "summary": "ERD 是 François Gaspard 的个人项目，他活跃于布鲁塞尔独立电子场景并参与 Shakmat。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听精确的节奏结构与不断演变的深层纹理如何相互作用。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/erd/"
+    ]
+  },
+  "live-24-115de150c35e": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Hiss",
+        "url": "https://modularcommune.com/hiss/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/hiss/"
+    ],
+    "summary": "Hiss 将模拟模块与现场编程的 Elektra 相结合，与 Australian Tactile Instruments 相关。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 1F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意节奏如何在纹理中出现、偏移和重组，以及现场编码与硬件声音的相互作用。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/hiss/"
+    ]
+  },
+  "live-24-df2b766964d9": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Eric Schlappi (Schlappi Engineering)",
+        "url": "https://modularcommune.com/eric-schlappi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/eric-schlappi/"
+    ],
+    "summary": "Eric Schlappi 是音乐人、电气工程师及 Schlappi Engineering 创始人，自 2016 年起设计 Eurorack 模块。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注反馈声音的稳定与失控边缘，以及节奏如何为复杂音色提供框架。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/eric-schlappi/"
+    ]
+  },
+  "live-24-1e7753575557": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：obakegaku (Instruō)",
+        "url": "https://modularcommune.com/obakegaku/"
+      },
+      {
+        "label": "主办方：Braes (Instruō)",
+        "url": "https://modularcommune.com/braes/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/obakegaku/",
+      "https://modularcommune.com/braes/"
+    ],
+    "summary": "obakegaku（お化け学）是 Ben Jones 的音乐与视听项目，常驻苏格兰，从事声音设计、演奏、视觉和 Live Coding。 Braes 是苏格兰作曲家 David A. Pollock 的项目，他也是 Instruō 团队成员。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 1F，由多位创作者合作呈现。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "obakegaku (Instruō)：可关注声音在克制氛围与高密度节奏之间的转换，以及实时编程、视觉和合作演奏如何互相回应；本场具体分工以现场为准。",
+          "Braes (Instruō)：可留意细小声音、旋律和空间感如何共同形成情绪，以及合作时声部之间的呼应。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/obakegaku/",
+      "https://modularcommune.com/braes/"
+    ]
+  },
+  "live-24-d8dad86abd97": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Sylinder (Elektron)",
+        "url": "https://modularcommune.com/sylinder/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/sylinder/"
+    ],
+    "summary": "Sylinder 是 Elektron 的 Christian Alsing 的音乐项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意自然意象般的氛围与坚定节奏的对照，理解环境感与律动之间的关系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/sylinder/"
+    ]
+  },
+  "live-24-56d920afb8f9": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Parakuat",
+        "url": "https://modularcommune.com/parakuat/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/parakuat/"
+    ],
+    "summary": "Parakuat 是印度尼西亚创作者 Eri Rm 的项目，兼具制作、声音工程、模块演奏、编程与 3D 插画实践。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 1F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注声音制作细节与节奏设计，感受多种音乐经验如何被组织成现场语言。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/parakuat/"
+    ]
+  },
+  "live-24-e004917260ab": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：HATAKEN",
+        "url": "https://modularcommune.com/hataken/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/hataken/"
+    ],
+    "summary": "HATAKEN 长期使用模块合成器探索电子音乐，与 Greg Hunter 的 Wåveshåper 及 SUGIZO 等音乐人合作。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从即兴交流与音色的持续变形聆听，理解其音乐实践与模块文化组织工作之间的联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/hataken/"
+    ]
+  },
+  "live-24-4bdfb2c9fb52": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Lorenzo Donato",
+        "url": "https://modularcommune.com/lorenzo-donato/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/lorenzo-donato/"
+    ],
+    "summary": "Lorenzo Donato 是意大利作曲者、电子音乐人与声音设计者，也是 Sintetica Collective 创始人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 1F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注实时操作如何影响节奏和结构，以及不同设备或演奏者之间的呼应。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/lorenzo-donato/"
+    ]
+  },
+  "live-24-57cfcaef898b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：An On Bast",
+        "url": "https://modularcommune.com/an-on-bast/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/an-on-bast/"
+    ],
+    "summary": "An On Bast 是波兰弗罗茨瓦夫的 Anna Suda，兼具作曲、制作与现场演奏实践。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "她强调现场生成的过程。可观察重复节奏如何逐渐变形、声部如何进入退出，以及舞池能量与内省氛围的转换。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/an-on-bast/"
+    ]
+  },
+  "live-24-2d4897f83ca8": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Dea HMGNC",
+        "url": "https://modularcommune.com/dea-hmgnc/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/dea-hmgnc/"
+    ],
+    "summary": "Dea HMGNC（Grahadea Kusuf）常驻印度尼西亚万隆，是 HMGNC 三人组成员及音频软件公司 Kuassa 创始人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 1F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听熟悉的流行和声如何被不规则节奏、故障细节和实时结构改变，形成怀旧与未来感的交汇。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/dea-hmgnc/"
+    ]
+  },
+  "live-24-28fbef96f189": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Randombrothers",
+        "url": "https://modularcommune.com/randombrothers/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/randombrothers/"
+    ],
+    "summary": "Randombrothers 是印度尼西亚兄弟 Nara Anindyaguna 与 Randy Danistha 组成的电子团体，以模拟合成器和现代技术实验。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听流行音乐的可辨识元素如何与电子声音实验结合，以及双人演奏如何组织层次。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/randombrothers/"
+    ]
+  },
+  "live-24-e81f345a7531": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Min9",
+        "url": "https://modularcommune.com/min9/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/min9/"
+    ],
+    "summary": "Min9 来自长沙，是 DJ、Live Performer 及 MiddleGround 主理人之一，在多个电子厂牌发行作品。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Groundless Factory 2F，由该艺术家 / 项目演出。它属于当晚的 Afterparty；凌晨时间沿用前一晚活动日期归属。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听规律节拍与破碎节奏的转换，以及细小即兴怎样改变舞动感。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/min9/"
+    ]
+  },
+  "live-25-a9b4b1df2f28": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：潮音きつね （Kitsune Shione）aka 黑猫",
+        "url": "https://modularcommune.com/kitsune-shione/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/kitsune-shione/"
+    ],
+    "summary": "潮音きつね / Kitsune Shione（黑猫）的音乐涉及 Techno、碎拍、Psy 与多种高能舞曲风格，也热衷自行焊接模块。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听规则拍点与碎拍的切换，以及声音设计如何推动能量；不能据背景预判本场会完整涵盖所有风格。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/kitsune-shione/"
+    ]
+  },
+  "live-25-3c363a7d2221": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Juju",
+        "url": "https://modularcommune.com/juju/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/juju/"
+    ],
+    "summary": "Juju 受 Jean-Michel Jarre《Oxygène》一代及 French Touch 音乐影响，自称持续寻找新声音的声音手艺人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注缓慢发展的音景、细微音色变化和手动控制产生的连贯感。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/juju/"
+    ]
+  },
+  "live-25-0203d9ce88cd": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Vehement",
+        "url": "https://modularcommune.com/vehement/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/vehement/"
+    ],
+    "summary": "Vehement 毕业于南京艺术学院，是 DAWless East China 及 NKG Soundsystem 相关创作者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从和声与节奏的现场组织入手，感受不同声源如何形成共同音景。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/vehement/"
+    ]
+  },
+  "talk-25-1ef1d9f820e2": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Sonic Vein 产品背景",
+        "url": "https://sonicvein.com/en"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "把音乐 AI 从提示词输出进一步理解为可演奏、可编辑的工具。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "卫雨晨主讲的题目强调 Prompt 之后的音乐 AI：可演奏和可编辑。它提出的是生成与音乐控制之间的关系，官方尚未公布演示系统、模型名称、教学步骤或参与方式。"
+        ]
+      },
+      {
+        "heading": "相关技术背景",
+        "paragraphs": [
+          "本届 Sonic Vein 声脉科技的官网介绍把音符、奏法及音符之间的过渡纳入可编辑流程，提供理解“AI 乐器”这一方向的背景。这里只将它作为相关产品研究，不据此认定本场必然演示某个具体产品。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注生成结果能在哪些层面修改、演奏动作是否能实时影响表达，以及 AI 怎样进入原有作曲和制作流程。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "wei-yuchen"
+    ]
+  },
+  "live-25-7d8f8b071b03": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：阿拉坦怪怪",
+        "url": "https://modularcommune.com/aladanguaiguai/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/aladanguaiguai/"
+    ],
+    "summary": "阿拉坦怪怪是游戏声音设计师、独立电子音乐人，也从事电影胶片扫描仪的工程设计。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可以留意常见半音之间的音高移动、拍频和细微失谐，听音高如何成为音色变化的一部分。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/aladanguaiguai/"
+    ]
+  },
+  "live-25-a6cc60cee760": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：ENVIRON / (Coding Inspire Modular)",
+        "url": "https://modularcommune.com/environ/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/environ/"
+    ],
+    "summary": "ENVIRON 是电子音乐人、制作人和合成器演奏者，也是 Coding Inspire Modular 主理人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从音序的重复与采样碎片的偏移入手，感受声音如何勾勒抽象的环境与空间。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/environ/"
+    ]
+  },
+  "talk-25-71b150bb4451": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "讨论 AI 音源及音色设计中从电压控制到向量表达的转变。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "题目将“电压”和“向量”并置，讨论 AI 驱动音源与音色设计，由 Oscar / 解路禄署名。活动页尚未明确讲师分工、使用模型或展示产品。"
+        ]
+      },
+      {
+        "heading": "理解主题的入口（导览建议）",
+        "paragraphs": [
+          "可把传统控制信号与 AI 中对声音特征的表示作为两条线索：音色能否通过连续变化被探索，参数或向量怎样对应听觉结果，创作者如何在生成与选择之间保留控制。",
+          "这些问题是根据标题整理的阅读方向，不能据此认定本场包含模型训练、软件操作或某种特定向量插值示范。完整内容仍待主办方进一步公布。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "oscar-xie"
+    ]
+  },
+  "live-25-4f05e85ca23f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Y.",
+        "url": "https://modularcommune.com/y/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/y/"
+    ],
+    "summary": "Y. 的官方简介以模块购买、系统规划与 ModularGrid 使用经验作幽默自述。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "适合保留开放预期，先观察现场系统如何发声和变化，再建立自己的听觉印象。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/y/"
+    ]
+  },
+  "live-25-e0d92e28a25b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：ECO LAND",
+        "url": "https://modularcommune.com/eco-land/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/eco-land/"
+    ],
+    "summary": "ECO LAND 是由主唱 ECO（卢奕可）与父亲卢小旭组成的父子乐队，属于小旭音乐旗下。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注歌曲叙事、童声与电子制作的结合；既可从流行歌曲结构聆听，也可观察技术在表达中的角色。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/eco-land/"
+    ]
+  },
+  "live-25-72cec753e160": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Enrique Tomás",
+        "url": "https://modularcommune.com/enrique-tomas/"
+      },
+      {
+        "label": "主办方：Boris Shershenkov",
+        "url": "https://modularcommune.com/boris-shershenkov/"
+      },
+      {
+        "label": "主办方：Yukes 玉刻",
+        "url": "https://modularcommune.com/yukes/"
+      },
+      {
+        "label": "主办方：Meng Qi 孟奇",
+        "url": "https://modularcommune.com/meng-qi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/enrique-tomas/",
+      "https://modularcommune.com/boris-shershenkov/",
+      "https://modularcommune.com/yukes/",
+      "https://modularcommune.com/meng-qi/"
+    ],
+    "summary": "Enrique Tomás 是声音艺术家与研究者，工作涉及声音艺术、计算机音乐、位置媒体及人机交互。 Boris Shershenkov 是媒体艺术家、研究者、教育者与乐器设计者。 Yukes 玉刻是美国多乐器演奏者及电子、传统中国乐器产品专家，结合古筝、箫、中阮和合成声音创作当代中国气质的氛围音乐。 孟奇是合成器设计师、音乐人和讲师，设计过 Wing Pinger、Wingie、Cricket、Honey，以及 Skies、Horizon 等乐器或模块。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由多位创作者合作呈现。这是致敬田进勤的合作演出，连接乐器历史、研究与当代演奏实践。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Enrique Tomás：可留意声音与所在空间的关系，把聆听位置及注意力的变化也视作体验的一部分。",
+          "Boris Shershenkov：可关注乐器界面、动作与声音之间的反馈，思考历史技术在当代声音实践中如何重新获得用途。",
+          "Yukes 玉刻：可听传统乐器的触感、气息与电子音色之间的结合，关注两类声源如何共同营造氛围。",
+          "Meng Qi 孟奇：可从身体动作、乐器响应和声音结果之间的关系理解其音乐，关注设计与演奏如何互相影响。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/enrique-tomas/",
+      "https://modularcommune.com/boris-shershenkov/",
+      "https://modularcommune.com/yukes/",
+      "https://modularcommune.com/meng-qi/"
+    ]
+  },
+  "live-25-66a57066518d": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Wang Yi 王懿 (EAU)",
+        "url": "https://modularcommune.com/eau/"
+      },
+      {
+        "label": "主办方：3EYESNUTS",
+        "url": "https://modularcommune.com/3eyesnuts/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/eau/",
+      "https://modularcommune.com/3eyesnuts/"
+    ],
+    "summary": "王懿 EAU 常驻上海，专注当代音乐、电声与跨媒介创作，以多层空间声音表现情绪和时间流动。 常驻上海的 3EYESNUTS 创作数字与机械交互装置、生成影像及现场视觉。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Wang Yi 王懿 (EAU)：可听声音层次的空间位置与流动，关注抽象音色如何与视觉或时间结构形成联系。",
+          "3EYESNUTS：除了听声音，也可观察画面的生成与变化，把视听之间的同步、偏离和互动作为观看线索。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/eau/",
+      "https://modularcommune.com/3eyesnuts/"
+    ]
+  },
+  "diy-25-a9ec0cc2ae40": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/error-instruments-diy-workshops-2026/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "学习焊接、组装和测试，制作一台独立式实验合成器。",
+    "sections": [
+      {
+        "heading": "可以制作什么",
+        "paragraphs": [
+          "Error Instruments 公布了三种项目，每种材料费均为 650 元：以火焰和非传统电子处理探索声音的 Ritual Synthesis with a Flame；强调不可预测音色的 Cloud Busting；以及偏粗噪音与极端声音的 Data Synth。三款均为独立式乐器，不需要接入电脑或模块系统。",
+          "工作坊涵盖电烙铁使用、电子元件原理、套件组装、测试排错和使用成品创作实验声音。官方说明会协助排查和修复问题，并在活动结束前确认乐器能正常工作。"
+        ]
+      },
+      {
+        "heading": "报名与选择",
+        "paragraphs": [
+          "官方日程标注本场 16 个名额，报名采用活动专页的微信二维码。周六和周日各有一场；套件选择、库存及工具准备以报名确认信息为准，不能据三款项目介绍推定一次费用包含全部三台。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/paul-tas/",
+      "https://modularcommune.com/ola-moonk/"
+    ]
+  },
+  "live-25-7ce210334097": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：MIZU^3",
+        "url": "https://modularcommune.com/mizu-3-kuanfuweimu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/mizu-3-kuanfuweimu/"
+    ],
+    "summary": "MIZU^3 的官方页面同时介绍了管付为模 KUANFUWEIMU 的视听实践，涉及数字影像、交互装置、算法美学、实时互动及 AI。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注实际现场的声音与视觉互动。本场具体合作关系及演奏配置尚未公布。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/mizu-3-kuanfuweimu/"
+    ]
+  },
+  "talk-25-218fc968b7ae": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Osc Audio 官网",
+        "url": "https://osc-pro.com/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "Osc Audio 品牌工作坊，认识录音及声音处理工具的背景。",
+    "sections": [
+      {
+        "heading": "活动内容",
+        "paragraphs": [
+          "官方以“Osc Audio Workshop”公布本场，主讲为 TBA，没有列出设备、案例、语言或参与形式。当前能确认的只有日程中的题目与时间。"
+        ]
+      },
+      {
+        "heading": "品牌背景",
+        "paragraphs": [
+          "奥斯中乐官网提供专业录音和声音处理设备，产品包括话筒、监听控制器、电子管压限器及 500 系列相关工具。这些资料帮助理解品牌方向，但不代表全部设备都会在活动中展示。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可从录音信号链、模拟处理与监听判断等问题准备；本场是否采用音乐示范、设备体验或技术讲解，仍需官方补充。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "osc-audio-tba"
+    ]
+  },
+  "live-25-d64fbee229c0": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Parakuat",
+        "url": "https://modularcommune.com/parakuat/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/parakuat/"
+    ],
+    "summary": "Parakuat 是印度尼西亚创作者 Eri Rm 的项目，兼具制作、声音工程、模块演奏、编程与 3D 插画实践。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注声音制作细节与节奏设计，感受多种音乐经验如何被组织成现场语言。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/parakuat/"
+    ]
+  },
+  "talk-25-50bd5e5d1e8b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Genelec 官网",
+        "url": "https://www.genelec.com/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "Genelec 工作坊，关注声音监听与空间重放的相关背景。",
+    "sections": [
+      {
+        "heading": "活动内容",
+        "paragraphs": [
+          "官方以“Genelec Workshop”公布，并将讲师标注为 TBA。活动页未给出详细主题、演示设备或准备要求，因此不能直接认定为沉浸式系统、声学校准或特定产品的课程。"
+        ]
+      },
+      {
+        "heading": "品牌背景",
+        "paragraphs": [
+          "Genelec 真力研发专业监听及声音重放系统，官网介绍涵盖工作室监听、安装音响和相关校准工具。对于电子音乐创作者，准确听到音色、低频和空间细节是理解这一领域的入口。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注监听与普通播放的差别、空间怎样影响听觉判断，以及系统如何帮助制作决策。实际内容等待讲师和活动说明公布。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "genelec-tba"
+    ]
+  },
+  "live-25-cdf5131e81a8": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：DaftCat",
+        "url": "https://modularcommune.com/daftcat/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/daftcat/"
+    ],
+    "summary": "DaftCat 是来自北京的声音与视觉创作者、DJ，也是 CtrlZ 跨界社群发起人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从节奏的建立、采样的变化和声音对画面的影响来观察其创作方法。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/daftcat/"
+    ]
+  },
+  "live-25-cdfb29810ff5": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：LVNTE (Lavante)",
+        "url": "https://modularcommune.com/lvnte/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/lvnte/"
+    ],
+    "summary": "LVNTE 是韩国电子音乐人、作曲家与 Live Set 艺术家，受古典钢琴训练并拥有影视配乐学习背景。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听旋律线与段落结构如何引导情绪，以及现场变化怎样区别于完成作品的直接播放。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/lvnte/"
+    ]
+  },
+  "live-25-15221169d95e": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Ninando",
+        "url": "https://modularcommune.com/ninando/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ninando/"
+    ],
+    "summary": "Ninando 是常驻新加坡的塞尔维亚电子演奏者，最早以朋克鼓手进入音乐。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听鼓手经验如何体现在节奏推进中，以及低音和音色变化怎样塑造整体冲击。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ninando/"
+    ]
+  },
+  "live-25-fb048fa6a175": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Ola Moonk",
+        "url": "https://modularcommune.com/ola-moonk/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ola-moonk/"
+    ],
+    "summary": "Ola Moonk 是荷兰声音艺术家、乐器制作者 Peter de Haan，长期制作手鼓并组织工作坊，后转向 Eurorack，与 Error Instruments 的 Paul Tas 合作制作和演奏。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注声音在空间中的位置与移动，以及手工乐器思维怎样进入模块演奏；联合场次配置仍需现场确认。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ola-moonk/"
+    ]
+  },
+  "talk-25-5b63c48e2f1f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主办方：Lorenzo Donato",
+        "url": "https://modularcommune.com/lorenzo-donato/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/lorenzo-donato/"
+    ],
+    "summary": "连接模块系统与 Elektron，探索结构和即时变化共存的演奏。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "Lorenzo Donato 主讲“模块 + Elektron：结构性即兴”。题目把预先组织的结构与实时变化放在一起，具体设备、时钟连接及演示项目尚未公布。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注什么内容需要提前建立、什么参数适合留给现场，以及稳定音序与变化的模块声音如何相互支持。不要据标题推定使用哪一台 Elektron 设备。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/lorenzo-donato/"
+    ]
+  },
+  "live-25-75a75519867b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Dr. Alan Ip",
+        "url": "https://modularcommune.com/alan-ip/"
+      },
+      {
+        "label": "主办方：Zeng Yu 曾宇",
+        "url": "https://modularcommune.com/zeng-yu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/alan-ip/",
+      "https://modularcommune.com/zeng-yu/"
+    ],
+    "summary": "出生于香港、现居伦敦的 Dr. Alan Ip 是作曲家、制作人、多乐器演奏者及古董乐器收藏者。 曾宇是火星电台制作团队成员及乐队吉他手，长期负责流行、摇滚、电子及影视作品的编曲制作。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Dr. Alan Ip：他的背景同时连接早期电子音乐与当代音乐技术，可从缓慢变化的音景与反复律动之间的关系来聆听。",
+          "Zeng Yu 曾宇：可听制作经验与模块即兴如何相遇，以及声部、音色和整体结构如何被组织。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/alan-ip/",
+      "https://modularcommune.com/zeng-yu/"
+    ]
+  },
+  "live-25-5672aa95600a": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：喂喂东",
+        "url": "https://modularcommune.com/wei-wei-dong/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/wei-wei-dong/"
+    ],
+    "summary": "喂喂东偏爱硬件创作，官方描述把柔软、绵长的氛围音景与细密节奏并置，并以工业建筑作为其声音世界的意象。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从长音与细碎节奏的比例、层次和空间感来听作品如何搭建。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/wei-wei-dong/"
+    ]
+  },
+  "talk-25-77bd2a89bc77": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主办方：Tambu",
+        "url": "https://modularcommune.com/tambu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/tambu/"
+    ],
+    "summary": "讨论不同设备与演奏方式如何组成现场即兴系统。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "Tambu 的“现场即兴演出的混合配置”关注 Hybrid Setup。官方没有详细说明混合的是哪些设备或软件，也没有公布具体接线与课程步骤。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可思考每件工具承担什么角色、现场如何分配注意力，以及不同声源怎样保持节奏和结构上的协调。是否会讲到电脑、模块或特定硬件，需以现场内容为准。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/tambu/"
+    ]
+  },
+  "live-25-ff98afb56865": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：WEN LIANG 文亮",
+        "url": "https://modularcommune.com/wen-liang/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/wen-liang/"
+    ],
+    "summary": "文亮从事影视音乐制作、作曲及音乐编辑，同时开展 Ambient、IDM 与自由钢琴表达。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听旋律叙述、电子纹理与画面感的关系，关注现场如何在自由表达中形成段落。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/wen-liang/"
+    ]
+  },
+  "live-25-2946b6a9f962": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Dea HMGNC",
+        "url": "https://modularcommune.com/dea-hmgnc/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/dea-hmgnc/"
+    ],
+    "summary": "Dea HMGNC（Grahadea Kusuf）常驻印度尼西亚万隆，是 HMGNC 三人组成员及音频软件公司 Kuassa 创始人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听熟悉的流行和声如何被不规则节奏、故障细节和实时结构改变，形成怀旧与未来感的交汇。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/dea-hmgnc/"
+    ]
+  },
+  "live-25-28f6de50f327": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：徐陆洋",
+        "url": "https://modularcommune.com/xu-lu-yang/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/xu-lu-yang/"
+    ],
+    "summary": "徐陆洋是来自北京的影视配乐师与电子音乐人。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从声音如何组织时间与情绪来进入作品；实际曲目和形式以现场为准。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/xu-lu-yang/"
+    ]
+  },
+  "live-25-029dc30facb3": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：L+R 王璐",
+        "url": "https://modularcommune.com/lr/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/lr/"
+    ],
+    "summary": "L+R 王璐是制作人、编曲人及声音交互创作者，创立耀乐团并参与“新乐府｜昆曲”。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注戏曲或传统音乐语言如何进入电子结构，以及技术处理怎样改变听觉空间。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/lr/"
+    ]
+  },
+  "live-25-642023a04b52": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Glenn Keteleer aka Linear Straight/Radical G (Soma Laboratory)",
+        "url": "https://modularcommune.com/glenn-keteleer-aka-linear-straight-radical-g/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/glenn-keteleer-aka-linear-straight-radical-g/"
+    ],
+    "summary": "Glenn Keteleer 常驻比利时通厄伦，以 Radical G 和 Linear Straight 等项目创作，跨越 Techno、EBM、Electro、工业、氛围和实验电子。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意设备数量与音色丰富度之间的关系，听不同层次如何在有限系统里被组织起来。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/glenn-keteleer-aka-linear-straight-radical-g/"
+    ]
+  },
+  "talk-25-c9e1bb29ad4a": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "Roland TR-1000 官方产品页",
+        "url": "https://www.roland.com/global/products/tr-1000/"
+      },
+      {
+        "label": "主办方：LVNTE (Lavante)",
+        "url": "https://modularcommune.com/lvnte/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/lvnte/"
+    ],
+    "summary": "认识 Roland TR-1000 鼓机，并关注官方预告的另一款新品。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "官方安排 Roland 郭逸雄与 LVNTE 介绍 TR-1000 鼓机，并预告一款“惊喜新品”。新品的名称与规格没有在该活动日程公开，因此这里保留官方表述，不提前猜测产品。"
+        ]
+      },
+      {
+        "heading": "演奏与产品背景",
+        "paragraphs": [
+          "TR 系列是 Roland 的节奏设备产品线。LVNTE 具有古典钢琴、影视配乐和电子 Live Set 背景，现场实践结合模拟合成器、鼓机及 Ableton Live，关注旋律和结构的推进。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可关注鼓机在节奏编辑、音色塑造和现场控制中的角色，以及产品演示怎样进入实际音乐表演。活动页未公布全部演示功能或互动环节。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "guo-yixiong",
+      "https://modularcommune.com/lvnte/"
+    ]
+  },
+  "live-25-0a70f1ea28d5": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Noby_Owl 鸮鸣",
+        "url": "https://modularcommune.com/noby_owl/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/noby_owl/"
+    ],
+    "summary": "Noby_Owl 鸮鸣毕业于录音艺术专业，把处理设备与采样、乐器及各类声源结合。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注不常见声源如何被处理和重新组合，把音色本身作为主要聆听对象。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/noby_owl/"
+    ]
+  },
+  "live-25-7e36b291aadb": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：肖雄文 (ToyLeader)",
+        "url": "https://modularcommune.com/xiao-xiong-wen/"
+      },
+      {
+        "label": "主办方：尹妙琳 (ToyLeader)",
+        "url": "https://modularcommune.com/yin-miao-lin/"
+      },
+      {
+        "label": "主办方：张子博 (ToyLeader)",
+        "url": "https://modularcommune.com/zhang-zi-bo/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/xiao-xiong-wen/",
+      "https://modularcommune.com/yin-miao-lin/",
+      "https://modularcommune.com/zhang-zi-bo/"
+    ],
+    "summary": "肖雄文来自 ToyLeader Studio，曾获中国和广西 Beatbox 双人组赛事成绩。 尹妙琳有钢琴演奏经历，曾获 KAWAI 亚洲钢琴大赛大连赛区专业组奖项，也参与乐队演出。 张子博来自 ToyLeader，是 The New Generation 乐队主唱、吉他手，关注原创摇滚与实验声音，把吉他、电子音色和现场表达结合，首张专辑正在制作发行中。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "肖雄文 (ToyLeader)：可关注节奏经验与音色开发之间的关系；三人合作的具体声源和分工未公布。",
+          "尹妙琳 (ToyLeader)：可关注合作中的旋律和演奏互动，但不能预设本场一定以钢琴为核心。",
+          "张子博 (ToyLeader)：可关注乐队式表达与电子声音之间的互动；本场为三人署名，具体演奏分工未公布。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/xiao-xiong-wen/",
+      "https://modularcommune.com/yin-miao-lin/",
+      "https://modularcommune.com/zhang-zi-bo/"
+    ]
+  },
+  "talk-25-05fbac697112": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "主办方：ECO LAND",
+        "url": "https://modularcommune.com/eco-land/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/eco-land/"
+    ],
+    "summary": "围绕 2026 年 AI 音乐创作的变化，讨论制作与表达的新方向。",
+    "sections": [
+      {
+        "heading": "已公布的主题",
+        "paragraphs": [
+          "这场讲座由 Mr. Lu Louis / 卢小旭主讲，题目为“2026 AI 音乐创作新浪潮”。官方未公布具体工具、案例清单、课程大纲或讨论形式，因此不能将某个热门模型视作已确认的演示对象。"
+        ]
+      },
+      {
+        "heading": "参与线索（导览建议）",
+        "paragraphs": [
+          "可带着 AI 如何影响音乐制作分工、创作者如何编辑生成结果，以及作品表达怎样保留个人特点等问题参加。这里不预判讲座对版权或行业趋势的具体结论。"
+        ]
+      }
+    ],
+    "status": "topic-background",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "lu-xiaoxu"
+    ]
+  },
+  "live-25-1cbe5debedb7": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：33de9",
+        "url": "https://modularcommune.com/33de9/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/33de9/"
+    ],
+    "summary": "33de9 以声音和装置研究记忆，关注后怀旧、幽灵学，以及记忆中延迟出现或尚未被表达的部分。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从重复、残留和突然出现的声音片段入手，感受她如何在声音艺术与俱乐部语境之间组织情绪。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/33de9/"
+    ]
+  },
+  "live-25-1c6ab8290260": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：HATAKEN",
+        "url": "https://modularcommune.com/hataken/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/hataken/"
+    ],
+    "summary": "HATAKEN 长期使用模块合成器探索电子音乐，与 Greg Hunter 的 Wåveshåper 及 SUGIZO 等音乐人合作。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从即兴交流与音色的持续变形聆听，理解其音乐实践与模块文化组织工作之间的联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/hataken/"
+    ]
+  },
+  "live-25-f6cee33ef905": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：/guibog 鬼大爷",
+        "url": "https://modularcommune.com/guibog/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/guibog/"
+    ],
+    "summary": "驻北京的法籍创作者 /guibog 鬼大爷研究电路弯曲、数据弯曲及机械生物学。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可观察非传统装置的动作、故障或反馈如何变成声音，思考乐器与机器之间的边界。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/guibog/"
+    ]
+  },
+  "diy-25-6cc4e3e068af": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/shakmat-diy-workshops/"
+      },
+      {
+        "label": "Shakmat 套件与产品",
+        "url": "https://shakmat.com/products/"
+      },
+      {
+        "label": "Shakmat 制作指南",
+        "url": "https://shakmat.com/support/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "选择 Shakmat 套件，动手接触 Eurorack 模块的制作与结构。",
+    "sections": [
+      {
+        "heading": "套件与项目",
+        "paragraphs": [
+          "活动专页列出四款套件及美元价格：Archer’s Rig 225 USD、Battering Ram 210 USD、Jeweler Cast 130 USD、Mod Medusa 229 USD。价格对应不同项目，并非整套四款的合计或统一收费。",
+          "Shakmat 官网提供各套件的制作指南，品牌 YouTube 提供产品演示。可以先浏览指南，了解制作过程和成品用途，再决定选择哪一款；本届页面未明确初学者门槛和自备工具要求。"
+        ]
+      },
+      {
+        "heading": "报名与准备",
+        "paragraphs": [
+          "官方日程标注 20 个名额，专页以微信二维码报名。套件库存、付款币种或换算方式，以及烙铁等工具是否统一提供，需通过报名信息核实。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "shakmat-team"
+    ]
+  },
+  "live-25-6ea2d5c5599f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：XBH (Eventide)",
+        "url": "https://modularcommune.com/xbh/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/xbh/"
+    ],
+    "summary": "XBH 曾参与多乐器项目并以加料吉他独奏，现负责 Eventide 国际业务。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注声音如何在空间中移动，以及旋律控制与效果处理如何共同构成环绕体验。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/xbh/"
+    ]
+  },
+  "live-25-16f88f14e71a": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Jungle of Wires",
+        "url": "https://modularcommune.com/jungle-of-wires/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/jungle-of-wires/"
+    ],
+    "summary": "Jungle of Wires 是荷兰电子演奏者 Mandy Bakker 的项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听有限设备如何产生层次和变化，以及节奏在不断演化的结构中如何保持推进。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/jungle-of-wires/"
+    ]
+  },
+  "live-25-9a77a3c2176b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：张驰 (+audiovisual)",
+        "url": "https://modularcommune.com/zhang-chi/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/zhang-chi/"
+    ],
+    "summary": "张驰是常驻北京的新媒体艺术家，专注算法视觉呈现与视听现场。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可观察影像变化与声音事件之间的关联，留意算法生成与现场时间的关系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/zhang-chi/"
+    ]
+  },
+  "live-25-28024a4d0ebf": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Li Yanzeng 李言增",
+        "url": "https://modularcommune.com/li-yanzeng/"
+      },
+      {
+        "label": "主办方：葵先生",
+        "url": "https://modularcommune.com/cai-xian-sheng/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/li-yanzeng/",
+      "https://modularcommune.com/cai-xian-sheng/"
+    ],
+    "summary": "李言增是声音艺术家、电子音乐人与制作人，作品涉及音乐、影像和装置。 葵先生是一位贝斯手，现为扭曲机器乐队成员，也曾参与何勇、战斧、罗琦、CMCB、T9 等乐队及现场项目。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "Li Yanzeng 李言增：可听留白、重复和偶发变化，关注少量材料如何构成张力；合作声部以现场为准。",
+          "葵先生：可从长期乐队经验所形成的节奏感与互动方式来理解合作；本场具体声部配置以现场为准。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/li-yanzeng/",
+      "https://modularcommune.com/cai-xian-sheng/"
+    ]
+  },
+  "live-25-e910a67752a4": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：传说中的刘老师",
+        "url": "https://modularcommune.com/legendary-teacher-liu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/legendary-teacher-liu/"
+    ],
+    "summary": "传说中的刘老师兼具大学教授、设计师、音乐人和模块玩家身份。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可观察声音由单一频率变成复杂氛围的过程，以及设计思维如何体现在音乐结构中。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/legendary-teacher-liu/"
+    ]
+  },
+  "live-25-d683fd4c90c9": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Mouyao 牟遥",
+        "url": "https://modularcommune.com/mouyao/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/mouyao/"
+    ],
+    "summary": "牟遥是特雷门琴演奏者和声音艺术创作者，受空间艺术背景影响，把声音作为可塑造的材料。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注手势、距离与音色之间的联系，以及声音如何在空间中获得形状。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/mouyao/"
+    ]
+  },
+  "live-25-446176b78bc0": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Yukes 玉刻",
+        "url": "https://modularcommune.com/yukes/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/yukes/"
+    ],
+    "summary": "Yukes 玉刻是美国多乐器演奏者及电子、传统中国乐器产品专家，结合古筝、箫、中阮和合成声音创作当代中国气质的氛围音乐。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听传统乐器的触感、气息与电子音色之间的结合，关注两类声源如何共同营造氛围。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/yukes/"
+    ]
+  },
+  "live-25-79b8df878a8b": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Tim Kroker (Soma Laboratory)",
+        "url": "https://modularcommune.com/tim-kroker/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/tim-kroker/"
+    ],
+    "summary": "Tim Kroker 是德国鼓手与电子音乐艺术家，曾与 Front 242、Nitzer Ebb 等团体合作，也参与 SOMA 创新乐器的应用。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听鼓手的动作和节奏经验如何影响电子乐器演奏，以及原声与合成声音之间的呼应。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/tim-kroker/"
+    ]
+  },
+  "master-25-806a40d477c2": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方课程与活动日程",
+        "url": "https://modularcommune.com/workshops-2026/"
+      },
+      {
+        "label": "官方活动详细介绍",
+        "url": "https://modularcommune.com/instruo-master-class/"
+      }
+    ],
+    "artistUrls": [],
+    "summary": "沿 Instruō 的设计历程，讨论造乐器和做音乐如何相互影响。",
+    "sections": [
+      {
+        "heading": "课程内容",
+        "paragraphs": [
+          "Jason H. J. Lim 将回顾 Instruō 模块设计的历程，讨论个人创作与合作项目如何改变设计理念，以及硬件开发和音乐创作的共同之处。“创造性拖延”指为了做音乐而转向制作音乐工具，进而投入工具制作本身的过程。",
+          "课程重视从构想到生产的过程，官方介绍提到未在工作室之外公开过的原型：失败实验、概念验证以及仍在开发中的设计。这为理解最终产品背后的试错和选择提供了具体入口。"
+        ]
+      },
+      {
+        "heading": "购票与语言",
+        "paragraphs": [
+          "单场大师课 200 元，五场通票 500 元。官方专页提供微信购票二维码，也说明可现场购票；课程提供现场中文翻译。普通音乐节入场与大师课票务需分别确认。",
+          "官方未统一要求自带设备，也未公布预备知识门槛。可先梳理个人创作中的问题，是否需要携带器材以购票入口或主办方通知为准。"
+        ]
+      }
+    ],
+    "status": "official-detail",
+    "notice": "内容区分官方已公布信息、相关背景及导览建议；尚未公布的环节以现场或后续官方通知为准。",
+    "peopleIds": [
+      "https://modularcommune.com/jason-h-j-lim/"
+    ]
+  },
+  "live-25-eaf8310c703e": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：陈林",
+        "url": "https://modularcommune.com/chen-lin/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/chen-lin/"
+    ],
+    "summary": "陈林是音乐人、作曲者与制作人，发起 LINKE 项目并参与不高兴乐队、朝简等实践。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可顺着段落的起伏与情绪走向聆听，关注音色与编排如何共同营造现场张力。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/chen-lin/"
+    ]
+  },
+  "live-25-aa31a9b83492": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：DZ 王大治",
+        "url": "https://modularcommune.com/dz-jing/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/dz-jing/"
+    ],
+    "summary": "DZ 王大治是西安时音唱片主理人、黑撒乐队主唱及制作人，长期参与摇滚专辑制作，也是合成器和 Scratch 的爱好者。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听节奏框架和旋律音色如何共同推动现场。此次日程署名为 DZ，不能据合作背景推定 Jing 同场参加。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/dz-jing/"
+    ]
+  },
+  "live-25-5b6f20f39271": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Ancient Forest Clan (AF Clan)古林部落",
+        "url": "https://modularcommune.com/ancient-forest-clan/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ancient-forest-clan/"
+    ],
+    "summary": "古林部落 AF Clan 的官方介绍以林海和草原为根，连接满族渔猎与蒙古游牧文化的精神背景。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从文化记忆与声音表达的关系进入这场演出；实际演奏形式需要等待现场或后续官方介绍。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ancient-forest-clan/"
+    ]
+  },
+  "live-25-37a08a2851cf": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：88pluto",
+        "url": "https://modularcommune.com/88pluto/"
+      },
+      {
+        "label": "主办方：Jah Young",
+        "url": "https://modularcommune.com/jah-young/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/88pluto/",
+      "https://modularcommune.com/jah-young/"
+    ],
+    "summary": "88pluto 从事法律工作，也是一位合成器玩家，2018 年开始接触 Eurorack。 Jah Young 是文雀（Sparrow）乐队贝斯手，也长期使用模块合成器。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Boxing Ring，由多位创作者合作呈现。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "88pluto：可留意声音从静态到运动的变化，以及不规则调制如何改变音色；这是导览建议，具体演出内容尚未公布。",
+          "Jah Young：可从乐队演奏中的互动与节奏经验来理解合作，但具体乐器分工需以现场为准。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/88pluto/",
+      "https://modularcommune.com/jah-young/"
+    ]
+  },
+  "live-25-8f37473f0d09": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：刘晓晓",
+        "url": "https://modularcommune.com/liu-xiao-xiao/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/liu-xiao-xiao/"
+    ],
+    "summary": "刘晓晓曾长期制作卡林巴，近年开始探索合成器。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从原声乐器与电子探索之间的个人路径理解演出，具体设备和形式以现场为准。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/liu-xiao-xiao/"
+    ]
+  },
+  "live-25-0b3f7773747c": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：明仟",
+        "url": "https://modularcommune.com/ming-qian/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/ming-qian/"
+    ],
+    "summary": "明仟以声音、影像与现场行为持续实验，关注故障和记忆之间的关系。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Dolby Atmos，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可关注重复中逐渐积累的差异，听反馈与时间如何改变最初的材料。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/ming-qian/"
+    ]
+  },
+  "live-25-4f8d37136e7f": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Min9",
+        "url": "https://modularcommune.com/min9/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/min9/"
+    ],
+    "summary": "Min9 来自长沙，是 DJ、Live Performer 及 MiddleGround 主理人之一，在多个电子厂牌发行作品。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听规律节拍与破碎节奏的转换，以及细小即兴怎样改变舞动感。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/min9/"
+    ]
+  },
+  "live-25-9b380189c0c4": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：翰海",
+        "url": "https://modularcommune.com/hanhai/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/hanhai/"
+    ],
+    "summary": "翰海毕业于北京电影学院美术学院，现从事电影特效及舞台多媒体设计，兴趣包括电子音乐与抽象影像。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可从影像工作者的空间和时间感理解其声音探索；是否有影像及如何呈现，以现场为准。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/hanhai/"
+    ]
+  },
+  "live-25-2dfb1f27b791": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：/ XYZ (肖楠)",
+        "url": "https://modularcommune.com/xyz/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/xyz/"
+    ],
+    "summary": "XYZ 肖楠从 1980 年代起从事词曲、制作与多乐器演奏，组建过眼镜蛇乐队、参与新蜂音乐，也与超级市场和朴树乐队合作。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听歌曲写作与电子制作经验如何影响旋律、段落和演奏，但不能推定本场等同于 Nighticket 的组合演出。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/xyz/"
+    ]
+  },
+  "live-25-f466ae04a385": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：昌平电 X 研究所",
+        "url": "https://modularcommune.com/changpingdian-yanjiusuo/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/changpingdian-yanjiusuo/"
+    ],
+    "summary": "“昌平电 X 研究所”由北京创作者胡里主理。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Ambient Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可留意复古技术留下的音色质感，思考录音媒介、合成方式和作曲之间的联系。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/changpingdian-yanjiusuo/"
+    ]
+  },
+  "live-25-ba1804803a57": {
+    "checkedAt": "2026-10-12",
+    "sources": [
+      {
+        "label": "官方演出日程",
+        "url": "https://modularcommune.com/performances-2026/"
+      },
+      {
+        "label": "主办方：Zeng Yu 曾宇",
+        "url": "https://modularcommune.com/zeng-yu/"
+      }
+    ],
+    "artistUrls": [
+      "https://modularcommune.com/zeng-yu/"
+    ],
+    "summary": "曾宇是火星电台制作团队成员及乐队吉他手，长期负责流行、摇滚、电子及影视作品的编曲制作。",
+    "sections": [
+      {
+        "heading": "关于本场",
+        "paragraphs": [
+          "本场列于官方日程的Modular Live，由该艺术家 / 项目演出。"
+        ]
+      },
+      {
+        "heading": "聆听线索（导览建议）",
+        "paragraphs": [
+          "可听制作经验与模块即兴如何相遇，以及声部、音色和整体结构如何被组织。"
+        ]
+      }
+    ],
+    "status": "artist-background",
+    "notice": "艺术家背景与导览建议依据公开资料整理。本场曲目、合作分工与设备配置若无特别说明，尚未公布。",
+    "peopleIds": [
+      "https://modularcommune.com/zeng-yu/"
+    ]
+  }
+}
