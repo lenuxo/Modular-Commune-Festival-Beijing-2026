@@ -1,0 +1,28 @@
+{
+  "tool": "image_gen.imagegen",
+  "reference": "Approved green dot CRT mockup",
+  "common": "Portrait flat mobile full-screen, exact near-black forest green and phosphor-green dotted terrain, subtle horizontal scanlines, small left title, shared bottom controls. Preserve layout across states. No music jargon, no device bezel or hands.",
+  "states": [
+    {
+      "key": "01-pull-entry",
+      "spec": "ENTRANCE TRANSITION screen, distinct from all game screens. Upper 48% still shows bottom of Chinese festival visitor guide, dark gray-green matte normal UI WITHOUT scanlines: compact header \"交流方式观展手册\", two simple rows \"还想逛的展商\" with helper \"收藏想逛的品牌与开发者\", and \"我的观展\" with bookmark arrow; footer \"个人整理 · 非官方手册\" and \"资料来源与参观说明\". These are generic existing content labels, no invented brands. Homepage content is visibly displaced upward by user's continued bottom pull. Lower 52% reveals expanding black-green curved CRT surface emerging seamlessly from bottom, bright very thin green leading scan line at upper boundary, a small upward chevron and clearly prominent cue \"松手开始\". Beneath cue a subdued preview of final reference green dotted terrain with a few points lighting up, no touch marker, no audio controls yet. No back button for synth visible during this transition. No fingers, use one subtle short upward arrow to communicate pull, no giant decorative arrow. This depicts reaching activation threshold; no sound emitted."
+    },
+    {
+      "key": "02-idle",
+      "spec": "IDLE FIRST ENTRY. Preserve final reference header and control positions. Header instruction \"按住滑一滑，松手听听\". Main green dot terrain is low amplitude, faint and flat with tiny gentle hill, dim sparse dots. NO finger contact markers, NO gesture trails, NO ripple rings, NO bright rhythmic activity. Add one small readable centered prompt in upper-middle playable area \"从这里开始\" beside a restrained small green hollow circle as onboarding cue (this is guidance, not an active finger). Progress dots all dim. Below playable area helper \"随手滑，就能玩出一段音乐\". Modes \"弹跳\" selected pale green filled, \"夜行\", \"漂浮\". Undo exact \"用回刚才的\" very visibly dim disabled; transport exact \"开始\" with triangle play icon, enabled, replacing stop while silent. This screen is silent until first touch or explicit start. Calm welcoming low intensity."
+    },
+    {
+      "key": "03-one-finger",
+      "spec": "ONE FINGER LIVE PERFORMANCE. Preserve final reference layout and green pointillist terrain style. Header instruction changes exact \"松手后，听它接着演奏\". Main terrain a strong raised green dotted peak left-middle under ONE bright small dotted diamond contact marker connected by short fading vertical dotted trail. Rest terrain gently undulates with drum and bass rhythms. NO second touch ring, NO concentric ripple depression. The single active contact is unmistakable. Loop progress one dot lit. Lower helper exact \"再加一根手指，让音乐变个样\". Modes same reference. Undo \"用回刚才的\" dim disabled for first take. Stop square exact \"停止\" enabled. Vivid localized phosphor brightness, calm black-green space elsewhere."
+    },
+    {
+      "key": "04-two-fingers",
+      "spec": "TWO FINGER LIVE PERFORMANCE. Faithfully preserve final reference dotted terrain, left raised peak and bright diamond touch marker, right dotted hollow ring above concentric dotted ripple depression, both contacts clear. Terrain moderately more energetic and taller near contacts, brighter brief rhythmic columns but never clutter. Header instruction exact \"两根手指，一起变个样\". Loop progress two lights. Lower helper exact \"松开第二指，音乐慢慢回落\". Bottom identical reference mode choices with \"弹跳\" selected pale green filled; undo \"用回刚才的\" dim disabled for first take; stop square \"停止\" enabled. This is full expressive two-finger state, green monochrome only."
+    },
+    {
+      "key": "05-looping",
+      "spec": "HANDS RELEASED, MUSIC LOOPING. Preserve final reference layout. NO diamond or ring touch markers, NO contact trails; those have faded completely. Dot terrain is balanced lively mid amplitude with a central crest and regular small wave ridges, softly repeating musical motion, green pointillist depth. Header instruction exact \"这段不错，再滑一次试试\". Tiny green filled status dot and readable exact \"正在循环\" near upper-middle area, no professional music terms. Progress eighth dots one lit showing active loop. Lower helper exact \"按住试新花样，松手换成新的\". Modes same as reference. Undo \"用回刚才的\" enabled green bright (assume a previous phrase exists), square transport \"停止\" enabled. All finger-free visual makes looping state distinct from active play; no fake hand imagery."
+    }
+  ],
+  "entryCorrection": "Remove active touch markers, buttons, progress indicators from entry preview; keep only 松手开始 and calm dotted terrain."
+}

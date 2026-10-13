@@ -8,6 +8,7 @@ import {usePersonal} from '../personal'
 import {EventRow} from '../components/shared'
 import {useDetailPanel} from '../components/detailContext'
 import {homeContext,untilStart} from './homeModel'
+import {SynthLauncher} from '../synth/Launcher'
 
 export function Home(){
  const [now,setNow]=useState(()=>Date.now())
@@ -36,6 +37,7 @@ export function Home(){
    <Link className="material-panel visit-personal-link" to="/mine"><Bookmark size={18}/><span>我的观展<small>{saved.length} 场收藏 · {personal.brands.length} 家展商</small></span><ArrowUpRight size={17}/></Link>
   </aside></div>
   <footer className="visit-footer"><span>个人整理 · 非官方手册</span><Link to="/guide">资料来源与参观说明<ArrowUpRight size={14}/></Link></footer>
+  <SynthLauncher/>
 
  </div>
 }
