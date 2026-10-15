@@ -1,25 +1,72 @@
+import * as S from '@strudel/web'
 import {copyPhrase, FEELINGS, makePhrase, PHRASE_STEPS} from './model'
 import type {Feeling, Note, Phrase} from './model'
-import {presetEvents} from './presets'
+import {arrangements} from './presets'
+import {eventExpression, gestureVoice} from './music-controls'
+import {LiveMix, parts} from './live-mix'
+import {CONTROL_AXES, MODULATION_AXES, ReleaseControls} from './release-controls'
 
 export type Session = {phrase: Phrase | null; previous: Phrase | null; feeling: Feeling; muted: boolean}
-export type AudioSnapshot = {playing: boolean; step: number; pulse: number; energy: number; space: number; feeling: Feeling; pending: Feeling | null; hasPhrase: boolean; canUndo: boolean}
+export type AudioSnapshot = {playing: boolean; loading: boolean; error: string; step: number; pulse: number; energy: number; space: number; feeling: Feeling; pending: Feeling | null; hasPhrase: boolean; canUndo: boolean}
+const defaultControls = {energy:.2, space:.3, tone:.5}
+type Controller = ReturnType<typeof S.getSuperdoughAudioController>
+type Runtime = {context: AudioContext; controller: Controller; master: GainNode; limiter: DynamicsCompressorNode; ready: Promise<void> | null; owner: ThumbAudio | null}
+let shared: Runtime | null = null
 
-/** Small look-ahead sequencer. AudioContext is created only in a user gesture. */
+// Strudel pools AudioNodes globally. Reuse one suspended context rather than connecting pooled
+// nodes from an old context to a new one. No context exists until the first trusted gesture.
+function runtime(): Runtime {
+  if (shared) return shared
+  const Context = window.AudioContext ?? (window as unknown as {webkitAudioContext?: typeof AudioContext}).webkitAudioContext
+  if (!Context) throw new Error('当前浏览器暂时不能播放，请换个浏览器试试。')
+  const context = new Context({latencyHint:'interactive'})
+  S.setAudioContext(context)
+  const master = context.createGain(); master.gain.value = 0
+  const limiter = context.createDynamicsCompressor()
+  limiter.threshold.value = -5; limiter.knee.value = 4; limiter.ratio.value = 12
+  limiter.attack.value = .001; limiter.release.value = .08
+  limiter.connect(master); master.connect(context.destination)
+  const r: Runtime = {context, master, limiter, controller:S.getSuperdoughAudioController(), ready:null, owner:null}
+  routeOutput(r)
+  context.onstatechange = () => {if (context.state !== 'running') r.owner?.interrupt()}
+  shared = r
+  return r
+}
+function routeOutput(r: Runtime) {
+  r.controller.output.destinationGain.disconnect()
+  r.controller.output.destinationGain.connect(r.limiter)
+}
+function prepare(r: Runtime) {
+  if (!r.ready) {
+    r.ready = (async () => {
+      await S.registerSynthSounds()
+      await S.initAudio({maxPolyphony:128})
+    })().catch(error => {r.ready = null; throw error})
+  }
+  return r.ready
+}
+
+/** Strudel supplies patterns, synthesized voices and FX; this adapter connects them to touch. */
 export class ThumbAudio {
-  private context: AudioContext | null = null
-  private master: GainNode | null = null
-  private bus: GainNode | null = null
-  private delaySend: GainNode | null = null
-  private delay: DelayNode | null = null
-  private noise: AudioBuffer | null = null
+  private backend: Runtime | null = null
   private timer: ReturnType<typeof setInterval> | null = null
+  private mix: LiveMix | null = null
+  private lastLivePitch: number | null = null
+  private lastLiveTime = -1
+  private startTime = 0
   private nextTime = 0
   private step = 0
+  private phraseStep = 0
   private revision = 0
   private active = false
+  private loading = false
+  private failure = ''
   private holding = false
   private lead: Note | null = null
+  private controls = {...defaultControls}
+  private releases = new ReleaseControls()
+  private playbackControls = {...defaultControls}
+  private playbackLead = false
   private take: Phrase = []
   private phrase: Phrase | null
   private previous: Phrase | null
@@ -29,7 +76,7 @@ export class ThumbAudio {
   private pending: Feeling | null = null
   private muted: boolean
   private disposed = false
-  private voices = new Set<AudioScheduledSourceNode>()
+  private queue: Promise<void> = Promise.resolve()
   private events: {time: number; step: number; energy: number; space: number}[] = []
   constructor(session?: Session) {
     this.phrase = copyPhrase(session?.phrase ?? null)
@@ -37,74 +84,102 @@ export class ThumbAudio {
     this.feeling = session?.feeling ?? 'bounce'
     this.muted = session?.muted ?? false
   }
-  get session(): Session {return {phrase: copyPhrase(this.phrase), previous: copyPhrase(this.previous), feeling: this.feeling, muted: this.muted}}
+  get session(): Session {return {phrase:copyPhrase(this.phrase), previous:copyPhrase(this.previous), feeling:this.feeling, muted:this.muted}}
   get snapshot(): AudioSnapshot {
-    const now = this.context?.currentTime ?? 0
+    const now = this.backend?.context.currentTime ?? 0
     while (this.events.length > 1 && this.events[1].time <= now) this.events.shift()
     const event = this.events[0]
-    return {playing: this.active, step: event?.step ?? 0, pulse: this.active && event ? Math.exp(-Math.max(0, now - event.time) * 13) : 0,
-      energy: this.holding ? this.lead?.energy ?? .2 : event?.energy ?? .2,
-      space: this.holding ? this.lead?.space ?? .3 : event?.space ?? .3,
-      feeling: this.feeling, pending: this.pending, hasPhrase: !!this.phrase || !!this.replacement, canUndo: !!this.previous}
+    const visual=this.releases.value(this.holding?this.controls:this.playbackControls,now)
+    return {playing:this.active, loading:this.loading, error:this.failure, step:event?.step ?? 0,
+      pulse:this.active && event ? Math.exp(-Math.max(0,now-event.time)*13) : 0,
+      energy:visual.energy,
+      space:visual.space,
+      feeling:this.feeling, pending:this.pending, hasPhrase:!!this.phrase || !!this.replacement, canUndo:!!this.previous}
   }
-  private setup() {
-    if (this.context) return
-    const Context = window.AudioContext ?? (window as unknown as {webkitAudioContext?: typeof AudioContext}).webkitAudioContext
-    if (!Context) throw new Error('当前浏览器暂时不能播放，请换个浏览器试试。')
-    const ctx = this.context = new Context({latencyHint: 'interactive'})
-    const compressor = ctx.createDynamicsCompressor()
-    compressor.threshold.value = -19; compressor.knee.value = 12; compressor.ratio.value = 5
-    compressor.attack.value = .005; compressor.release.value = .18
-    const master = this.master = ctx.createGain(); master.gain.value = 0
-    const bus = this.bus = ctx.createGain(); bus.gain.value = .7
-    const limiter = ctx.createDynamicsCompressor()
-    limiter.threshold.value = -4; limiter.knee.value = 0; limiter.ratio.value = 20
-    limiter.attack.value = 0; limiter.release.value = .06
-    bus.connect(compressor); compressor.connect(limiter); limiter.connect(master); master.connect(ctx.destination)
-    const send = this.delaySend = ctx.createGain(); send.gain.value = .16
-    const delay = this.delay = ctx.createDelay(2); delay.delayTime.value = 60 / this.bpm * .75
-    const feedback = ctx.createGain(); feedback.gain.value = .25
-    const filter = ctx.createBiquadFilter(); filter.type = 'lowpass'; filter.frequency.value = 2600
-    send.connect(delay); delay.connect(filter); filter.connect(bus); filter.connect(feedback); feedback.connect(delay)
-    this.noise = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate)
-    const data = this.noise.getChannelData(0)
-    for (let i = 0; i < data.length; i++) data[i] = Math.random() * 2 - 1
-    ctx.onstatechange = () => {
-      if (ctx.state !== 'running' && this.active) this.stop()
-    }
-  }
-  private get bpm() {return FEELINGS.find(f => f.id === this.feeling)!.bpm}
+  private get bpm() {return FEELINGS.find(f=>f.id===this.feeling)!.bpm}
   async start() {
-    if (this.disposed) return
-    this.setup()
+    if (this.disposed || this.active || this.loading) return
+    const r = this.backend = runtime()
+    if (r.owner && r.owner !== this) {const old=r.owner;old.stop();old.mix?.destroy();old.mix=null}
+    r.owner = this
+    this.mix?.destroy(); this.mix = null
+    r.controller.reset(); routeOutput(r)
     const revision = ++this.revision
-    await this.context!.resume()
-    if (this.disposed || revision !== this.revision) return
-    if (this.context!.state !== 'running') throw new Error('声音还没启动，点一下「开始」再试试。')
-    if (this.active) return
-    this.active = true; this.step = 0; this.events = []
-    this.nextTime = this.context!.currentTime + .035
-    this.master!.gain.setTargetAtTime(this.muted ? 0 : .76, this.context!.currentTime, .02)
-    this.schedule()
-    this.timer = setInterval(() => this.schedule(), 25)
+    this.loading = true; this.failure = ''
+    try {
+      // Unlock synchronously from the trusted touch. No sample downloads are needed.
+      await r.context.resume()
+      await prepare(r)
+      if (this.disposed || revision !== this.revision || r.owner !== this) return
+      if (document.hidden) {this.stop(); return}
+      if (r.context.state !== 'running') throw new Error('audio interrupted')
+      this.loading = false; this.active = true; this.step = 0; this.phraseStep = 0; this.events = []; this.lastLivePitch=null;this.lastLiveTime=-1
+      this.mix = new LiveMix(r.context,r.limiter,this.bpm)
+      this.mix.update(this.feeling,this.controls,this.holding)
+      this.startTime = this.nextTime = r.context.currentTime + .035
+      if(this.holding && this.lead) this.liveAttack(this.lead)
+      r.master.gain.setTargetAtTime(this.muted ? 0 : .68,r.context.currentTime,.02)
+      this.schedule()
+      this.timer = setInterval(()=>this.schedule(),25)
+    } catch {
+      if (this.disposed || revision !== this.revision) return
+      this.stop(); this.failure = '声音没准备好，点「开始」再试一次。'
+      throw new Error(this.failure)
+    }
   }
   begin(note: Note) {
     if (this.holding) return
-    // A pending take remains undoable when a new gesture starts before the boundary.
     if (this.replacement) this.commitReplacement()
-    this.holding = true; this.lead = note; this.take = [{...note}]
+    this.releases.grab(CONTROL_AXES)
+    this.holding = true; this.lead = note; this.controls = {...note}; this.take = [{...note}]
+    if(this.active) this.liveAttack(note)
   }
-  update(note: Note | null) {this.lead = note}
+  update(note: Note | null) {
+    if(note && !this.lead) this.releases.grab(['tone'])
+    const changed=note && note.pitch!==this.lead?.pitch
+    this.lead=note
+    if(note) this.controls={...note}
+    this.refreshMix()
+    if(note && (changed || note.pitch!==this.lastLivePitch)) this.liveAttack(note)
+  }
+  setModulation(value: {energy: number; space: number}) {this.controls={...this.controls,...value};this.refreshMix()}
+  holdModulation() {this.releases.grab(MODULATION_AXES)}
+  releaseTouch(role: 'lead' | 'second') {
+    const now=this.backend?.context.currentTime ?? 0
+    this.releases.start(this.releases.value(this.controls,now,true),role==='lead'?['tone']:MODULATION_AXES,now,role==='lead'?.42:.32)
+  }
+  private refreshMix() {
+    if(!this.active || !this.backend) return
+    const now=this.backend.context.currentTime
+    const controls=this.releases.value(this.holding?this.controls:this.playbackControls,now,true)
+    this.mix?.update(this.feeling,controls,this.holding?!!this.lead:this.playbackLead,now,this.holding)
+  }
+  private liveAttack(note: Note) {
+    const r=this.backend
+    if(!this.active || !r || r.owner!==this) return
+    const now=r.context.currentTime
+    // Immediate pitch feedback, with a short retrigger guard against frantic glissandi.
+    if(now-this.lastLiveTime<.035) return
+    this.lastLiveTime=now;this.lastLivePitch=note.pitch
+    const cps=this.bpm/240, bar=Math.max(0,Math.floor((now-this.startTime)*cps))%8
+    const revision=this.revision
+    void S.superdough({...gestureVoice(this.feeling,{...note,...this.releases.value(note,now)},bar),delay:0,room:0},now+.004,60/this.bpm*.45,cps,bar).catch(()=>{
+      if(revision===this.revision && this.active) {this.stop();this.failure='声音暂时断了，点「开始」再试一次。'}
+    })
+  }
   release() {
     if (!this.holding) return
+    const now=this.backend?.context.currentTime ?? 0
+    this.releases.start(this.releases.value(this.controls,now,true),CONTROL_AXES,now,.42)
     this.holding = false; this.lead = null
+    this.refreshMix()
     if (this.take.some(Boolean)) this.replacement = makePhrase(this.take)
     this.take = []
   }
-  cancel() {this.holding = false; this.lead = null; this.take = []}
+  cancel() {this.holding = false; this.lead = null; this.take = []; this.releases.grab(CONTROL_AXES)}
   private commitReplacement() {
     if (!this.replacement) return
-    this.previous = copyPhrase(this.phrase); this.phrase = this.replacement; this.replacement = null
+    this.previous = copyPhrase(this.phrase); this.phrase = this.replacement; this.replacement = null; this.phraseStep = 0
   }
   setFeeling(feeling: Feeling) {
     if (this.active) this.pending = feeling === this.feeling ? null : feeling
@@ -112,161 +187,90 @@ export class ThumbAudio {
   }
   setMuted(muted: boolean) {
     this.muted = muted
-    if (this.context && this.master) this.master.gain.setTargetAtTime(this.active && !muted ? .76 : 0, this.context.currentTime, .02)
+    if (this.backend?.owner === this) this.backend.master.gain.setTargetAtTime(this.active && !muted ? .68 : 0,this.backend.context.currentTime,.02)
   }
   undo() {
     if (!this.previous) return
     if (this.active) this.undoPending = true
-    else {this.phrase = this.previous; this.previous = null; this.replacement = null}
+    else {this.phrase = this.previous; this.previous = null; this.replacement = null; this.phraseStep = 0}
   }
+  interrupt() {if (this.active || this.loading) this.stop()}
   stop() {
     ++this.revision; this.cancel(); this.commitReplacement()
     if (this.pending) {this.feeling = this.pending; this.pending = null}
-    this.active = false
-    this.undoPending = false
+    this.active = false; this.loading = false; this.undoPending = false
     if (this.timer) clearInterval(this.timer)
     this.timer = null
-    if (this.context && this.master) {
-      this.master.gain.cancelScheduledValues(this.context.currentTime)
-      this.master.gain.setTargetAtTime(0, this.context.currentTime, .012)
-      for (const voice of this.voices) {try {voice.stop(this.context.currentTime + .05)} catch {/* already ended */}}
-      // Suspend after a short release; a subsequent start invalidates this operation.
-      const revision = this.revision
-      setTimeout(() => {if (!this.disposed && revision === this.revision && !this.active) void this.context?.suspend().catch(() => {})}, 90)
-    }
+    const r = this.backend
+    if (!r || r.owner && r.owner !== this) return
+    r.owner = null
+    const now = r.context.currentTime
+    r.master.gain.cancelScheduledValues(now); r.master.gain.setTargetAtTime(0,now,.009)
+    const revision = this.revision, stoppedMix=this.mix
+    setTimeout(()=>{
+      stoppedMix?.destroy()
+      if (this.mix===stoppedMix) this.mix=null
+      if (revision !== this.revision || r.owner) return
+      // Disconnect tails and future voices as well as the dry signal before suspending.
+      r.controller.reset(); routeOutput(r)
+      void r.context.suspend().catch(()=>{})
+    },60)
   }
-  dispose() {
-    this.stop(); this.disposed = true
-    if (this.context) {this.context.onstatechange = null; void this.context.close().catch(() => {})}
-    this.voices.clear()
-  }
+  dispose() {this.stop(); this.disposed = true}
   private schedule() {
-    const ctx = this.context
-    if (!ctx || !this.active) return
-    if (this.nextTime < ctx.currentTime - .05) this.nextTime = ctx.currentTime + .015
-    while (this.nextTime < ctx.currentTime + .09) {
-      // The first tiny phrase answers immediately on the next grid tick.
-      if (!this.holding && !this.phrase && this.replacement) {this.commitReplacement(); this.step = 0}
-      const step = this.step % PHRASE_STEPS
-      // Style changes remain responsive at the next bar, while takes replace at eight-bar boundaries.
-      if (step % 16 === 0 && this.pending) {this.feeling = this.pending; this.pending = null; this.delay?.delayTime.setTargetAtTime(60 / this.bpm * .75, this.nextTime, .1)}
-      if (step === 0) {
+    const r = this.backend
+    if (!r || !this.active || r.owner !== this) return
+    if(this.releases.active) this.refreshMix()
+    if (this.nextTime < r.context.currentTime - .05) this.nextTime = r.context.currentTime + .025
+    while (this.nextTime < r.context.currentTime + .10) {
+      if (!this.holding && !this.phrase && this.replacement) this.commitReplacement()
+      let step = this.step % PHRASE_STEPS
+      if (step % 16 === 0 && this.pending) {
+        this.feeling = this.pending; this.pending = null; this.step = 0; step = 0
+        this.startTime=this.nextTime
+        this.mix?.destroy(); this.mix=new LiveMix(r.context,r.limiter,this.bpm)
+      }
+      if (this.phraseStep % PHRASE_STEPS === 0) {
         if (!this.holding) this.commitReplacement()
         if (this.undoPending && this.previous) {this.phrase = this.previous; this.previous = null; this.replacement = null; this.undoPending = false}
       }
-      const note = this.holding ? this.lead : this.phrase?.[step] ?? null
-      if (this.holding) {this.take.push(note ? {...note} : null); if (this.take.length > PHRASE_STEPS) this.take.shift()}
-      const energy = note?.energy ?? .2, space = note?.space ?? .3
-      this.delaySend?.gain.setTargetAtTime(.08 + space * .22, this.nextTime, .04)
-      this.accompany(step, this.nextTime, energy, !!note)
-      if (note) this.melody(note, this.nextTime)
-      this.events.push({time: this.nextTime, step, energy, space})
-      if (this.events.length > 12) this.events.splice(0, this.events.length - 12)
-      this.nextTime += 60 / this.bpm / 4
-      this.step++
+      const note = this.holding ? this.lead : this.phrase?.[this.phraseStep % PHRASE_STEPS] ?? null
+      const controls = this.holding ? this.controls : note ?? defaultControls
+      const time = this.nextTime, feeling = this.feeling, cps = this.bpm / 240, revision = this.revision
+      const soundingControls=this.releases.value(controls,time)
+      if (this.holding) {this.take.push(note ? {...note,...soundingControls} : null); if (this.take.length > PHRASE_STEPS) this.take.shift()}
+      const playLead = !!note && (step % (soundingControls.energy>.7?2:4) === 0) && (!this.holding || time-this.lastLiveTime>.08)
+      this.queue = this.queue.then(()=>this.playStep(feeling,step,time,cps,note,controls,playLead,revision)).catch(()=>{
+        if (revision === this.revision && this.active) {this.stop(); this.failure = '声音暂时断了，点「开始」再试一次。'}
+      })
+      this.events.push({time,step,energy:soundingControls.energy,space:soundingControls.space})
+      if (this.events.length > 16) this.events.splice(0,this.events.length-16)
+      this.nextTime += 1 / cps / 16
+      this.step++; if (!this.holding) this.phraseStep++
     }
   }
-  private track(source: AudioScheduledSourceNode, end: number, nodes: AudioNode[]) {
-    this.voices.add(source)
-    source.onended = () => {this.voices.delete(source); source.disconnect(); for (const node of nodes) node.disconnect()}
-    source.stop(end)
-  }
-  private synth(midi: number, time: number, duration: number, volume: number, type: OscillatorType, cutoff: number, echo = false) {
-    const ctx = this.context!, osc = ctx.createOscillator(), gain = ctx.createGain(), filter = ctx.createBiquadFilter()
-    osc.type = type; osc.frequency.setValueAtTime(440 * 2 ** ((midi - 69) / 12), time)
-    filter.type = 'lowpass'; filter.Q.value = .8
-    filter.frequency.setValueAtTime(cutoff, time); filter.frequency.exponentialRampToValueAtTime(Math.max(160, cutoff * .38), time + duration)
-    gain.gain.setValueAtTime(0, time); gain.gain.linearRampToValueAtTime(volume, time + .009)
-    gain.gain.exponentialRampToValueAtTime(.0001, time + duration)
-    osc.connect(filter); filter.connect(gain); gain.connect(this.bus!)
-    if (echo) gain.connect(this.delaySend!)
-    osc.start(time); this.track(osc, time + duration + .01, [filter, gain])
-  }
-  private melody(note: Note, time: number) {
-    const duration = this.feeling === 'float' ? .26 : this.feeling === 'night' ? .14 : .22
-    this.synth(note.pitch, time, duration, .11, this.feeling === 'night' ? 'square' : 'sawtooth', 650 + note.tone * 3800 + note.energy * 500, true)
-    if (this.feeling === 'float') this.synth(note.pitch + 12, time + .025, .5, .025, 'sine', 3000, true)
-  }
-  private kick(time: number, volume: number) {
-    const ctx = this.context!, osc = ctx.createOscillator(), gain = ctx.createGain()
-    const techno = this.feeling === 'night', trance = this.feeling === 'float'
-    const tail = techno ? .32 : trance ? .28 : .25
-    osc.frequency.setValueAtTime(techno ? 180 : trance ? 160 : 125, time); osc.frequency.exponentialRampToValueAtTime(techno ? 40 : trance ? 48 : 46, time + (techno ? .15 : .075))
-    gain.gain.setValueAtTime(volume, time); gain.gain.exponentialRampToValueAtTime(.0001, time + tail)
-    osc.connect(gain); gain.connect(this.bus!); osc.start(time); this.track(osc, time + tail + .01, [gain])
-    this.texture(time, .018, techno ? .035 : .018)
-  }
-  private hit(time: number, hat: boolean, volume: number) {
-    const ctx = this.context!, noise = ctx.createBufferSource(), filter = ctx.createBiquadFilter(), gain = ctx.createGain()
-    noise.buffer = this.noise
-    filter.type = hat ? 'highpass' : 'bandpass'; filter.frequency.value = hat ? 7000 : 1700; filter.Q.value = .65
-    const duration = hat ? (this.feeling === 'night' ? .025 : .05) : .12
-    gain.gain.setValueAtTime(volume, time); gain.gain.exponentialRampToValueAtTime(.0001, time + duration)
-    noise.connect(filter); filter.connect(gain); gain.connect(this.bus!)
-    noise.start(time); this.track(noise, time + duration + .01, [filter, gain])
-  }
-  private texture(time: number, duration: number, volume: number, opening = false) {
-    const ctx = this.context!, source = ctx.createBufferSource(), filter = ctx.createBiquadFilter(), gain = ctx.createGain()
-    source.buffer = this.noise
-    filter.type = 'highpass'; filter.Q.value = .7
-    filter.frequency.setValueAtTime(opening ? 800 : 6500, time)
-    filter.frequency.exponentialRampToValueAtTime(opening ? 6500 : 900, time + duration)
-    gain.gain.setValueAtTime(.0001, time)
-    gain.gain.linearRampToValueAtTime(volume, time + (opening ? duration * .8 : .008))
-    gain.gain.exponentialRampToValueAtTime(.0001, time + duration)
-    source.connect(filter); filter.connect(gain); gain.connect(this.bus!); gain.connect(this.delaySend!)
-    source.start(time); this.track(source, time + duration + .01, [filter, gain])
-  }
-  private accompany(step: number, time: number, energy: number, hasLead: boolean) {
-    const beat = 60 / this.bpm
-    for (const event of presetEvents(this.feeling, step, energy)) {
-      const t = time + (event.offset ?? 0) * beat
-      const duration = (event.beats ?? .25) * beat
-      const pitch = event.notes?.[0] ?? 60
-      switch (event.part) {
-        case 'kick': this.kick(t, event.level); break
-        case 'clap':
-          // Three short bursts create a clap rather than a generic noise snare.
-          for (let i = 0; i < 3; i++) this.hit(t + i * .011, false, event.level * (i === 2 ? .65 : .4))
-          if (this.feeling === 'night') this.synth(50, t, .07, .033, 'triangle', 1800)
-          break
-        case 'hat': this.hit(t, true, event.level); break
-        case 'snare':
-          this.hit(t, false, event.level)
-          this.texture(t, this.feeling === 'night' ? .075 : .12, event.level * .45)
-          this.synth(this.feeling === 'night' ? 57 : 53, t, .09, event.level * .3, 'triangle', 2200)
-          break
-        case 'tom': this.synth(pitch, t, duration, event.level, 'sine', 1000); break
-        case 'rim':
-          this.synth(pitch, t, duration, event.level * .55, 'square', 4600)
-          this.synth(pitch + 7, t, duration * .5, event.level * .25, 'sine', 6000)
-          break
-        case 'crash': this.texture(t, duration, event.level); break
-        case 'open': this.texture(t, duration, event.level); break
-        case 'fx': this.texture(t, duration, event.level, step % 128 >= 120); break
-        case 'perc': this.synth(pitch, t, duration, event.level, this.feeling === 'night' ? 'square' : 'sine', 1900, true); break
-        case 'bass':
-          this.synth(pitch, t, duration, event.level, 'sine', 800)
-          this.synth(pitch, t, duration * .85, event.level * .36, this.feeling === 'night' ? 'sawtooth' : 'square', this.feeling === 'night' ? 650 + energy * 900 : 480 + energy * 480)
-          break
-        case 'chord':
-          for (const midi of event.notes!) {
-            if (this.feeling === 'float') {
-              // Re-articulate the pad each beat for a pumping dance-floor envelope.
-              for (let pulse = 0; pulse < 4; pulse++) {
-                this.synth(midi, t + pulse * beat + .10 * beat, beat * .80, event.level, 'sawtooth', 1500 + energy * 1600, true)
-                this.synth(midi + .07, t + pulse * beat + .10 * beat, beat * .80, event.level * .6, 'sawtooth', 2100, true)
-              }
-            } else this.synth(midi, t, duration, event.level, this.feeling === 'night' ? 'square' : 'sawtooth', this.feeling === 'night' ? 950 : 2300, true)
-          }
-          break
-        case 'motif': {
-          const level = event.level * (hasLead ? .35 : 1)
-          this.synth(pitch, t, duration, level, this.feeling === 'bounce' ? 'triangle' : this.feeling === 'night' ? 'square' : 'sawtooth', this.feeling === 'night' ? 1100 + energy * 2400 : 3400, true)
-          if (this.feeling === 'float') this.synth(pitch + .12, t + .006, duration, level * .45, 'sawtooth', 4000, true)
-          break
-        }
-      }
+  private async playStep(feeling: Feeling, step: number, time: number, cps: number, note: Note | null, controls: Pick<Note,'tone' | 'energy' | 'space'>, playLead: boolean, revision: number) {
+    const valid = () => this.active && revision === this.revision && this.backend?.owner === this
+    if (!valid()) return
+    const begin = step / 16, end = (step + 1) / 16
+    const haps = arrangements[feeling].parts.flatMap(({part,pattern})=>pattern.queryArc(begin,end,{_cps:cps})
+      .filter(h=>h.hasOnset()).map(h=>({part,h})))
+      .sort((a,b)=>a.h.whole.begin.valueOf()-b.h.whole.begin.valueOf())
+    if(!this.holding) {
+      this.playbackControls={...controls};this.playbackLead=!!note
+      const when=Math.max(time,this.backend!.context.currentTime)
+      this.mix?.update(feeling,this.releases.value(controls,when),!!note,when)
     }
+    for (const {part,h} of haps) {
+      if (!valid()) return
+      const hitTime=time+(h.whole.begin.valueOf()-begin)/cps
+      if(part==='kick') this.mix?.kick(hitTime,feeling)
+      const position=Math.round((h.whole.begin.valueOf()%1)*16)
+      const velocity=part==='drums' ? (position%4===0?1:position%2===0?.8:.52) : 1
+      const expression=eventExpression(part,this.releases.value(controls,hitTime),h.value)
+      const value = {...expression,orbit:parts.indexOf(part),gain:Number(expression.gain ?? 1)*velocity*arrangements[feeling].gain}
+      await S.superdough(value,time+(h.whole.begin.valueOf()-begin)/cps,Number(h.duration)/cps,cps,begin)
+    }
+    if (note && playLead && valid()) await S.superdough({...gestureVoice(feeling,{...note,...this.releases.value(controls,time)},Math.floor(step/16)),delay:0,room:0},time,1/cps/(feeling==='night'?16:8),cps,begin)
   }
 }

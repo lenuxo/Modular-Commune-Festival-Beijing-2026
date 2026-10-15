@@ -21,9 +21,9 @@
 .synth-contact{position:absolute;pointer-events:none;transform:translate(-50%,-50%);z-index:2;color:var(--phosphor)}
 .synth-lead{width:15px;height:15px;background:radial-gradient(circle,#c9ffb4 1px,transparent 1.5px);background-size:4px 4px;transform:translate(-50%,-50%) rotate(45deg);filter:drop-shadow(0 0 5px #98ff7f)}
 .synth-lead::before{content:'';position:absolute;inset:-5px;border:1px solid #c5ffb575;border-radius:50%}
-.synth-second{width:27px;height:27px;border:2px dotted #b7ffa3;border-radius:50%;filter:drop-shadow(0 0 4px #98ff7f)}
+.synth-second{width:calc(27px + var(--touch-energy, .2) * 24px);height:calc(27px + var(--touch-energy, .2) * 24px);border:2px dotted #b7ffa3;border-radius:50%;filter:drop-shadow(0 0 4px #98ff7f)}
 .synth-second::before,.synth-second::after{content:'';position:absolute;inset:-10px;border:1px dotted #90e47b55;border-radius:50%}
-.synth-second::after{inset:-20px;opacity:.5}
+.synth-second::after{inset:calc(-12px - var(--touch-space, .3) * 22px);opacity:calc(.25 + var(--touch-space, .3) * .6)}
 .synth-loop-label{position:absolute;left:0;right:0;top:12%;display:flex;align-items:center;justify-content:center;gap:7px;font-size:12px;color:var(--phosphor-dim);pointer-events:none}
 .synth-loop-label i{width:5px;height:5px;border-radius:50%;background:var(--phosphor)}
 .synth-controls{flex-shrink:0;position:relative;z-index:6;padding-top:4px}
@@ -52,3 +52,8 @@
 @keyframes synth-enter{from{opacity:.3;transform:translateY(8%)}to{opacity:1;transform:translateY(0)}}
 .synth-dialog[open] .synth-screen{animation:synth-enter 240ms cubic-bezier(.16,1,.3,1)}
 @media(prefers-reduced-motion:reduce){.synth-dialog .ui-button{transition:none}.synth-contact{filter:none}.synth-dialog[open] .synth-screen{animation:none}}
+
+.synth-title-row{display:flex;align-items:center;justify-content:space-between;gap:16px}
+.synth-credit{position:relative;font-size:9px;line-height:1;color:var(--phosphor-dim);text-decoration:none;letter-spacing:.04em;white-space:nowrap}
+.synth-credit::before{content:'';position:absolute;inset:-16px -8px}
+.synth-credit:focus-visible{outline:1px solid var(--phosphor);outline-offset:6px}
