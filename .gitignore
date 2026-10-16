@@ -5,6 +5,9 @@ node_modules/
 dist/
 coverage/
 .vite/
+.wrangler/
+.dev.vars
+.dev.vars.*
 *.tsbuildinfo
 
 # Browser automation artifacts

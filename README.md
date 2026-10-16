@@ -4,6 +4,8 @@
 
 ## 运行
 
+使用 Node.js 24（见 `.node-version`）。
+
 ```sh
 npm install
 npm run dev
@@ -13,6 +15,36 @@ npm run lint
 ```
 
 生产发布上传 `dist/`。Hash 路由无需服务端路径回退。离线缓存仅在生产构建、HTTPS或localhost下注册；首次联网且缓存完成后可离线访问，外部报名和购票链接仍需网络。
+
+## Cloudflare 部署
+
+使用 Cloudflare Workers Static Assets 托管纯静态站点，无需后端 Worker 代码。`wrangler.jsonc` 指定站点名称与 `dist/` 目录，预览和部署都会先自动执行生产构建。Hash 路由无需 SPA 回退，缺失文件返回 404。
+
+```sh
+npm ci
+npm run preview:cloudflare
+```
+
+首次发布时登录 Cloudflare 账号，再执行部署：
+
+```sh
+npx wrangler login
+npm run deploy
+```
+
+部署成功后，Wrangler 会输出 HTTPS 的 `workers.dev` 访问地址。需要自定义域名时，在 Cloudflare 控制台该 Worker 的 Settings → Domains & Routes 中添加。
+
+也可以在 Cloudflare 控制台的 Workers & Pages 中导入 Git 仓库，选择 Workers 项目，配置：
+
+- 项目 / Worker 名称：`modular-commune-festival-beijing-2026`，与 `wrangler.jsonc` 一致。
+- 根目录：仓库根目录。
+- 构建命令：留空；部署命令：`npm run deploy`（Wrangler 会自动运行 `npm run build`）。
+- 生产分支：`main`；验证本分支时可先选择 `codex/cloudflare-deploy`。
+- 构建环境：Node.js 24；若控制台未读取 `.node-version`，设置环境变量 `NODE_VERSION=24`。
+
+CLI 或外部 CI 使用 API Token 时，通过环境变量提供 `CLOUDFLARE_API_TOKEN` 与 `CLOUDFLARE_ACCOUNT_ID`，不要提交凭据。Cloudflare Git 集成可在控制台完成账号授权。
+
+`public/_headers` 会随构建复制到 `dist/`：带哈希的脚本和样式使用长期缓存，`sw.js` 每次重新验证，其他静态文件沿用 Cloudflare 默认的重新验证策略。离线应用会在新 Service Worker 安装激活后使用新缓存；发布后若页面仍显示旧内容，可再次刷新。
 
 ## 功能
 
