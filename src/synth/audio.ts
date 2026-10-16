@@ -1,8 +1,10 @@
 import * as S from '@strudel/web'
-import {copyPhrase, FEELINGS, makePhrase, PHRASE_STEPS} from './model'
+import {BARS, copyPhrase, DEFAULT_FEELING, FEELINGS, makePhrase, PHRASE_STEPS} from './model'
 import type {Feeling, Note, Phrase} from './model'
 import {arrangements} from './presets'
-import {eventExpression, gestureVoice} from './music-controls'
+import {engineControls} from './strudel-controls'
+import {createOutput, MASTER_GAIN} from './output'
+import {eventDuration, eventExpression, gestureStep, gestureVoice} from './music-controls'
 import {LiveMix, parts} from './live-mix'
 import {CONTROL_AXES, MODULATION_AXES, ReleaseControls} from './release-controls'
 
@@ -21,11 +23,7 @@ function runtime(): Runtime {
   if (!Context) throw new Error('当前浏览器暂时不能播放，请换个浏览器试试。')
   const context = new Context({latencyHint:'interactive'})
   S.setAudioContext(context)
-  const master = context.createGain(); master.gain.value = 0
-  const limiter = context.createDynamicsCompressor()
-  limiter.threshold.value = -5; limiter.knee.value = 4; limiter.ratio.value = 12
-  limiter.attack.value = .001; limiter.release.value = .08
-  limiter.connect(master); master.connect(context.destination)
+  const {master,limiter}=createOutput(context)
   const r: Runtime = {context, master, limiter, controller:S.getSuperdoughAudioController(), ready:null, owner:null}
   routeOutput(r)
   context.onstatechange = () => {if (context.state !== 'running') r.owner?.interrupt()}
@@ -81,7 +79,7 @@ export class ThumbAudio {
   constructor(session?: Session) {
     this.phrase = copyPhrase(session?.phrase ?? null)
     this.previous = copyPhrase(session?.previous ?? null)
-    this.feeling = session?.feeling ?? 'bounce'
+    this.feeling = session?.feeling ?? DEFAULT_FEELING
     this.muted = session?.muted ?? false
   }
   get session(): Session {return {phrase:copyPhrase(this.phrase), previous:copyPhrase(this.previous), feeling:this.feeling, muted:this.muted}}
@@ -114,11 +112,11 @@ export class ThumbAudio {
       if (document.hidden) {this.stop(); return}
       if (r.context.state !== 'running') throw new Error('audio interrupted')
       this.loading = false; this.active = true; this.step = 0; this.phraseStep = 0; this.events = []; this.lastLivePitch=null;this.lastLiveTime=-1
-      this.mix = new LiveMix(r.context,r.limiter,this.bpm)
+      this.mix = new LiveMix(r.context,r.limiter,this.bpm,this.feeling)
       this.mix.update(this.feeling,this.controls,this.holding)
       this.startTime = this.nextTime = r.context.currentTime + .035
       if(this.holding && this.lead) this.liveAttack(this.lead)
-      r.master.gain.setTargetAtTime(this.muted ? 0 : .68,r.context.currentTime,.02)
+      r.master.gain.setTargetAtTime(this.muted ? 0 : MASTER_GAIN,r.context.currentTime,.02)
       this.schedule()
       this.timer = setInterval(()=>this.schedule(),25)
     } catch {
@@ -152,7 +150,7 @@ export class ThumbAudio {
     if(!this.active || !this.backend) return
     const now=this.backend.context.currentTime
     const controls=this.releases.value(this.holding?this.controls:this.playbackControls,now,true)
-    this.mix?.update(this.feeling,controls,this.holding?!!this.lead:this.playbackLead,now,this.holding)
+    this.mix?.update(this.feeling,controls,this.holding?!!this.lead:this.playbackLead,now,this.holding,Math.max(0,(now-this.startTime)*this.bpm/240))
   }
   private liveAttack(note: Note) {
     const r=this.backend
@@ -161,9 +159,10 @@ export class ThumbAudio {
     // Immediate pitch feedback, with a short retrigger guard against frantic glissandi.
     if(now-this.lastLiveTime<.035) return
     this.lastLiveTime=now;this.lastLivePitch=note.pitch
-    const cps=this.bpm/240, bar=Math.max(0,Math.floor((now-this.startTime)*cps))%8
+    const cps=this.bpm/240, bar=Math.max(0,Math.floor((now-this.startTime)*cps))%BARS
     const revision=this.revision
-    void S.superdough({...gestureVoice(this.feeling,{...note,...this.releases.value(note,now)},bar),delay:0,room:0},now+.004,60/this.bpm*.45,cps,bar).catch(()=>{
+    const voice=gestureVoice(this.feeling,{...note,...this.releases.value(note,now)},bar)
+    void S.superdough(engineControls(voice),now+.004,eventDuration('motif',voice,60/this.bpm*.45,this.bpm),cps,bar).catch(()=>{
       if(revision===this.revision && this.active) {this.stop();this.failure='声音暂时断了，点「开始」再试一次。'}
     })
   }
@@ -187,7 +186,7 @@ export class ThumbAudio {
   }
   setMuted(muted: boolean) {
     this.muted = muted
-    if (this.backend?.owner === this) this.backend.master.gain.setTargetAtTime(this.active && !muted ? .68 : 0,this.backend.context.currentTime,.02)
+    if (this.backend?.owner === this) this.backend.master.gain.setTargetAtTime(this.active && !muted ? MASTER_GAIN : 0,this.backend.context.currentTime,.02)
   }
   undo() {
     if (!this.previous) return
@@ -228,7 +227,7 @@ export class ThumbAudio {
       if (step % 16 === 0 && this.pending) {
         this.feeling = this.pending; this.pending = null; this.step = 0; step = 0
         this.startTime=this.nextTime
-        this.mix?.destroy(); this.mix=new LiveMix(r.context,r.limiter,this.bpm)
+        this.mix?.destroy(); this.mix=new LiveMix(r.context,r.limiter,this.bpm,this.feeling)
       }
       if (this.phraseStep % PHRASE_STEPS === 0) {
         if (!this.holding) this.commitReplacement()
@@ -239,7 +238,7 @@ export class ThumbAudio {
       const time = this.nextTime, feeling = this.feeling, cps = this.bpm / 240, revision = this.revision
       const soundingControls=this.releases.value(controls,time)
       if (this.holding) {this.take.push(note ? {...note,...soundingControls} : null); if (this.take.length > PHRASE_STEPS) this.take.shift()}
-      const playLead = !!note && (step % (soundingControls.energy>.7?2:4) === 0) && (!this.holding || time-this.lastLiveTime>.08)
+      const playLead = !!note && gestureStep(feeling,step,soundingControls.energy) && (!this.holding || time-this.lastLiveTime>.08)
       this.queue = this.queue.then(()=>this.playStep(feeling,step,time,cps,note,controls,playLead,revision)).catch(()=>{
         if (revision === this.revision && this.active) {this.stop(); this.failure = '声音暂时断了，点「开始」再试一次。'}
       })
@@ -258,19 +257,20 @@ export class ThumbAudio {
       .sort((a,b)=>a.h.whole.begin.valueOf()-b.h.whole.begin.valueOf())
     if(!this.holding) {
       this.playbackControls={...controls};this.playbackLead=!!note
-      const when=Math.max(time,this.backend!.context.currentTime)
-      this.mix?.update(feeling,this.releases.value(controls,when),!!note,when)
     }
+    const when=Math.max(time,this.backend!.context.currentTime)
+    this.mix?.update(feeling,this.releases.value(this.holding?this.controls:controls,when),!!note,when,this.holding,begin)
     for (const {part,h} of haps) {
       if (!valid()) return
       const hitTime=time+(h.whole.begin.valueOf()-begin)/cps
       if(part==='kick') this.mix?.kick(hitTime,feeling)
-      const position=Math.round((h.whole.begin.valueOf()%1)*16)
-      const velocity=part==='drums' ? (position%4===0?1:position%2===0?.8:.52) : 1
-      const expression=eventExpression(part,this.releases.value(controls,hitTime),h.value)
-      const value = {...expression,orbit:parts.indexOf(part),gain:Number(expression.gain ?? 1)*velocity*arrangements[feeling].gain}
-      await S.superdough(value,time+(h.whole.begin.valueOf()-begin)/cps,Number(h.duration)/cps,cps,begin)
+      const expression=eventExpression(part,this.releases.value(controls,hitTime),h.value,feeling)
+      const value = {...expression,orbit:parts.indexOf(part),gain:Number(expression.gain ?? 1)*arrangements[feeling].gain}
+      await S.superdough(engineControls(value),time+(h.whole.begin.valueOf()-begin)/cps,eventDuration(part,expression,Number(h.duration)/cps,cps*240),cps,begin)
     }
-    if (note && playLead && valid()) await S.superdough({...gestureVoice(feeling,{...note,...this.releases.value(controls,time)},Math.floor(step/16)),delay:0,room:0},time,1/cps/(feeling==='night'?16:8),cps,begin)
+    if (note && playLead && valid()) {
+      const voice=gestureVoice(feeling,{...note,...this.releases.value(controls,time)},Math.floor(step/16))
+      await S.superdough(engineControls(voice),time,eventDuration('motif',voice,1/cps/(feeling==='techno'||feeling==='dnb'?16:8),cps*240),cps,begin)
+    }
   }
 }

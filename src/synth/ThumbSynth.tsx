@@ -6,13 +6,13 @@ import {lockBodyScroll} from '../components/scrollLock'
 import {ThumbAudio} from './audio'
 import type {AudioSnapshot, Session} from './audio'
 import {createField} from './field'
-import {clamp, FEELINGS, modulation, noteFromPoint} from './model'
+import {BARS, clamp, DEFAULT_FEELING, FEELINGS, modulation, noteFromPoint} from './model'
 import type {Feeling, Point} from './model'
 import './synth.css'
 
 type Contact = {role: 'lead' | 'second'; point: Point; origin: Point}
 let remembered: Session | undefined
-const empty: AudioSnapshot = {playing: false, loading: false, error: '', step: 0, pulse: 0, energy: .2, space: .3, feeling: 'bounce', pending: null, hasPhrase: false, canUndo: false}
+const empty: AudioSnapshot = {playing: false, loading: false, error: '', step: 0, pulse: 0, energy: .2, space: .3, feeling: DEFAULT_FEELING, pending: null, hasPhrase: false, canUndo: false}
 
 export default function ThumbSynth({onClose}: {onClose: () => void}) {
   const dialog = useRef<HTMLDialogElement>(null)
@@ -26,7 +26,7 @@ export default function ThumbSynth({onClose}: {onClose: () => void}) {
   const departures = useRef(new Map<Contact['role'],{point:Point;at:number}>())
   const fx = useRef({energy: .2, space: .3})
   const pitch = useRef<number | undefined>(undefined)
-  const [ui, setUi] = useState<AudioSnapshot>({...empty, feeling: remembered?.feeling ?? 'bounce', hasPhrase: !!remembered?.phrase, canUndo: !!remembered?.previous})
+  const [ui, setUi] = useState<AudioSnapshot>({...empty, feeling: remembered?.feeling ?? DEFAULT_FEELING, hasPhrase: !!remembered?.phrase, canUndo: !!remembered?.previous})
   const [fingers, setFingers] = useState(0)
   const [secondaryOnly, setSecondaryOnly] = useState(false)
   const [muted, setMuted] = useState(remembered?.muted ?? false)
@@ -169,9 +169,9 @@ export default function ThumbSynth({onClose}: {onClose: () => void}) {
         {ui.playing && ui.hasPhrase && !fingers && <div className="synth-loop-label"><i/>正在循环</div>}
       </div>
       <footer className="synth-controls">
-        <div className="synth-progress" aria-hidden="true">{Array.from({length: 8}, (_, i) => <i key={i} className={ui.playing && i === Math.floor(ui.step / 16) ? 'lit' : ''}/>)}</div>
+        <div className="synth-progress" aria-hidden="true">{Array.from({length: BARS}, (_, i) => <i key={i} className={ui.playing && i === Math.floor(ui.step / 16) ? 'lit' : ''}/>)}</div>
         <p className="synth-helper" aria-live="polite">{error || ui.error || (ui.loading ? '正在唤醒合成器，马上就好' : helper)}</p>
-        <div className="synth-feelings" role="group" aria-label="换个感觉">{FEELINGS.map(({id, label}) => <Button key={id} className={`synth-feeling ${ui.feeling === id ? 'selected' : ''}`} aria-pressed={ui.feeling === id} aria-label={`${label}${ui.pending === id ? '，下一段切换' : ''}`} onClick={() => audio.current?.setFeeling(id as Feeling)}>{label}{ui.pending === id && <span className="synth-pending"/>}</Button>)}</div>
+        <div className="synth-feelings" role="group" aria-label="换个感觉">{FEELINGS.map(({id, label, genre}) => <Button key={id} title={genre} className={`synth-feeling ${ui.feeling === id ? 'selected' : ''}`} aria-pressed={ui.feeling === id} aria-label={`${label}${ui.pending === id ? '，下一段切换' : ''}`} onClick={() => audio.current?.setFeeling(id as Feeling)}>{label}{ui.pending === id && <span className="synth-pending"/>}</Button>)}</div>
         <div className="synth-actions"><Button className="synth-undo" disabled={!ui.canUndo} onClick={() => audio.current?.undo()}><Undo2 size={23}/>用回刚才的</Button><Button className="synth-transport" onClick={transport}>{ui.playing || ui.loading ? <Square size={20}/> : <Play size={21}/>}<span>{ui.loading ? '取消' : ui.playing ? '停止' : ui.hasPhrase ? '继续' : '开始'}</span></Button></div>
       </footer>
     </div>

@@ -27,11 +27,11 @@
 .synth-loop-label{position:absolute;left:0;right:0;top:12%;display:flex;align-items:center;justify-content:center;gap:7px;font-size:12px;color:var(--phosphor-dim);pointer-events:none}
 .synth-loop-label i{width:5px;height:5px;border-radius:50%;background:var(--phosphor)}
 .synth-controls{flex-shrink:0;position:relative;z-index:6;padding-top:4px}
-.synth-progress{display:flex;justify-content:center;gap:10px;height:16px;align-items:center}
-.synth-progress i{width:7px;height:7px;border-radius:50%;border:1px solid #65905980}
+.synth-progress{display:flex;justify-content:center;gap:7px;height:16px;align-items:center}
+.synth-progress i{width:5px;height:5px;border-radius:50%;border:1px solid #65905980}
 .synth-progress i.lit{background:var(--phosphor);border-color:var(--phosphor);box-shadow:0 0 5px #95ec7955}
 .synth-helper{font-size:12px;text-align:center;color:var(--phosphor-dim);margin:9px 0 19px;min-height:20px}
-.synth-feelings{display:flex;gap:12px}
+.synth-feelings{display:flex;gap:8px}
 .synth-dialog .synth-feeling{position:relative;flex:1;border:1px solid #639459;min-height:44px;font-size:15px}
 .synth-dialog .synth-feeling.selected{background:#b4f69f;color:#071207;border-color:#b4f69f;font-weight:600;text-shadow:none;box-shadow:0 0 12px #a4ff822b,inset 0 0 0 1px #e4ffd044}
 .synth-pending{position:absolute;right:7px;top:7px;width:5px;height:5px;background:currentColor;border-radius:50%}
